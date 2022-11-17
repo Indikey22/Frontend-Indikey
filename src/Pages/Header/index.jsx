@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import Home from '../Home/index';
+import Home from '../Home/HomePersona';
 
 function Header(){
     return(
