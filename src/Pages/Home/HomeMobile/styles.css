@@ -1,0 +1,73 @@
+.app{
+    width: 20%; 
+    height: 500px;
+    float: left;
+ }
+ 
+ .celular{
+     width: 300px;
+     position: relative;
+     margin: 0% 0% 0% 34%;
+ }
+ 
+ .circulo{
+     width: 40%;
+     position: absolute;
+     
+     
+ }
+ 
+ .mobile{
+     width: 40%;
+     height: 450px;
+     margin: 1% 0% 0% 45%; 
+     align-items: center;
+     flex-direction: column;
+ }
+ 
+ .titulo-aplicativo{
+     width: auto;
+     text-align: center;
+     font-weight: bold;
+     font-size: 55px;
+ }
+ 
+ .azul{
+     color: #0077E4;
+ }
+ 
+ .amarelo{
+     color: #FFC800;
+ }
+ 
+ .textinho{
+     width: auto;
+     text-align: center;
+     margin-top: 30px;
+ }
+ 
+ .botao{
+     /* height: 50px; */
+     display: flex;
+     justify-content: space-between;
+     margin-top: 75px;
+     margin-right: 105px;
+ }
+ 
+ .google{
+     width: 145px;
+     background-color: #0077E4;
+     color: #FFF;
+     margin-left: 105px;
+     border-radius: 5px;
+ 
+ 
+ }
+ 
+ .apple{
+     width: 138px;
+     background-color: #FFF;
+     border: 2px #0077E4 solid;
+     border-radius: 5px;
+     
+ } 

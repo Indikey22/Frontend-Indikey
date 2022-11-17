@@ -1,9 +1,14 @@
 import './styles.css';
+import imgFundoComentarios from '../../../assets/img/fundoComentarios.svg'
 
-function Comentarios(){
-    return(
+function Comentarios() {
+    return (
         <>
-        Comentarios
+            <div className='todo'>
+
+                <img src={imgFundoComentarios} alt='img-back' />
+
+            </div>
         </>
     );
 }

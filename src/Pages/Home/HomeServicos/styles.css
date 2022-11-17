@@ -1,0 +1,151 @@
+/*Titulo */
+.HomeLojas{width: 100%; 
+    height: 90vh; 
+    background-color: #fff;
+    margin-top: 12vh;}
+
+.CampoLojas{width: 100%;
+    align-items: center; 
+    display: flex; 
+    text-align: center;
+    justify-content: center;}
+
+.TituloLojas{width: 80vh; font-weight: 600;}
+.Azul{color: #0077E4;}
+.Amarelo{color: #FFC800;}
+
+/*Conteiner do Conteudo*/
+.ConteudoLojas{width: 100%; 
+    height: 60vh; 
+    background-color: #fff; 
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;}
+
+/*Conteiner Slide */
+.Slide{width: 100vh; 
+    height: 50vh; 
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;}
+
+    .Slides{width: 80vh; 
+        height: 40vh; 
+        background-color: #fff; 
+        border-radius: 5vh; 
+        border: #FFC800 2px solid;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;}
+.InfoSlides i{color: #FFC800;}
+
+.ImageSlides{width: 35vh; 
+    height: 35vh;
+    border-radius: 5vh;}
+
+    .Vendedora{width: 35vh; height: 35vh; background-color: violet; position: absolute;}
+    
+
+.ImageSlides img{width: 100%; height: 100%;}
+
+    /*Conteiner Texto*/
+.Texto{width: 100vh; 
+    height: 50vh; 
+    background-color: #fff;
+    align-items: center;
+    display: flex;
+    flex-direction: column;}
+
+.TituloNumero{width: 30vh; 
+    font-weight: 600; 
+    font-size: 42px; 
+    margin-left: 45vh; 
+    margin-top: 14vh;}
+
+.TituloNumero i{background-color: #0077E4; 
+    color: #fff; 
+    padding: 1vh; 
+    font-size: 25px; 
+    border-radius: 10vh;}
+
+.TextoLoja{width: 80vh; 
+    margin-left: 15vh; 
+    margin-top: 30vh; 
+    font-size: 22px;
+    position: absolute;}
+
+
+
+.HomeServico{width: 100%;
+    height: 80vh;
+    background-color: #fff;}
+    
+    .CampoServicos{width: 100%;
+        align-items: center; 
+        display: flex; 
+        text-align: center;
+        justify-content: center;}
+    
+    .TituloServicos{width: 100%; font-weight: 600;}
+    
+    /*Conteiner do Conteudo*/
+    .ConteudoServicos{width: 100%; 
+        height: 60vh; 
+        background-color: #fff; 
+        display: flex; 
+        align-items: center;
+        justify-content: space-around;}
+    
+         /*Conteiner Texto*/
+    .Texto2{width: 100vh; 
+        height: 50vh; 
+        background-color:#fff;
+        align-items: center;
+        display: flex;
+        flex-direction: column;}
+    
+    .TituloNumero2{
+        width: 70vh; 
+        font-weight: 600; 
+        font-size: 60px; 
+        margin-top: 5vh;}
+    
+    .TituloNumero2 i{
+        background-color: #0077E4; 
+        color: #fff; 
+        padding: 1vh; 
+        font-size: 25px; 
+        border-radius: 10vh;}
+    
+    .TextoServico{
+        width: 80vh; 
+        margin-left: 0vh; 
+        margin-top: 30vh; 
+        font-size: 22px;
+        position: absolute;}
+    
+    
+        /*Conteiner Slide*/
+        .Slide{width: 100vh; 
+            height: 50vh; 
+            background-color:#fff;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;}
+    
+            .Slides{width: 80vh; 
+                height: 40vh; 
+                background-color: #fff; 
+                border-radius: 5vh; 
+                border: #FFC800 2px solid;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;}
+    
+        .InfoSlides i{color: #FFC800;}
+        
+        .ImageSlides{width: 35vh; 
+            height: 35vh;
+            border-radius: 5vh;}
+            .ImageSlides img{width: 100%; height: 100%;}
