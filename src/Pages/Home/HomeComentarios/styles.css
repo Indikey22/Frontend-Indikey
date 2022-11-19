@@ -1,3 +1,29 @@
-.todo{
-    margin-top: 300px;
+.comentarios{
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    background-color: #FFD024;
+}
+
+.botoes{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    background: url(../../../assets/img/comentarios.svg);
+    background-size: cover;
+}
+
+.slides{
+    width: 50vw;
+    display: flex;
+    align-items: center;
+}
+.box img{
+    width: 490px;
+    height: 319px;
+}
+button{
+    background-color: transparent;
 }
