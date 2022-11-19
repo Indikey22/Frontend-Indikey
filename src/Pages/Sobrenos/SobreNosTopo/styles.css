@@ -1,0 +1,54 @@
+*
+#conteudoSobreTopo{
+    display: flex;
+    flex-direction: row;
+    width: 94vw;
+    margin: auto;
+}
+
+.CarroselSobreTopo{
+    display: flex;
+    align-items: center;
+    width: 55vw;
+    height: auto;
+    margin: auto;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.carousel-control-next-icon{
+    background-image: url(../../../assets/img/setaDireita.svg);
+  }
+  .carousel-control-prev-icon{
+    background-image: url(../../../assets/img/setaEsquerda.svg);
+  }
+
+
+#sobreTopoDireita{
+    width: 40vw;
+    height: 80vh;
+    /* background-color: rgb(196, 148, 86); */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+#sobreTopoDireita h1{
+    font-size: 48px;
+    width: 80%;
+}
+#sobreTopoDireita p{
+    font-size: 22px;
+    width: 80%;
+}
+
+#SliderTopo{
+    max-height: 80vh;
+    margin: 0 auto;
+    /* background-color: antiquewhite; */
+}
+#carroselTopoSobre{
+    max-height: 80vh;
+    margin: 0 auto;
+    padding: 0;
+    /* background-color: palegreen; */
+}

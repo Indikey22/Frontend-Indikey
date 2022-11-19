@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
-import Home from '../../Home/HomePersona';
+// import Home from '../../Home/HomePersona';
+import SobreNos from '../../Sobrenos/SobreNosTopo';
 
 
 import './styles.css'
@@ -30,7 +31,7 @@ function Header() {
             <Nav id="listaTopo" className="me-auto">
                 <Nav.Link className="text-body"  href="#home"> App Mobile</Nav.Link>
                 <NavDropdown className="sobreNos"  title="Sobre Nós" id="basic-nav-dropdown">
-                <NavDropdown.Item className="text-body" href="#action/3.1">Palavra</NavDropdown.Item>
+                <NavDropdown.Item className="text-body" href="#action/3.1">Sobre Nós</NavDropdown.Item>
                 <NavDropdown.Item className="text-body" href="#action/3.2">Propósito</NavDropdown.Item>                
                 <NavDropdown.Item className="text-body" href="#action/3.2">indicações</NavDropdown.Item>                
                 </NavDropdown>
@@ -46,7 +47,8 @@ function Header() {
         </Container>
         </Navbar>
         </div>
-        <Home />
+        {/* <Home /> */}
+        <SobreNos />
         </>
   );
 }

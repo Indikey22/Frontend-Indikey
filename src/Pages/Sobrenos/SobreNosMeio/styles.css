@@ -1,0 +1,198 @@
+
+
+#tituloSobreTopo{
+    width: 44vw;
+    margin-top: 3vh;
+    text-align: left;
+    margin-left: 7vw;
+}
+.conteudoSobreTopo h1{
+    font-size: 47px;
+    width: 20vw;
+}
+
+
+
+/**/
+.indiAzul{
+    color: #0077e4;
+}
+.keyAmarelo{
+    color: #FFC800;
+}
+
+#qmIndikey{
+    height: auto;
+    /* width: 55vw; */
+    margin: 0;
+    margin-top: 10vh;
+   
+}
+#conteudoQmIndikey{
+    width: auto;
+    /* max-width: 100vw; */
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: pink; */
+}
+
+
+#separacaoMeio{
+    height: 80vh;
+    width: 1vw;
+    display: flex;
+    align-items: center;
+    
+    /* margin-left: 3vw; */
+}
+#separacaoMeio img{
+    height: 80%;
+    
+}
+#qmIndikey h2{
+    text-align: center;
+    font-size: 28px;
+}
+#IndiEsquerda{
+    width: 50vw;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: lightblue; */
+    height: 77vh;
+}
+
+
+#numeracaoTopicos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: fit-content;
+    align-items: center;
+    border-bottom: solid 2px #0077e4;
+}
+#numeracaoTopicos img{
+    width: 45%;
+    height: 45%;
+}
+
+#numeracaoTopicos p{
+    width: fit-content;
+    font-size: 45px;
+    margin: auto 1vw;
+}
+
+#IndiEsquerda .textoEsquerdaSobreTopo p{
+    width: 32vw;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 3vh auto;
+}
+
+#IndiDireita{
+    width: 41.1vw;
+    /* background-color: #9a8b55; */
+    height: auto;
+}
+#IndiDireita img{
+    width: fit-content;
+    /* background-color: antiquewhite; */
+}
+
+
+
+/**/
+.indiAzul{
+    color: #0077e4;
+}
+#PqIndikey{
+    max-width: 100vw;
+    margin: auto;
+    /* height: 95vh; */
+    /* background-color: rgb(137, 247, 137); */
+    margin-top: 10vh;
+   
+}
+.tituloPq{
+    text-align: center;
+    height: max-content;
+    font-weight: 400;
+}
+#conteudoPqIndikey{
+    width: 90vw;
+    height: 80vh;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: pink; */
+}
+#PqIndiEsquerda{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40vw;
+    margin-top: 3vh;
+
+}
+#tituloEsquerda{
+    width: 100%;
+}
+#informacoesDireitaBaixo{
+    display: flex;    
+    align-items: center;
+    justify-content: space-between;
+    max-width: 40vw;
+
+}
+#informacoesDireitaBaixo button{
+    padding: 2.5vh 3vw;
+    background-color: #0077e4;
+    color: #fff;
+    border-radius: 15px;
+}
+#informacoesDireitaBaixo .EmpresasEProdutos{
+    font-size: 36px;
+}
+#informacoesDireitaBaixo p{
+    width: 7.6vw;
+}
+#imgPlataforma{
+    height: 60vh;
+    width: 40vw;
+    margin: 2vh 0;
+}
+#imgPlataforma img{
+    height: 100%;
+    width: 100%;
+}
+#PqIndiDireita{
+    width: 40vw;
+    height: 70vh;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+
+}
+.motivoPqDireita{
+    display: flex;
+    height: 20vh;
+    justify-content: space-around;
+    align-items:  center;
+    width: 100%;
+}
+.conteudoPqDireita{
+    width: 70%;
+    /* margin-left: 5vw; */
+}
+.conteudoPqDireita p{
+    font-weight: 400;
+    font-size: 19px;
+}
