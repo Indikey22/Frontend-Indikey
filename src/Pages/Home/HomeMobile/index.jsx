@@ -1,15 +1,13 @@
 import './styles.css';
 import Celular from '../../../assets/img/celular.png'
-import Elipse from '../../../assets/img/Ellipse6.png'
 import google from '../../../assets/img/play.svg'
 import apple from '../../../assets/img/apple.svg'
 
 function Mobile() {
     return (
         <>
-            <div>
+            <aside>
                 <div className='app'>
-                    <img className='circulo' src={Elipse} alt="" />
                     <img className='celular' src={Celular} alt="" />
                 </div>
                 <div className="mobile">
@@ -26,7 +24,7 @@ function Mobile() {
                         </imput>
                     </div>
                 </div>
-            </div>
+            </aside>
         </>
     );
 }

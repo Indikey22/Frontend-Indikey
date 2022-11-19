@@ -3,12 +3,9 @@ import Proposito from '../HomeProposito/index';
 import Servicos from '../HomeServicos/index';
 import Planos from '../HomePlanos/index';
 import Mobile from '../HomeMobile/index';
-
-
 import Moca from '../../../assets/img/mocachs.svg';
 import SetaBotao from '../../../assets/img/setaHS.svg';
 import imagemdir from '../../../assets/img/img-direita-inicio.svg'
-
 import Fade from 'react-reveal/Fade';
 
 
