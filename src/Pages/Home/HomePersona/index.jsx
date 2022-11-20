@@ -2,7 +2,7 @@ import './styles.css';
 import Proposito from '../HomeProposito/index';
 import Servicos from '../HomeServicos/index';
 import Planos from '../HomePlanos/index';
-// import Mobile from '../HomeMobile/index';
+import Mobile from '../HomeMobile/index';
 import Moca from '../../../assets/img/mocachs.svg';
 import SetaBotao from '../../../assets/img/setaHS.svg';
 import imagemdir from '../../../assets/img/img-direita-inicio.svg';
@@ -44,14 +44,13 @@ function Persona() {
                             priorizamos três tópicos bastante importantes para eliminar esse problema, sendo: a Visibilidade, Impulsionamento e a Conexão.
                         </p>
                         <button className="botaoCHS" value="submit">Faça seu cadastro <img src={SetaBotao} alt="seta para o botão" className="SetaBotao" /></button>
-
                     </div>
                 </div>
             </section>
             <Proposito />
             <Servicos />
             <Planos />
-            {/* <Mobile /> */}
+            <Mobile />
             <Comentarios />
         </>
     );

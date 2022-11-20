@@ -50,17 +50,13 @@
     width: 100%;
 }
 
-
-
 .conteudoHomeSobre{
     display: flex;
-    width: 98vw;
+    width: 100vw;
     justify-content: space-between;
 }
 .esquerdaCHS{
-    width: 50vw;
     height: 90vh;
-    /* justify-content: space-between; */
 }
 .esquerdaCHS img{
     width: 100%;
