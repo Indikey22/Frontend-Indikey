@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import Home from '../../Home/HomePersona';
 import './styles.css'
 import logo from '../../../assets/img/logo.svg'
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -24,22 +23,21 @@ function Header() {
             <Navbar.Toggle id="mobile-menu" aria-controls="basic-navbar-nav" />
             <Navbar.Collapse className="listaTopo" id="basic-navbar-nav">
               <Nav id="listaTopo" className="me-auto">
-                <Nav.Link className="text-body" href="#home">Como Funciona</Nav.Link>
+                <Nav.Link className="text-body" href="/ComoFunciona">Como Funciona</Nav.Link>
                 <NavDropdown className="sobreNos" title="Sobre Nós" id="basic-nav-dropdown">
                   <NavDropdown.Item className="text-body" href="/Sobrenos">Time</NavDropdown.Item>
                   <NavDropdown.Item className="text-body" href="#action/3.2">indicações</NavDropdown.Item>
                 </NavDropdown>
-                <Nav.Link className="text-body" href="#home">E-Comerce</Nav.Link>
+                <Nav.Link className="text-body" href="/Ecommerce">E-Comerce</Nav.Link>
               </Nav>
               <div className="BotoesTopo">
-                <button className="btnCadastrarTopo">Cadastrar</button>
-                <button className="btnLoginTopo">Login</button>
+               <Link to='/Cadastro' ><button className="btnCadastrarTopo" href="/Cadastro">Cadastrar</button></Link>
+                <button className="btnLoginTopo" href="/Login">Login</button>
               </div>
             </Navbar.Collapse>
           </Container>
         </Navbar>
       </div>
-      <Home />
     </>
   );
 }

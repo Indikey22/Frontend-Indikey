@@ -8,11 +8,13 @@ import slideImg6 from '../../../assets/img/slideSobreImg6.svg'
 import slideImg7 from '../../../assets/img/slideSobreImg7.svg'
 import slideImg8 from '../../../assets/img/slideSobreImg8.svg'
 import Carousel from 'react-bootstrap/Carousel';
-import SobreNosMeio from '../SobreNosMeio/index'
+import SobreNosMeio from '../SobreNosMeio/index';
+import Header from '../../Header/HeaderHome';
 
 function SobreNosTopo(){
     return(
         <>
+        <Header />
             <div id="conteudoSobreTopo">
                  <section id="sobreTopoDireita">
                     <h1>Conheça nossa equipe</h1>

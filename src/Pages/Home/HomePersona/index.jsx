@@ -8,10 +8,12 @@ import SetaBotao from '../../../assets/img/setaHS.svg';
 import imagemdir from '../../../assets/img/img-direita-inicio.svg';
 import Fade from 'react-reveal/Fade';
 import Comentarios from '../HomeComentarios/index';
+import Header from '../../Header/HeaderHome/index';
 
 function Persona() {
     return (
         <>
+        <Header />
             <main className='HomeTopo'>
                 <div id="containerHomeTopo">
                     <div className='txtHomeTopo'>
