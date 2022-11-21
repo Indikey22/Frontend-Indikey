@@ -3,7 +3,7 @@ import './style.css'
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 
-import logo from '../../../img/assets/logo.svg'
+import logo from '../../../assets/img/logo.svg'
 
 function LoginCadastro() {
     return (

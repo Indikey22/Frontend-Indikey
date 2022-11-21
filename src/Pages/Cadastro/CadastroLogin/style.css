@@ -1,7 +1,7 @@
 .containerLogin{
     width: 100vw;
     height: 100vh;
-    background-image: url(../../../img/assets/fundoCadastro.svg);
+    background-image: url(../../../assets/img/fundoCadastro.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
