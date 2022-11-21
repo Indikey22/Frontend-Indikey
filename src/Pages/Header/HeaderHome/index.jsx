@@ -31,8 +31,8 @@ function Header() {
                 <Nav.Link className="text-body" href="/Ecommerce">E-Comerce</Nav.Link>
               </Nav>
               <div className="BotoesTopo">
-               <Link to='/Cadastro' ><button className="btnCadastrarTopo" href="/Cadastro">Cadastrar</button></Link>
-                <button className="btnLoginTopo" href="/Login">Login</button>
+               <Link to='/Cadastro' ><button className="btnCadastrarTopo" id='cadastroHome' href="/Cadastro">Cadastrar</button></Link>
+               <Link to='/Login' ><button className="btnLoginTopo" id='loginHome' href="/Login">Login</button></Link>
               </div>
             </Navbar.Collapse>
           </Container>

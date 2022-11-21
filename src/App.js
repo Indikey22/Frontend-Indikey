@@ -3,7 +3,11 @@ import Home from '../src/Pages/Home/HomePersona/index';
 import Sobrenos from './Pages/Sobrenos/SobreNosTopo';
 import ComoFunciona from './Pages/ComoFunciona/ComoFuncionaTopo';
 import Ecommerce from './Pages/Vendas/VendasTopo';
-import Cadastro from './Pages/Cadastro';
+import Login from './Pages/Login/index';
+import Cadastro from './Pages/Cadastro/CadastroHome';
+import CadastroLogin from './Pages/Cadastro/CadastroLogin';
+import CadastroLoginEmpresa from './Pages/Cadastro/CadastroLoginEmpresa';
+import CadastroLoginServicos from './Pages/Cadastro/CadastroLoginServicos';
 
 function App() {
   return (
@@ -15,6 +19,10 @@ function App() {
           <Route path='/ComoFunciona' element ={<ComoFunciona />} />
           <Route path='/Ecommerce' element ={<Ecommerce />} />
           <Route path='/Cadastro' element ={<Cadastro />} />
+          <Route path='/Login' element={<Login />} />
+          <Route path='/CadastroLogin' element={<CadastroLogin />} />
+          <Route path='/CadastroLoginEmpresa' element={<CadastroLoginEmpresa />} />
+          <Route path='/CadastroLoginServicos' element={<CadastroLoginServicos />} />
         </Routes>
       </Router>
     </>

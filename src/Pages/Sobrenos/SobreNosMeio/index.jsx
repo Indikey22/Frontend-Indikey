@@ -70,7 +70,6 @@ function SobreNosMeio(){
                                 <h3>Facilidade</h3>
                                 <p>Um dos nossos propóstios é facilitar a vida de quem produz, fornece e de quem compra os produtos.</p>
                             </div></div>
-
                     </section>
                 </div>
                 
