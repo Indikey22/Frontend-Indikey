@@ -61,7 +61,7 @@
 }
 .semCNPJ{
     color: #208ff7;
-    text-align: end;
+    text-align: flex-end;
 }
 
 .termos{

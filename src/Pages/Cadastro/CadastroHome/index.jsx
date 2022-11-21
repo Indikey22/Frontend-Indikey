@@ -1,7 +1,7 @@
 import './styles.css'
 import React from 'react';
 import Fade from 'react-reveal/Fade';
-import logo from '../../assets/img/logo.svg';
+import logo from '../../../assets/img/logo.svg';
 import { Link } from 'react-router-dom';
 function Cadastro() {
     return (
@@ -27,14 +27,14 @@ function Cadastro() {
                         <div className="cardTexto">
                             <h3>Comercio</h3>
                             <p>Bem vindo comerciante, é novo na plataforma? cadastre-se agora</p>
-                            <Link to='/CadastroLogin'><p className="linkCliente">Clique Aqui</p></Link>
+                            <Link to='/CadastroLoginEmpresa'><p className="linkCliente">Clique Aqui</p></Link>
                         </div>
                     </div>
                     <div className="cardAmareloDireita">
                         <div className="cardTexto">
                             <h3>Autônomo</h3>
                             <p>Primeira vez no indikey? <br /> faça seu cadastro agora</p>
-                            <Link to='/CadastroLogin'><p className="linkCliente">Clique Aqui</p></Link>
+                            <Link to='/CadastroLoginServicos'><p className="linkCliente">Clique Aqui</p></Link>
                         </div>
                     </div>
 

@@ -6,7 +6,7 @@ import Comentario from '../../../assets/img/comentario.svg'
 function Comentarios() {
     return (
         <article className='comentarios'>
-            <div className='botoes'>
+            <div className='botoesSlide'>
                 <button className='arrow-left'><img src={SetaEsquerda} alt="seta esquerda" /></button>
                 <button className='arrow-right'><img src={SetaDireita} alt="seta direita" /></button>
             </div>

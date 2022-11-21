@@ -1,31 +1,30 @@
-.containerCadastroPessoalServico{
+.containerLoginServicos{
     width: 100vw;
     height: 100vh;
-    background-image: url(../../../img/assets/fundoCadastroPessoal.svg);
+    background-image: url(../../../assets/img/fundoCadastro.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    /* padding: 0; */
 }
 .formCadastro{
     width: auto;
-    height: 85vh;
+    height: auto;
 }
 
 .logoTopo{
     width: 10vw;
-    height: 12vh;
+    height: 15vh;
     margin-left: 2vw;
 }
 
-.conteudoCadastroPessoalServico h1{
+.conteudoCadastroLogin h1{
     text-align: center;
     font-size: 40px;
     color: #111;
-    margin-bottom: 1vh;
+    margin-bottom: 5vh;
 
 }
 
-.conteudoCadastroPessoalServico{
+.conteudoCadastroLogin{
     display: flex;
     align-items: center;
     width: 30vw;
@@ -36,7 +35,7 @@
     flex-direction: column;
 }
 
-.conteudoCadastroPessoalServico input{
+.conteudoCadastroLogin input{
     width: 24vw;
     height: 7vh;
     border: 1px solid #0077e4;
@@ -45,23 +44,15 @@
     padding-left: 8px;
 }
 
-.conteudoCadastroPessoalServico input:focus
+.conteudoCadastroLogin input:focus
 {
-    border: 1px solid #FFC800;
+    border: 1px solid #Ffc800;
     outline-offset: 0px;
     outline: none;
 }
 
-#formularioCadastroPessoalServico p{
+#formularioLogin p{
     margin: 1vh 0;
-}
-#cnpj{
-    margin: 0;
-    margin-top: 1vh;
-}
-.semCNPJ{
-    color: #208ff7;
-    text-align: flex-end;
 }
 
 .termos{
@@ -84,17 +75,16 @@
 .botoes{
     width: 25vw;
     display: flex;
+    justify-content: flex-end;
     margin-top: 2vh;
 }
 
 /*  */
 
 .botoesCadastro{
-    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
-
 
 .BtnProximo {
     width: 9vw;
@@ -109,20 +99,4 @@
 }
 .BtnProximo :hover{
     background-color: #d5a700;
-}
-
-
-.BtnAnterior {
-    width: 9vw;
-    height: 6vh;
-    color: #fff;
-    background-color: #0077e4;
-    border: 0;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.BtnAnterior :hover{
-    background-color: #0084ff;
 }
