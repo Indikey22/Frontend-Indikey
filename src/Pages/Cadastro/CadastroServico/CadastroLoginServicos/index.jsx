@@ -3,11 +3,11 @@ import './style.css'
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 
-import logo from '../../../assets/img/logo.svg'
+import logo from '../../../../assets/img/logo.svg'
 
-function LoginCadastroEmrpesa() {
+function LoginCadastroServicos() {
     return (
-            <main  className="containerLoginEmpresa">
+            <main  className="containerLoginServicos">
             <Fade top>  
                 <img src={logo} alt="logo indikey"  className="logoTopo" />
             </Fade>
@@ -35,4 +35,4 @@ function LoginCadastroEmrpesa() {
         
     )
 }
-export default LoginCadastroEmrpesa;
+export default LoginCadastroServicos;

@@ -5,9 +5,9 @@ import ComoFunciona from './Pages/ComoFunciona/ComoFuncionaTopo';
 import Ecommerce from './Pages/Vendas/VendasTopo';
 import Login from './Pages/Login/index';
 import Cadastro from './Pages/Cadastro/CadastroHome';
-import CadastroLogin from './Pages/Cadastro/CadastroLogin';
-import CadastroLoginEmpresa from './Pages/Cadastro/CadastroLoginEmpresa';
-import CadastroLoginServicos from './Pages/Cadastro/CadastroLoginServicos';
+import CadastroLogin from './Pages/Cadastro/CadastroCliente/CadastroLogin/index';
+import CadastroLoginEmpresa from './Pages/Cadastro/CadastroEmpresa/CadastroLoginEmpresa/index';
+import CadastroLoginServicos from './Pages/Cadastro/CadastroServico/CadastroLoginServicos/index';
 
 function App() {
   return (
