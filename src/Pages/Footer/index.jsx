@@ -5,7 +5,6 @@ import tiktok from '../../assets/img/tiktok.svg'
 import instagram from '../../assets/img/instagram.svg'
 import figma from '../../assets/img/figmaIcon.svg'
 import github from '../../assets/img/github.svg'
-
 import masterCard from '../../assets/img/masterCard.svg'
 import Visa from '../../assets/img/Visa.svg'
 import PayPal from '../../assets/img/PayPal.svg'
@@ -32,7 +31,7 @@ function Footer() {
                 </div>
             </div>
             <div id="footer-bottom">
-                <div class="divisoes">
+                <div className="divisoes">
                     <h6>Navegue</h6>
                     <ul id="Navegue">
                         <li>Home</li>
@@ -41,14 +40,14 @@ function Footer() {
                         <li>Política de privacidade</li>                        
                     </ul>
                 </div>
-                <div class="divisoes">
+                <div className="divisoes">
                     <h6>Sobre o Indikey</h6>
                     <ul id="acessibilidade">
                         <li>Feito para você</li>
                         <li>Sustentabilidade</li>
                     </ul>
                 </div>
-                <div class="divisoes" id="sociais">
+                <div className="divisoes" id="sociais">
                     <div>
                         <h6>Redes Sociais</h6>
                         <div id="icons">

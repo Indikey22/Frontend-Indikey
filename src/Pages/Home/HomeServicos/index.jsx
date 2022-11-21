@@ -15,72 +15,10 @@ function Servicos() {
                         <div className='Slides'>
                             <div className='InfoSlides'>
                                 <h3 className='Floricultura'>Floricultura</h3>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
                                 <br /><br />
                                 <h4>Maria Flores</h4>
                             </div>
                             <div className='ImageSlides'>
-                            <Carousel id="carroselTopoSobre">
-                            <Carousel.Item class="itemCarrosel" interval={1000}>
-                                <img
-                                className="d-block w-60"
-                                src={Floricultura}
-                                alt="First slide"
-                                />                            
-                            </Carousel.Item>
-                            <Carousel.Item class="itemCarrosel" interval={1000}>
-                                <img
-                                className="d-block w-60"
-                                src={Floricultura}
-                                alt="Second slide"
-                                />
-                            </Carousel.Item>
-                            <Carousel.Item class="itemCarrosel" interval={1000}>
-                                <img
-                                className="d-block w-60"
-                                src={Floricultura}
-                                alt="Third slide"
-                                />                            
-                            </Carousel.Item>
-                            <Carousel.Item class="itemCarrosel" interval={1000}>
-                                <img
-                                className="d-block w-60"
-                                src={Floricultura}
-                                alt="Third slide"
-                                />                            
-                            </Carousel.Item>
-                            <Carousel.Item class="itemCarrosel" interval={1000}>
-                                <img
-                                className="d-block w-60"
-                                src={Floricultura}
-                                alt="Third slide"
-                                />                            
-                            </Carousel.Item>
-                            <Carousel.Item class="itemCarrosel" interval={1000}>
-                                <img
-                                className="d-block w-60"
-                                src={Floricultura}
-                                alt="Third slide"
-                                />                            
-                            </Carousel.Item>
-                            <Carousel.Item class="itemCarrosel" interval={1000}>
-                                <img
-                                className="d-block w-60"
-                                src={Floricultura}
-                                alt="Third slide"
-                                />                            
-                            </Carousel.Item>
-                            <Carousel.Item class="itemCarrosel" interval={1000}>
-                                <img
-                                className="d-block w-60"
-                                src={Floricultura}
-                                alt="Third slide"
-                                />                            
-                            </Carousel.Item>
-                        </Carousel>
                             </div>
                         </div>
                     </section>
@@ -103,7 +41,7 @@ function Servicos() {
 
                 <div className='ConteudoServicos'>
                     <section className='Texto2'>
-                        <h1 className='TituloNumero2'><span className='Azul'>+230 </span><i class="fa-solid fa-screwdriver-wrench"></i> Serviços</h1>
+                        <h1 className='TituloNumero2'><span className='Azul'>+230 </span><i className="fa-solid fa-screwdriver-wrench"></i> Serviços</h1>
                         <div className='TextoServico'>
                             <span>
                                 Prestadores de serviços autônomoes também tem seu lugar no indikey, atualmente contamos com mais de 200 trabalhadores, e você pode ser o próximo
@@ -115,73 +53,10 @@ function Servicos() {
                         <div className='Slides'>
                             <div className='InfoSlides'>
                                 <h3 className='Fotografo'>Serviços</h3>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
                                 <br /> <br />
                                 <h4>Fotógrafo</h4>
                             </div>
                             <div className='ImageSlides'>
-                            <Carousel id="carroselTopoSobre">
-                            <Carousel.Item class="itemCarrosel" interval={1000}>
-                                <img
-                                className="d-block w-60"
-                                src={Fotografo}
-                                alt="First slide"
-                                />                            
-                            </Carousel.Item>
-                            <Carousel.Item class="itemCarrosel" interval={1000}>
-                                <img
-                                className="d-block w-60"
-                                src={Fotografo}
-                                alt="Second slide"
-                                />
-                            </Carousel.Item>
-                            <Carousel.Item class="itemCarrosel" interval={1000}>
-                                <img
-                                className="d-block w-60"
-                                src={Fotografo}
-                                alt="Third slide"
-                                />                            
-                            </Carousel.Item>
-                            <Carousel.Item class="itemCarrosel" interval={1000}>
-                                <img
-                                className="d-block w-60"
-                                src={Fotografo}
-                                alt="Third slide"
-                                />                            
-                            </Carousel.Item>
-                            <Carousel.Item class="itemCarrosel" interval={1000}>
-                                <img
-                                className="d-block w-60"
-                                src={Fotografo}
-                                alt="Third slide"
-                                />                            
-                            </Carousel.Item>
-                            <Carousel.Item class="itemCarrosel" interval={1000}>
-                                <img
-                                className="d-block w-60"
-                                src={Fotografo}
-                                alt="Third slide"
-                                />                            
-                            </Carousel.Item>
-                            <Carousel.Item class="itemCarrosel" interval={1000}>
-                                <img
-                                className="d-block w-60"
-                                src={Fotografo}
-                                alt="Third slide"
-                                />                            
-                            </Carousel.Item>
-                            <Carousel.Item class="itemCarrosel" interval={1000}>
-                                <img
-                                className="d-block w-60"
-                                src={Fotografo}
-                                alt="Third slide"
-                                />                            
-                            </Carousel.Item>
-                        </Carousel>
                             </div>
                         </div>
                     </section>

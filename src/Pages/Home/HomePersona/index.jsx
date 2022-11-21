@@ -25,7 +25,7 @@ function Persona() {
                         </Fade>
                         <span className='txthome'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing.</span>
                         <br /> <br />
-                        <button className='botao_saibamais'>Saiba Mais  <i class="fa-solid fa-arrow-right"></i></button>
+                        <button className='botao_saibamais'>Saiba Mais  <i className="fa-solid fa-arrow-right"></i></button>
                     </div>
                 </div>
                 <div className='imageHomeTopoDireita'>
