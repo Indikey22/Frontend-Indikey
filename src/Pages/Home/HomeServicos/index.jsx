@@ -1,7 +1,4 @@
 import './styles.css';
-import Fotografo from '../../../assets/img/fotografo.svg'
-import Floricultura from '../../../assets/img/floricultura.svg'
-import Carousel from 'react-bootstrap/Carousel';
 
 function Servicos() {
     return (
