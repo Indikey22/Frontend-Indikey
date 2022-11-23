@@ -1,19 +1,17 @@
-import './style.css'
-
+import './style.css';
 import React from 'react';
 import Fade from 'react-reveal/Fade';
-
-import logo from '../../../assets/img/logo.svg'
-
-
-
+import logo from '../../../../assets/img/logo.svg';
+import { Link } from 'react-router-dom';
 
 function RevisaoCadastroCliente() {
     return (
             <main  className="RevisaoCadastroCliente">
-            <Fade top>  
-                <img src={logo} alt="logo indikey"  className="logoTopo" />
-            </Fade>           
+            <Link to='/'>
+                <Fade top>
+                    <img src={logo} alt="logo indikey" className="logoTopo" />
+                </Fade>
+            </Link>        
             <article className="conteudoCadastroRevisao">
             <h1>Revisão</h1>
                 <section id="formularioRevisao">

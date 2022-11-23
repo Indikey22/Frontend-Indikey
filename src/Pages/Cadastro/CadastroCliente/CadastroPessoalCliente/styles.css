@@ -1,7 +1,7 @@
 .containerCadastroPessoalCliente{
     width: 100vw;
     height: 100vh;
-    background-image: url(../../../img/assets/fundoCadastroPessoal.svg);
+    background-image: url(../../../../assets/img/fundoCadastroPessoal.svg);
     background-repeat: no-repeat;
     background-size: cover;
     /* padding: 0; */

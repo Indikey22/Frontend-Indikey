@@ -1,17 +1,17 @@
-import './style.css'
-
+import './style.css';
 import React from 'react';
 import Fade from 'react-reveal/Fade';
-
-import logo from '../../../img/assets/logo.svg'
-
+import logo from '../../../../assets/img/logo.svg';
+import { Link } from 'react-router-dom';
 
 function CadastroPessoalEmpresa() {
     return (
             <main  className="containerCadastroPessoalEmpresa">
-            <Fade top>  
-                <img src={logo} alt="logo indikey"  className="logoTopo" />
-            </Fade>
+            <Link to='/'>
+                <Fade top>
+                    <img src={logo} alt="logo indikey" className="logoTopo" />
+                </Fade>
+            </Link>
                 <article className="conteudoCadastroPessoalEmpresa">
                     <h1>Informações Pessoais</h1>
                     <form action="" id="formularioCadastroPessoalEmpresa">
@@ -31,8 +31,8 @@ function CadastroPessoalEmpresa() {
                     </div>
                     <section className="botoes">
                         <div className="botoesCadastro">
-                            <div className="BtnAnterior">Voltar</div>
-                            <div className="BtnProximo">Proximo</div>
+                            <Link to='/CadastroLoginEmpresa'><div className="BtnAnterior">Voltar</div></Link>
+                            <Link to='/CadastroEnderecoEmpresa'><div className="BtnProximo">Proximo</div></Link>
                         </div>
                     </section>
                 </article>

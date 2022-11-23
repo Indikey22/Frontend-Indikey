@@ -1,11 +1,8 @@
 import './style.css'
-
 import React from 'react';
 import Fade from 'react-reveal/Fade';
-
-import logo from '../../../assets/img/logo.svg'
-
-
+import logo from '../../../../assets/img/logo.svg';
+import { Link } from 'react-router-dom';
 
 function CadastroEnderecoServico() {
     return (
@@ -63,8 +60,8 @@ function CadastroEnderecoServico() {
                         </form>
                     <section className="botoes">
                         <div className="botoesCadastro">
-                            <div className="BtnAnterior">Voltar</div>
-                            <div className="BtnProximo">Proximo</div>
+                            <Link to='/CadastroPessoalServico'><div className="BtnAnterior">Voltar</div></Link>
+                            <Link to='/'><div className="BtnProximo">Proximo</div></Link>
                         </div>
                     </section>
                 </article>

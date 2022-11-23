@@ -3,10 +3,10 @@ import React from 'react';
 import Fade from 'react-reveal/Fade';
 import logo from '../../../assets/img/logo.svg';
 import { Link } from 'react-router-dom';
+
 function Cadastro() {
     return (
         <>
-
             <main className="containerCadastro">
                 <Link to='/'>
                     <Fade top>
@@ -20,7 +20,7 @@ function Cadastro() {
                         <div className="cardTexto">
                             <h3>Cliente</h3>
                             <p>Cliente novo na plataforma? Faça seu cadastro aqui</p>
-                           <Link to='/CadastroLogin'> <p className="linkCliente">Clique Aqui</p></Link>
+                           <Link to='/CadastroLoginCliente'> <p className="linkCliente">Clique Aqui</p></Link>
                         </div>
                     </div>
                     <div className="cardAzul">
@@ -34,11 +34,9 @@ function Cadastro() {
                         <div className="cardTexto">
                             <h3>Autônomo</h3>
                             <p>Primeira vez no indikey? <br /> faça seu cadastro agora</p>
-                            <Link to='/CadastroLoginServicos'><p className="linkCliente">Clique Aqui</p></Link>
+                            <Link to='/CadastroLoginServico'><p className="linkCliente">Clique Aqui</p></Link>
                         </div>
                     </div>
-
-
                 </div>
             </main>
         </>
