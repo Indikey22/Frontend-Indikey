@@ -15,7 +15,8 @@ import CatalogoItem from './Pages/Vendas/VendasHome/VendasCatalogo/CatalogoItem/
 import Pedidos from './Pages/Vendas/Compra/Pedidos/index';
 import Identificacoes from './Pages/Vendas/Compra/Identificacoes/index';
 import Pagamentos from './Pages/Vendas/Compra/Pagamentos/index';
-
+import Contratos from './Pages/Vendas/Contratos/index';
+ 
 //importações login
 import Login from './Pages/Login/index';
 
@@ -62,6 +63,7 @@ function App() {
           <Route path='/Pedidos' element ={<Pedidos />} />
           <Route path='/Identificacoes' element={<Identificacoes />} />
           <Route path='/Pagamentos' element={<Pagamentos />} />
+          <Route path='/Contratos' element={<Contratos />} />
           <Route path='/Cadastro' element ={<Cadastro />} />
           <Route path='/Login' element={<Login />} />
           <Route path='/ClienteInfoPessoal' element={<ClienteInfoPessoal />} />
