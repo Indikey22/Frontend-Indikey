@@ -9,7 +9,7 @@ import slideImg7 from '../../../assets/img/slideSobreImg7.svg'
 import slideImg8 from '../../../assets/img/slideSobreImg8.svg'
 import Carousel from 'react-bootstrap/Carousel';
 import SobreNosMeio from '../SobreNosMeio/index';
-import Header from '../../Header/HeaderHome';
+import Header from '../../../components/Headers/HeaderHome/index';
 
 function SobreNosTopo(){
     return(

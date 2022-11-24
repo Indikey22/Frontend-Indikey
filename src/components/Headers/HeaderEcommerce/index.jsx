@@ -9,6 +9,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import React from 'react';
+import FotodePerfil from '../../../assets/img/perfilusuario.svg';
 
 function HeaderEcommerce(){
     return(
@@ -32,8 +33,8 @@ function HeaderEcommerce(){
                 <Nav.Link className="text-body" href="/Ecommerce">Carrinho 3D</Nav.Link>
               </Nav>
               <div className="BotoesTopo">
-               <Link to='/Cadastro' ><button className="btnCadastrarTopo" id='cadastroHome' href="/Cadastro">Cadastrar</button></Link>
-               <Link to='/Login' ><button className="btnLoginTopo" id='loginHome' href="/Login">Login</button></Link>
+               <Link to='/modal' ><img src={Carrinho} alt="carrinho" /></Link>
+               <Link to='/ClienteInfoPessoal' ><img src={FotodePerfil} alt="Foto de Perfil do Usuário" /></Link>
               </div>
             </Navbar.Collapse>
           </Container>

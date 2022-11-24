@@ -8,7 +8,8 @@ import SetaBotao from '../../../assets/img/setaHS.svg';
 import imagemdir from '../../../assets/img/img-direita-inicio.svg';
 import Fade from 'react-reveal/Fade';
 import Comentarios from '../HomeComentarios/index';
-import Header from '../../Header/HeaderHome/index';
+import Header from '../../../components/Headers/HeaderHome/index';
+import Footer from '../../../components/Footer/index';
 
 function Persona() {
     return (
@@ -54,6 +55,7 @@ function Persona() {
             <Planos />
             <Mobile />
             <Comentarios />
+            <Footer />
         </>
     );
 }

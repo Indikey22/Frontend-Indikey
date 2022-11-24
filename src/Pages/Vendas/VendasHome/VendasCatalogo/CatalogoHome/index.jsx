@@ -1,9 +1,11 @@
+import { Link } from 'react-router-dom';
+import './styles.css';
+
 function VendasCatalogo(){
     return(
         <>
-         sigam as instruções oi para mais informações ligar 11 961493830
-         colocar o Catalogo
-         <br />
+         sigam as instruções colocar o Catalogo
+         <Link to='/CatalogoGrid'>cada card será clicado e leará para a mesma pagina</Link>
         </>
     );
 }

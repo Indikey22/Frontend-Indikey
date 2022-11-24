@@ -1,9 +1,11 @@
 import './styles.css'
+import { Link } from 'react-router-dom';
 
 function Freelancers(){
     return(
         <>
-        Freelancers
+        Freelancers - filtro 
+        <Link to='/Contratos'>botão contratar</Link>
         </>
     );
 }

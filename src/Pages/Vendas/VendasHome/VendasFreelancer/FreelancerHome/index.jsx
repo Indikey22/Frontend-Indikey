@@ -1,7 +1,8 @@
 import './styles.css';
-import Header from '../../../../Header/HeaderEcommerce/index';
+import Header from '../../../../../components/Headers/HeaderEcommerce/index';
 import Catalogo from '../../VendasCatalogo/CatalogoHome/index';
 import Carrinho from '../../VendasCarrinho/index';
+import { Link } from 'react-router-dom';
 
 function VendasTopo(){
     return(
@@ -9,6 +10,7 @@ function VendasTopo(){
          <Header />
          <main>
             carrosel aqui
+            <Link to='/Freelancers'>Ir para filtro de Freelancers</Link>
          </main>
          <Catalogo />
          <Carrinho />

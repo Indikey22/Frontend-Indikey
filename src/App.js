@@ -23,7 +23,7 @@ import Login from './Pages/Login/index';
 //importacoes perfis
 import ClienteInfoPessoal from './Pages/Vendas/Perfis/PerfilCliente/ClienteInformaçõesPessoais/index';
 import ClienteCartoes from './Pages/Vendas/Perfis/PerfilCliente/ClienteCartoes/index';
-import ClienteSenhas from './Pages/Vendas/Perfis/PerfilCliente/ClienteSenhas/index';
+import ClienteSegurancas from './Pages/Vendas/Perfis/PerfilCliente/ClienteSegurancas/index';
 import ClienteSuporte from './Pages/Vendas/Perfis/PerfilCliente/ClienteSuporte/index';
 import ClienteAvaliacoes from './Pages/Vendas/Perfis/PerfilCliente/ClienteAvaliacoes/index';
 
@@ -48,6 +48,18 @@ import CadastroPessoalServico from './Pages/Cadastro/CadastroServico/CadastroPes
 import CadastroEnderecoServico from './Pages/Cadastro/CadastroServico/CadastroEnderecoServico/index';
 import CadastroRevisaoServico from './Pages/Cadastro/CadastroServico/CadastroRevisaoServico/index';
 
+//Rede Social
+import Dashboard from './Pages/RedeSocial/Dashboard/index';
+import Tarefas from './Pages/RedeSocial/Tarefas/index';
+import Indikey from './Pages/RedeSocial/Indikey/index';
+import SuporteVendedor from './Pages/RedeSocial/Suporte/index';
+import InfoPessoalAutonomo from './Pages/RedeSocial/Config/ConfigAutonomo/InfoPessoalAutonomo/index';
+import ContratosAutonomo from './Pages/RedeSocial/Config/ConfigAutonomo/ContratosAutonomo/index';
+import SegurancaAutonomo from './Pages/RedeSocial/Config/ConfigAutonomo/SegurancaAutonomo/index';
+import InfoPessoalEmpresa from './Pages/RedeSocial/Config/ConfigEmpresa/InfoPessoalEmpresa/index';
+import ProdutosEmpresa from './Pages/RedeSocial/Config/ConfigEmpresa/ProdutosEmpresa/index';
+import SegurancaEmpresa from './Pages/RedeSocial/Config/ConfigEmpresa/SegurancaEmpresa/index';
+
 function App() {
   return (
     <>
@@ -68,7 +80,7 @@ function App() {
           <Route path='/Login' element={<Login />} />
           <Route path='/ClienteInfoPessoal' element={<ClienteInfoPessoal />} />
           <Route path='/ClienteCartoes' element={<ClienteCartoes />} />
-          <Route path='/ClienteSenhas' element={<ClienteSenhas />} />
+          <Route path='/ClienteSegurancas' element={<ClienteSegurancas />} />
           <Route path='/ClienteSuporte' element={<ClienteSuporte />} />
           <Route path='/ClienteAvaliacoes' element={<ClienteAvaliacoes />} />
           <Route path='/VendedorAvaliacoes' element={<VendedorAvaliacoes />} />
@@ -86,6 +98,16 @@ function App() {
           <Route path='/CadastroPessoalServico'element={<CadastroPessoalServico />} />
           <Route path='/CadastroEnderecoServico' element={<CadastroEnderecoServico />} />
           <Route path='/CadastroRevisaoServico' element={<CadastroRevisaoServico />} />
+          <Route path='/Dashboard' element={<Dashboard />}/>
+          <Route path='/Tarefas' element={<Tarefas />}/>
+          <Route path='/Indikey' element={<Indikey />}/>
+          <Route path='/SuporteVendedor' element={<SuporteVendedor />}/>
+          <Route path='/InfoPessoalAutonomo' element={<InfoPessoalAutonomo />}/>
+          <Route path='/ContratosAutonomo' element={<ContratosAutonomo />}/>
+          <Route path='/SegurancaAutonomo' element={<SegurancaAutonomo />}/>
+          <Route path='/InfoPessoalEmpresa' element={<InfoPessoalEmpresa />}/>
+          <Route path='/ProdutosEmpresa' element={<ProdutosEmpresa />}/>
+          <Route path='/SegurancaEmpresa' element={<SegurancaEmpresa />}/>
         </Routes>
       </Router>
     </>
