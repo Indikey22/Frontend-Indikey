@@ -61,7 +61,7 @@ function CadastroEnderecoServico() {
                     <section className="botoes">
                         <div className="botoesCadastro">
                             <Link to='/CadastroPessoalServico'><div className="BtnAnterior">Voltar</div></Link>
-                            <Link to='/'><div className="BtnProximo">Proximo</div></Link>
+                            <Link to='/CadastroRevisaoServico'><div className="BtnProximo">Proximo</div></Link>
                         </div>
                     </section>
                 </article>

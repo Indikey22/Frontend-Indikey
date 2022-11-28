@@ -18,6 +18,9 @@
     height: 15vh;
     margin-left: 2vw;
 }
+a{
+    text-decoration: none;
+}
 
 .tituloCadastro{
     text-align: center;

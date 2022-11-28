@@ -63,7 +63,7 @@ function CadastroEnderecoEmpresa() {
                     <section className="botoes">
                         <div className="botoesCadastro">
                         <Link to='/CadastroPessoalEmpresa'><div className="BtnAnterior">Voltar</div></Link>
-                            <div className="BtnProximo">Proximo</div>
+                        <Link to='/CadastroRevisaoEmpresa'> <div className="BtnProximo">Proximo</div></Link> 
                         </div>
                     </section>
                 </article>

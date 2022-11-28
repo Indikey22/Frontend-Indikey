@@ -1,5 +1,113 @@
+.RevisaoCadastroServicos{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../../../../assets/img/fundoCadastroRevisao.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* padding: 0; */
+}
+
 .logoTopo{
     width: 10vw;
     height: 12vh;
     margin-left: 2vw;
 }
+
+.conteudoCadastroRevisaoServicos h1{
+    text-align: center;
+    font-size: 40px;
+    color: #111;
+    margin-bottom: 5vh;
+
+}
+
+.conteudoCadastroRevisaoServicos{
+    display: flex;
+    align-items: center;
+    width: 35vw;
+    height: auto;
+    padding-top: 3vh;
+    margin: auto;
+    justify-content: initial;
+    flex-direction: column;
+}
+
+#formularioRevisaoServicos{
+    width: 100%;
+    height: auto;
+    text-align: left;
+    border: 1px solid #0077e4;
+    border-radius: 15px;
+    padding: 3% 5%;
+
+}
+.tituloInformacoes{
+    font-size: 15px;
+    color: #171717;
+}
+.informacoesUsuario{
+    font-size: 18px;
+
+}
+
+.revisaoServicosTopo{
+    width: 82%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 3vh;
+}
+
+.revisaoServicosMeio{
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 1.5vh;
+}
+.revisaoServicosBaixo{
+    width: 95%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 1.5vh;
+}
+
+
+
+.RevisaoCadastroServicos .botoes{
+    width: 24vw;
+    display: flex;
+    margin-top: 2vh;
+}
+
+
+
+
+/*  */
+
+.RevisaoCadastroServicos .botoesCadastro{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.RevisaoCadastroServicos .BtnProximo {
+    width: 9vw;
+    height: 6vh;
+    color: #fff;
+    background-color: #ffc800;
+    border: 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.RevisaoCadastroServicos .BtnProximo :hover{
+    background-color: #d5a700;
+}
+
