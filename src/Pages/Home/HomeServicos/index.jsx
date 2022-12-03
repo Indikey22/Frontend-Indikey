@@ -1,4 +1,10 @@
 import './styles.css';
+import Floricultora from '../../../assets/img/floricultura.svg';
+import Fotografo from '../../../assets/img/fotografo.png';
+import Estrelas from '../../../assets/img/estrelas.svg';
+import IconeNegocio from '../../../assets/img/icone-negocio.svg';
+import IconeFerramenta from '../../../assets/img/icone-ferramenta.svg';
+
 
 function Servicos() {
     return (
@@ -11,17 +17,19 @@ function Servicos() {
                     <section className='Slide'>
                         <div className='Slides'>
                             <div className='InfoSlides'>
-                                <h3 className='Floricultura'>Floricultura</h3>
+                            <h3 className='Floricultura'>Floricultura</h3>
+                                <img src={Estrelas} alt='Estrelas' />
                                 <br /><br />
                                 <h4>Maria Flores</h4>
                             </div>
                             <div className='ImageSlides'>
+                            <img src = {Floricultora} alt = "Floricultora" />
                             </div>
                         </div>
                     </section>
 
                     <section className='Texto'>
-                        <h1 className='TituloNumero'><span className='Azul'>+5120 </span><i class="fa-solid fa-store"></i> Empresas</h1>
+                        <h1 className='TituloNumero'><span className='Azul'>+5120 <img src={IconeNegocio} alt='Icone de Negocio' /> </span> Empresas</h1>
                         <div className='TextoLoja'>
                             <span>
                                 Na plataforma indikey, já existem mais de 5 mil empresas cadastradas, que
@@ -38,7 +46,7 @@ function Servicos() {
 
                 <div className='ConteudoServicos'>
                     <section className='Texto2'>
-                        <h1 className='TituloNumero2'><span className='Azul'>+230 </span><i className="fa-solid fa-screwdriver-wrench"></i> Serviços</h1>
+                        <h1 className='TituloNumero2'><span className='Azul'>+230 <img src={IconeFerramenta} alt='Icone de Ferramente' /> </span> Serviços</h1>
                         <div className='TextoServico'>
                             <span>
                                 Prestadores de serviços autônomoes também tem seu lugar no indikey, atualmente contamos com mais de 200 trabalhadores, e você pode ser o próximo
@@ -50,10 +58,12 @@ function Servicos() {
                         <div className='Slides'>
                             <div className='InfoSlides'>
                                 <h3 className='Fotografo'>Serviços</h3>
+                                <img src={Estrelas} alt='Estrelas' />
                                 <br /> <br />
                                 <h4>Fotógrafo</h4>
                             </div>
                             <div className='ImageSlides'>
+                            <img src = {Fotografo} alt = "Fotografo" />
                             </div>
                         </div>
                     </section>

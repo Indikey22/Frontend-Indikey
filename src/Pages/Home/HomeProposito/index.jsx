@@ -11,7 +11,6 @@ function Proposito(){
             <div className="areaTextoNP">
                 <h2 className="h2CNP">
                     <span className="titulo-azulNP">Nosso </span><span className="titulo-amareloNP"> Propósito</span>
-                    Nosso <span className='titulo_amarelo'>Propósito</span>
                 </h2>
                 <h3 className="h3CNP">
                 Nosso propósito como empresa, é ajudar e transformar a vida de pessoas.
@@ -20,11 +19,11 @@ function Proposito(){
             <div className="containerNP">
                 <div className="caixasMVV">
                     <h4 className="h4CNP">Missão</h4>
-                    <p className="pCNP">dar visibilidade, impulsionar e gerar conexões entre microempreendedores.</p>
+                    <p className="pCNP">Dar visibilidade, impulsionar e gerar conexões entre microempreendedores.</p>
                 </div> {/* Missão visao e valores */}
                 <div className="caixasMVV">
                     <h4 className="h4CNP">Visão</h4>
-                    <p className="pCNP">ser referencia em visibilidade, e ter um acesso para todos com plataforma mobile.</p>
+                    <p className="pCNP">Ser referencia em visibilidade, e ter um acesso para todos com plataforma mobile.</p>
                 </div> {/* Missão visao e valores */}
                 <div className="caixasMVV">
                     <h4 className="h4CNP">Valores</h4>

@@ -5,7 +5,7 @@ import Planos from '../HomePlanos/index';
 import Mobile from '../HomeMobile/index';
 import Moca from '../../../assets/img/mocachs.svg';
 import SetaBotao from '../../../assets/img/setaHS.svg';
-import imagemdir from '../../../assets/img/img-direita-inicio.svg';
+import imagemdir from '../../../assets/img/img-direita-inicio.png';
 import Fade from 'react-reveal/Fade';
 import Comentarios from '../HomeComentarios/index';
 import Header from '../../../components/Headers/HeaderHome/index';
@@ -24,9 +24,10 @@ function Persona() {
                                 <span className='titulo_azul'> negócio</span>
                             </h1>
                         </Fade>
-                        <span className='txthome'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing.</span>
+                        <span className='txthome'>Faça seu cadastro agora!<br />
+                        Conheça nossos planos e impusione o seu negócio.  </span>
                         <br /> <br />
-                        <button className='botao_saibamais'>Saiba Mais  </button>
+                        <button className='botao_saibamais'>Faça seu cadastro <img src={SetaBotao} alt="seta para o botão" className="SetaBotao" /> </button>
                     </div>
                 </div>
                 <div className='imageHomeTopoDireita'>
@@ -46,7 +47,7 @@ function Persona() {
                             locais a divulgarem e terem mais demanda de seus serviços, nós do VisibiliKey
                             priorizamos três tópicos bastante importantes para eliminar esse problema, sendo: a Visibilidade, Impulsionamento e a Conexão.
                         </p>
-                        <button className="botaoCHS" value="submit">Faça seu cadastro <img src={SetaBotao} alt="seta para o botão" className="SetaBotao" /></button>
+                        <button className="botaoCHS" value="submit">Saiba mais <img src={SetaBotao} alt="seta para o botão" className="SetaBotao" /></button>
                     </div>
                 </div>
             </section>

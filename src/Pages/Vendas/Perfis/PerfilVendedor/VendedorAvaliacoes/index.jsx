@@ -5,7 +5,7 @@ function VendedorAvaliacoes(){
     return(
         <>
         <MenuVendedor />
-        VendedorAvaliacoes
+        É AQUI Ó
         </>
     );
 }
