@@ -14,7 +14,7 @@ import FotodePerfil from '../../../assets/img/perfilusuario.svg';
 function HeaderEcommerce(){
     return(
         <>
-      <header className="MenuTopo">
+      <header className="MenuTopoComercio">
         <Link to='/'>
           <Fade top>
             <img src={Logo} alt="logo indikey" className="logoTopo" />
