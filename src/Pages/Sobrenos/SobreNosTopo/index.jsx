@@ -9,7 +9,9 @@ import slideImg7 from '../../../assets/img/slideSobreImg7.png'
 import slideImg8 from '../../../assets/img/slideSobreImg8.png'
 import Carousel from 'react-bootstrap/Carousel';
 import SobreNosMeio from '../SobreNosMeio/index';
+import SobreNosRedes from '../SobreNosRedes/index';
 import Header from '../../../components/Headers/HeaderHome/index';
+import Footer from '../../../components/Footer/index';
 
 function SobreNosTopo(){
     return(
@@ -84,6 +86,8 @@ function SobreNosTopo(){
                 </article>
             </div>
             <SobreNosMeio />
+            <SobreNosRedes />
+            <Footer />
         </>
     )
 }
