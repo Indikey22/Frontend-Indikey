@@ -1,0 +1,22 @@
+.prestadores{
+    width: 60vw;
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.pesquisar{
+    width: 80%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-radius: 5px;
+    background-color: #FFD024;
+    color: #fff;
+}
+
+.pesquisar h5{
+    font-size: 20px;
+    font-weight: 300;
+}

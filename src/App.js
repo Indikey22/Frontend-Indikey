@@ -5,8 +5,7 @@ import ComoFunciona from './Pages/ComoFunciona/ComoFuncionaTopo';
 
 //importações Vendas
 import Ecommerce from './Pages/Vendas/VendasHome/VendasFreelancer/FreelancerHome/index';
-import Freelancers from './Pages/Vendas/VendasHome/VendasFreelancer/Freelancers/index';
-
+import Freelancer from './Pages/Vendas/VendasHome/VendasFreelancer/Freelancers/Freelancer/index';
 //importações catalogo
 import CatalogoGrid from './Pages/Vendas/VendasHome/VendasCatalogo/CatalogoGrid/index';
 import CatalogoItem from './Pages/Vendas/VendasHome/VendasCatalogo/CatalogoItem/index'
@@ -69,7 +68,7 @@ function App() {
           <Route path='/Sobrenos' element ={<Sobrenos />} />
           <Route path='/ComoFunciona' element ={<ComoFunciona />} />
           <Route path='/Ecommerce' element ={<Ecommerce />} />
-          <Route path='/Freelancers' element ={<Freelancers />} />
+          <Route path='/Freelancer' element ={<Freelancer />} />
           <Route path='/CatalogoGrid' element ={<CatalogoGrid />} />
           <Route path='/CatalogoItem' element ={<CatalogoItem />} />
           <Route path='/Pedidos' element ={<Pedidos />} />

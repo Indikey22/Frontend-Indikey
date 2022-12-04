@@ -1,0 +1,31 @@
+.filtro{
+    width: 30vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px solid #0077E4;
+    border-radius: 15px;
+}
+.filtro h4{
+    margin-left: 20px;
+}
+
+.btn-filtrar{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+.btn-filtrar button{
+    width: 120px;
+    height: 35px;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #0077E4;
+}
+.opcoes{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 20px;
+}

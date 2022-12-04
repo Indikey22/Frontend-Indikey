@@ -10,7 +10,7 @@ function VendasTopo(){
          <Header />
          <main>
             carrosel aqui
-            <Link to='/Freelancers'>Ir para filtro de Freelancers</Link>
+            <Link to='/Freelancer'>Ir para filtro de Freelancers</Link>
          </main>
          <Catalogo />
          <Carrinho />
