@@ -17,7 +17,7 @@ function Footer() {
             <div id="footer-top">
                 <div id="div-esquerda-rodape">
                     <img src={logo} alt="logo indikey"  className="logoTopo" />
-                    <p>&copy;2022 Science Tech. Todos direitos reservados.</p>
+                    <p>&copy;2022 Indikey. Todos direitos reservados.</p>
                 </div>
                 <div id="div-direita-rodape">
                     <div id="btn-linguagem">

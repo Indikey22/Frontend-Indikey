@@ -1,0 +1,53 @@
+.redes-sociais{
+    width: 100%;
+    height: 90vh;
+    /* background-color: brown; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    margin-top: 10vh;
+}
+
+.img-redes-sociais{
+    width: 40vw;
+    height: 100%;
+}
+
+.img-redes-sociais img{
+    width: 100%;
+    height: 100%;
+}
+
+.redes-sociais-links{
+    width: 60vw;
+    height: 70vh;
+    /* background-color: chartreuse; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes-sociais-links h1{
+    padding: 0px;
+    margin-top: 60px;
+    font-size: 52px;
+    /* background-color: blueviolet; */
+}
+
+.txt-redes-sociais-sub{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    /* background-color: chocolate; */
+}
+
+.redes-sociais-bank{
+    width: 90%;
+    height: auto;
+    /* margin: auto; */
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: black; */
+}

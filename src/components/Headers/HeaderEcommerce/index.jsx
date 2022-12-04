@@ -14,7 +14,7 @@ import FotodePerfil from '../../../assets/img/perfilusuario.svg';
 function HeaderEcommerce(){
     return(
         <>
-      <header className="MenuTopo">
+      <header className="MenuTopoComercio">
         <Link to='/'>
           <Fade top>
             <img src={Logo} alt="logo indikey" className="logoTopo" />
@@ -26,15 +26,11 @@ function HeaderEcommerce(){
             <Navbar.Collapse className="listaTopo" id="basic-navbar-nav">
               <Nav id="listaTopo" className="me-auto">
                 <Nav.Link className="text-body" href="/">Home</Nav.Link>
-                <div className="underline"></div>
                 <NavDropdown className="sobreNos" title="Serviços" id="basic-nav-dropdown">
                   <NavDropdown.Item className="text-body" href="/Sobrenos">Frelancers</NavDropdown.Item>
-                  <div className="underline"></div>
-                  <NavDropdown.Item className="text-body" href="#action/3.2">Catalogo</NavDropdown.Item>
-                  <div className="underline"></div>
-                </NavDropdown>
+                    <NavDropdown.Item className="text-body" href="#action/3.2">Catalogo</NavDropdown.Item>
+                  </NavDropdown>
                 <Nav.Link className="text-body" href="/Ecommerce">Carrinho 3D</Nav.Link>
-                <div className="underline"></div>
               </Nav>
               <div className="BotoesTopo">
                <Link to='/modal' ><img src={Carrinho} alt="carrinho" /></Link>

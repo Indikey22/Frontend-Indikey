@@ -1,15 +1,17 @@
 import './styles.css'
-import slideImg1 from '../../../assets/img/slideSobreImg1.svg'
-import slideImg2 from '../../../assets/img/slideSobreImg2.svg'
-import slideImg3 from '../../../assets/img/slideSobreImg3.svg'
-import slideImg4 from '../../../assets/img/slideSobreImg4.svg'
-import slideImg5 from '../../../assets/img/slideSobreImg5.svg'
-import slideImg6 from '../../../assets/img/slideSobreImg6.svg'
-import slideImg7 from '../../../assets/img/slideSobreImg7.svg'
-import slideImg8 from '../../../assets/img/slideSobreImg8.svg'
+import slideImg1 from '../../../assets/img/slideSobreImg1.png'
+import slideImg2 from '../../../assets/img/slideSobreImg2.png'
+import slideImg3 from '../../../assets/img/slideSobreImg3.png'
+import slideImg4 from '../../../assets/img/slideSobreImg4.png'
+import slideImg5 from '../../../assets/img/slideSobreImg5.png'
+import slideImg6 from '../../../assets/img/slideSobreImg6.png'
+import slideImg7 from '../../../assets/img/slideSobreImg7.png'
+import slideImg8 from '../../../assets/img/slideSobreImg8.png'
 import Carousel from 'react-bootstrap/Carousel';
 import SobreNosMeio from '../SobreNosMeio/index';
+import SobreNosRedes from '../SobreNosRedes/index';
 import Header from '../../../components/Headers/HeaderHome/index';
+import Footer from '../../../components/Footer/index';
 
 function SobreNosTopo(){
     return(
@@ -84,6 +86,8 @@ function SobreNosTopo(){
                 </article>
             </div>
             <SobreNosMeio />
+            <SobreNosRedes />
+            <Footer />
         </>
     )
 }

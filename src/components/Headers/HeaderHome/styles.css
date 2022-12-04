@@ -6,18 +6,34 @@
     display: flex;
     justify-content: space-between;
     position: relative;
-    padding-left: 3vw;
+    /* padding-left: 3vw; */
+    /* background-color: aquamarine; */
+  }
 
+.navbar-toggler span{
+  border: 0;
+  height: 10vh;
+  width: 10vw;
 }
+
 #topo{
     height: auto;
     max-width: 100vw;
     align-items: center;
 }
-.logoTopo{
-    width: 10vw;
-    height: 15vh;
-    margin-left: 2vw;
+.MenuTopo .logoTopo{
+    width: 18vw;
+    height: 18vh;
+    margin: 0;
+}
+.MenuTopo .logoTopo img{
+  width: 100%;
+  height: 100%;
+}
+#containerTopo{
+  /* background-color: cadetblue; */
+  width: fit-content;
+  height: auto;
 }
 
 .sobreNos{
@@ -32,8 +48,9 @@
 
 .dropdown-menu.show{
   /* background-color: #0077e4; */
-  border: solid 1px #111;
-  color: rgb(29, 29, 29);
+  border: solid 1px #F5C100;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
 }
 
 .dropdown-menu.show a:hover{
@@ -116,12 +133,17 @@
  
   @media ( max-width: 480px) {
 
-
+    .MenuTopo{
+      max-width: 100vw;
+      /* background-color: gray; */
+      margin: auto;
+      display: flex;
+    }
     .logoTopo{
-      width: 15vw;
-      height: 20vh;
+      width: 25vw;
+      height: 30vh;
       margin-left: 2vw;
-  }
+    }
 
     .BotoesTopo{
       width: fit-content;
@@ -130,9 +152,6 @@
         flex-direction: column;
         margin: auto;
     }
-    .btnCadastrarTopo{
-      margin: 1vh 0;
-    } 
     
     #containerTopo{
       height: auto;
@@ -151,15 +170,60 @@
     #basic-navbar-nav{
       width: 5vw;
       text-align: center;
-      justify-content: flex-end;
+      justify-content: center;
     }
 
-    #listaTopo{
-      /* background-color: green; */
-      width: fit-content;      
-      margin: auto;
-
-
+    #containerTopo{
+      width: 45vw;
+      height: auto;
     }
+    
+  #listaTopo{
+    /* background-color: #6589aa; */
+    width: 95%;
+    margin: auto;
+    /* padding-right: 4vw; */
+  }
+
+  .btnCadastrarTopo {
+    text-decoration: none;
+    font-size:20px;
+    font-family:Arial;
+    width:120px;
+    height:43px;
+    color:#dbac00;
+    border-radius: 6px;
+    margin: 1vh auto;
+    background-color: #fff;    
+    border-bottom: solid 1px #F5C100;
 
   }
+  
+  .btnCadastrarTopo:hover {
+    transition: all 1s;
+  }
+           
+  
+  
+.btnLoginTopo {
+    text-decoration: none;
+    font-size:20px;
+    font-family:Arial;
+    width:120px;
+    height:43px;
+    border-width:0px;
+    color:#0077e4;
+    border-radius: 6px;
+    background:rgb(255, 255, 255);
+    border-bottom: solid 1px #0077e4;
+  }
+  
+  .btnLoginTopo:hover {
+    transition: all 1s;
+    /* background: #0077e4;
+    color:rgb(255, 255, 255);
+    border: #0077e4 1px solid; */
+  }
+
+  }
+

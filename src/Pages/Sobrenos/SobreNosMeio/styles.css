@@ -43,7 +43,7 @@
     width: 1vw;
     display: flex;
     align-items: center;
-    
+    justify-content: center;
     /* margin-left: 3vw; */
 }
 #separacaoMeio img{
@@ -55,10 +55,10 @@
     font-size: 28px;
 }
 #IndiEsquerda{
-    width: 50vw;
+    width: 53.5vw;
     margin: 0;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     /* background-color: lightblue; */
     height: 77vh;

@@ -16,11 +16,11 @@ function LoginCadastro() {
                 <h1>Crie Seu Login</h1>
                 <form action="" id="formularioLogin">
                     <p>Email</p>
-                    <input type="email" />
+                    <input type="email" required="required"/>
                     <p>Senha</p>
-                    <input type="password" />
+                    <input type="password" required="required"/>
                     <p>Confirmar senha</p>
-                    <input type="password" />
+                    <input type="password" required="required"/>
                 </form>
                 <div className="termos">
                     <input type="checkbox" />

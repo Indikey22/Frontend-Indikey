@@ -22,6 +22,47 @@
   margin-left: 2vw;
 }
 
+
+.MenuTopoComercio {
+  width: 98.5vw;
+  max-width: 100vw;
+  height: auto;
+  color: #111;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  /* padding-left: 3vw; */
+
+}
+
+.navbar-toggler {
+  border: 0;
+}
+
+.navbar-toggler span {
+  border: 0;
+  height: 10vh;
+  width: 10vw;
+}
+
+#topo {
+  height: auto;
+  max-width: 100vw;
+  align-items: center;
+}
+
+.MenuTopoComercio .logoTopo {
+  width: 18vw;
+  height: 20vh;
+  /* margin-left: 2vw; */
+}
+
+.MenuTopoComercio .logoTopo img {
+  width: 100%;
+  height: 100%;
+
+}
+
 .sobreNos {
   color: #111;
 }
@@ -33,6 +74,12 @@
 .dropdown-menu.show {
   border: solid 1px #111;
   color: rgb(29, 29, 29);
+}
+
+.dropdown-menu.show {
+  border: solid 1px #F5C100;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
 }
 
 .dropdown-menu.show a:hover {
@@ -52,7 +99,7 @@
   color: #111;
 }
 
-#listaTopo {
+.MenuTopoComercio #listaTopo {
   display: flex;
   justify-content: right;
   /* background-color: #6589aa; */
@@ -111,29 +158,29 @@
 }
 
 
-.text-body .underline::before{
-  content:'';
+.text-body .underline::before {
+  content: '';
   position: absolute;
   height: 1px;
   width: 100%;
-  bottom:-5px ;
+  bottom: -5px;
   left: 0;
   background: #f2f9ff;
 }
 
-.text-body .underline::after{
-  content:'';
+.text-body .underline::after {
+  content: '';
   position: absolute;
   height: 1px;
   width: 100%;
-  bottom:-5px ;
+  bottom: -5px;
   left: 0;
   background: #0077e4;
   transform: scaleX(0);
   transition: all .3s ease-in-out;
 }
 
-.text-body .underline:focus ~ .underline::after{
+.text-body .underline:focus~.underline::after {
   transform: scaleX(1);
 }
 
@@ -186,8 +233,100 @@
     /* background-color: green; */
     width: fit-content;
     margin: auto;
-
-
   }
 
+  .btnCadastrarTopo {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial;
+    width: 120px;
+    height: 43px;
+    border-width: 0px;
+    color: #fff;
+    border-radius: 6px;
+    background: #0077e4;
+  }
+
+  .MenuTopoComercio .btnCadastrarTopo:hover {
+    transition: all 1s;
+    background: rgb(253, 253, 253);
+    color: rgb(0, 124, 240);
+    border: #0077e4 1px solid;
+  }
+
+
+
+  .MenuTopoComercio .btnLoginTopo {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial;
+    width: 120px;
+    height: 43px;
+    border-width: 0px;
+    color: #0077e4;
+    border-radius: 6px;
+    background: rgb(255, 255, 255);
+    border: solid 1px blue;
+  }
+
+  .MenuTopoComercio .btnLoginTopo:hover {
+    transition: all 1s;
+    background: #0077e4;
+    color: rgb(255, 255, 255);
+    border: #0077e4 1px solid;
+  }
+
+
+
+  @media (max-width: 480px) {
+
+
+    .MenuTopoComercio .logoTopo {
+      width: 15vw;
+      height: 20vh;
+      margin-left: 2vw;
+    }
+
+    .BotoesTopo {
+      width: fit-content;
+      display: flex;
+      justify-content: flex-end;
+      flex-direction: column;
+      margin: auto;
+    }
+
+    .MenuTopoComercio .btnCadastrarTopo {
+      margin: 1vh 0;
+    }
+
+    .MenuTopoComercio #containerTopo {
+      height: auto;
+      display: flex;
+      justify-content: flex-end;
+      border-radius: 5%;
+    }
+
+    #basic-nav-dropdown,
+    .text-body,
+    .sobreNos {
+      width: auto;
+      margin: 0;
+      padding: 2vw;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    #basic-navbar-nav {
+      width: 5vw;
+      text-align: center;
+      justify-content: flex-end;
+    }
+
+    .MenuTopoComercio #listaTopo {
+      /* background-color: green; */
+      width: fit-content;
+      margin: auto;
+    }
+  }
 }
