@@ -1,13 +1,33 @@
 import './styles.css';
 import Freelas from "../../../../../../components/Freelas/index";
+import Lupa from "../../../../../../assets/img/lupa.svg";
 
 function Autonomos(){
     return(
         <div className='prestadores'>
         <div className="pesquisar">
-            <label htmlFor="pesquisar-input" className='pesquisar-icone'></label>
-            <input type="text" className='pesquisar-input' id='pesquisar-input' placeholder='Pesquisar' />
+            <img src={Lupa} alt="Pesquisar" />
+            <input type="text" className='pesquisar-input' id='pesquisar-input' placeholder='Pesquisar' maxLength="200" />
         </div>
+        <Freelas />
+        <Freelas />
+        <Freelas />
+        <Freelas />
+        <Freelas />
+        <Freelas />
+        <Freelas />
+        <Freelas />
+        <Freelas />
+        <Freelas />
+        <Freelas />
+        <Freelas />
+        <Freelas />
+        <Freelas />
+        <Freelas />
+        <Freelas />
+        <Freelas />
+        <Freelas />
+        <Freelas />
         <Freelas />
         <Freelas />
         <Freelas />
