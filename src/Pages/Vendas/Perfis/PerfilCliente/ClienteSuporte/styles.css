@@ -1,0 +1,82 @@
+.ClienteSuporte {
+    width: 100vw;
+    height: 78vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.SuporteCliente {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.PaginaSuporte {
+    width: 80vw;
+    height: 75vh;
+    background-image: url(../../../../../assets/img/fundoseguranca.png);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.DuvidasFrequentes,
+.FaleConosco {
+    margin-left: 5vh;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 4vh;
+}
+
+.DuvidasFrequentes {
+    width: 40vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.CampoDuvidas {
+    width: 40vw;
+    height: 75vh;
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    flex-direction: column;
+}
+
+/*CSS Perguntas Frequentes*/
+
+
+
+/*Fim CSS Perguntas Frequentes*/
+
+/*CSS Fale Conosco */
+.FaleConosco {
+    width: 30vw;
+    height: 50vh;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.FaleConosco input {
+    width: 20vw;
+    height: 6vh;
+    border: #0077E4 solid 0.4vh;
+    border-radius: 1vh;
+}
+
+.FaleConosco h3 {
+    margin-left: 13vh;
+}
+
+.EnviarSuporte {
+    width: 8vw;
+    height: 5vh;
+    background-color: #FFC800;
+    color: #fff;
+    border-radius: 2vh;
+}

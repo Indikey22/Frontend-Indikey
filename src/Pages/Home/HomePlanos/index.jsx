@@ -16,7 +16,7 @@ function Planos(){
                     <span>Tudo o que você precisa para começar o seu negócio</span>
                     <hr />
                     <div className='InfoCentro'>
-                    <a href='#'><button className='IniciarAssinatura'>Iniciar</button></a>
+                    <button className='IniciarAssinatura'>Iniciar</button>
                    </div>
                     <hr />
                     <span> <img src={Check} alt='Check' /> 5 Conexões </span>
@@ -30,7 +30,7 @@ function Planos(){
                     <hr />
                     <div className='InfoCentro'>
                     <span><b>R$ 20,00</b> /Mensal</span>
-                    <a href='#'><button className='IniciarAssinatura'>Iniciar</button></a>
+                    <button className='IniciarAssinatura'>Iniciar</button>
                     </div>
                     <hr />
                     <span> <img src={Check} alt='Check' /> 10 Conexões </span>
@@ -44,7 +44,7 @@ function Planos(){
                     <hr />
                     <div className='InfoCentro'>
                     <span><b>R$ 30,00</b> /Mensal</span>
-                    <a href='#'><button className='IniciarAssinatura'>Iniciar</button></a>
+                    <button className='IniciarAssinatura'>Iniciar</button>
                     </div>
                     <hr />
                     <span> <img src={Check} alt='Check' /> 30 Conexões </span>
@@ -59,7 +59,7 @@ function Planos(){
                     <hr />
                     <div className='InfoCentro'>
                     <span><b>R$ 50,00</b> /Mensal</span>
-                    <a href='#'><button className='IniciarAssinatura'>Iniciar</button></a>
+                    <button className='IniciarAssinatura'>Iniciar</button>
                     </div>
                     <hr />
                     <span> <img src={Check} alt='Check' /> 50 Conexões </span>

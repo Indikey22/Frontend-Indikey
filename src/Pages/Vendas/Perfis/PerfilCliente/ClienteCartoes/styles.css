@@ -1,0 +1,26 @@
+.ClientesCartoes {
+    width: 100vw;
+    height: 80vh;
+    /* background-image: url(../../../../../assets/img/fundoinfopessoais.svg); */
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.CartoesForms {
+    width: 100vw;
+    height: 80vh;
+    /* background-image: url(../../../../../assets/img/fundoinfopessoais.svg); */
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+.CartoesForms input {
+    width: 22vw;
+    height: 8vh;
+    border: #0077E4 solid 0.4vh;
+    border-radius: 2vh;
+}

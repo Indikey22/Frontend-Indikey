@@ -1,0 +1,26 @@
+.ClienteAvaliacoes {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.FormsAvaliacoes {
+    width: 100vw;
+    height: 80vh;
+    background-image: url(../../../../../assets/img/fundoavaliacao.png);
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.PaginaAvaliacoesC{text-align: left;}
+
+.PaginaAvaliacoesC input{width: 25vw; height: 7vh; border: #0077E4 solid 0.3vh; border-radius: 1vh;}
+
+.TextoAvaliacao{height: 30vh !important;}
+
+.EnviarAvaliacoes{width: 7vw; height: 5vh; background-color: #FFC800; color: #fff; border-radius: 1vh;}

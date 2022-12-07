@@ -1,0 +1,90 @@
+.VendedorAvaliacoes {
+    width: 100vw;
+    height: auto;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.ComentariosAvaliacoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5vh;
+    width: 50vw;
+    height: 110vh;
+}
+
+.ComentarioUser {
+    width: 50vw;
+    height: 30vh;
+    border: #0077E4 solid 0.3vh;
+    border-radius: 2vh;
+}
+
+.ComentarioAva {
+    width: 50vw;
+    height: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.IconPerfil {
+    width: 12vh;
+    height: 12vh;
+}
+
+.InfoVendedor {
+    width: 50vw;
+    height: 16vh;
+    display: flex;
+    flex-direction: row;
+    padding: 2vh;
+}
+
+.UserAvaliacao {
+    margin-left: 5vh;
+}
+
+
+/*CSS section direita */
+
+.DadosAvaliacoes {
+    background-color: #fff;
+    border: #0077E4 solid 0.3vh;
+    border-radius: 2vh;
+    width: 30vw;
+    height: 80vh;
+    padding: 5vh;
+    text-align: left;
+}
+
+.InfoAvaliacao {
+    display: flex;
+    width: 28vh;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.Avaliacao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+}
+
+.Avaliacao img {
+    width: 37vh;
+}
+
+.InformacoesLoja {
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    font-size: 3vh;
+}
