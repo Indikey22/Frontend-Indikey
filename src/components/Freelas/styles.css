@@ -1,6 +1,6 @@
 .boxs{
     width: 80%;
-    height: 40%;
+    height: 50% !important;
     padding: 2rem 0rem;
     display: flex;
     flex-direction: column;

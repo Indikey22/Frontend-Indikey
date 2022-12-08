@@ -1,0 +1,42 @@
+.LateralCliente {
+    width: 23vw;
+    height: 80vh;
+}
+
+.MenuCliente {
+    background-color: #fff;
+    width: 18vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.NavegacaoCliente li {
+    margin-top: 7vh;
+}
+
+.NavegacaoCliente img {
+    width: 4vh;
+    height: 4vh;
+    margin-right: 1vh;
+}
+
+.NavegacaoCliente a {
+    color: #000;
+}
+
+.NavegacaoCliente a:hover{font-weight: 500;}
+
+.SairCliente {
+    background-color: #0077E4;
+    width: 15vh;
+    height: 6vh;
+    margin-top: 15vh;
+    margin-left: 5vh;
+    border-radius: 3vh;
+}
+
+.SairCliente a {
+    color: #fff;
+}

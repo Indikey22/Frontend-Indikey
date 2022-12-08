@@ -90,7 +90,7 @@
         flex-direction: column;
         margin: 23vh auto;
     }
-    .caixasMVV{
+    .containerNP .caixasMVV{
         width: 80%;
     }
     .containerLogos{

@@ -1,0 +1,56 @@
+.VendedorIndicacoes {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.TituloIndicacoes {
+    width: 100%;
+    text-align: center;
+    margin-top: 3vh;
+}
+
+.IndicacoesAntonio {
+    background-color: #fff;
+    width: 80%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.CampoIndicacao {
+    width: 90%;
+    height: 20vh;
+    background-color: #fff;
+    border-radius: 3vh;
+    border: #0077E4 0.4vh solid;
+}
+
+.DadosIndicacao {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 3vh;
+    margin-top: 2vh;
+}
+
+.InfoIndicacao {
+    margin-left: 2vh;
+    margin-top: 3vh;
+}
+
+.BotaoSaiba{
+    width: 25vh;
+    height: 7vh;
+    margin-left: 50vh;
+    margin-top: 2vh;
+    background-color: #0077E4;
+    color: #fff;
+    border-radius: 2vh;
+}

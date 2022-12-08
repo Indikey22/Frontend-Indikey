@@ -150,4 +150,11 @@
         margin: auto;
         margin-bottom: 5vh;
     }
+    .conteudo_containerCHS{
+        width: 100%;
+    }
+    .conteudo_containerCHS p{
+        width: 100%;
+        line-height: 30px;
+    }
 }

@@ -28,7 +28,7 @@ function Planos(){
 
                 <div className='PlanoAssinatura'>
                 <h3 className='TipoAssinatura'>Básico</h3>
-                    <span>Continue evouluindo com suas indicações e aumente sua demanda</span>
+                    <span>Aumente suas indicações e também sua demanda</span>
                     <hr />
                     <div className='InfoCentro'>
                     <span><b>R$ 20,00</b> /Mensal</span>

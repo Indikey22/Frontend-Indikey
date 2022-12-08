@@ -1,0 +1,46 @@
+.InfoPessoal {
+    width: 100vw;
+    height: 80vh;
+    background-image: url(../../../../../assets/img/fundoavaliacao.png);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.FormularioPessoal {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+.FormularioEsquerda,
+.FormularioDireita {
+    width: 35vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.EnderecoPessoal {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.UFPessoal {
+    width: 8vh !important;
+    margin-left: 2vh;
+}
+
+.FormularioPessoal input {
+    width: 22vw;
+    height: 8vh;
+    border: #0077E4 solid 0.4vh;
+    border-radius: 2vh;
+}
