@@ -27,6 +27,10 @@ function Persona() {
                         <span className='txthome'>Faça seu cadastro agora!<br />
                         Conheça nossos planos e impusione o seu negócio.  </span>
                         <br /> <br />
+                        <div className='imageHomeTopoDireitaMobile'>
+                            <img src={imagemdir} alt='Modelo' />
+                            {/* só aparece no mobile */}
+                        </div>
                         <button className='botao_saibamais'>Faça seu cadastro <img src={SetaBotao} alt="seta para o botão" className="SetaBotao" /> </button>
                     </div>
                 </div>

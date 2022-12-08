@@ -21,7 +21,7 @@ function Footer() {
                 </div>
                 <div id="div-direita-rodape">
                     <div id="btn-linguagem">
-                    <img src={iconeLinguagem} alt="icone de um planeta"   />
+                    <img src={iconeLinguagem} alt="icone de um planeta"  className="logoTopo" />
 
                         <select id="opcoes">
                             <option value="">Português</option>
@@ -51,19 +51,19 @@ function Footer() {
                     <div>
                         <h6>Redes Sociais</h6>
                         <div id="icons">
-                        <img src={tiktok} alt="logo indikey"   />
-                        <img src={instagram} alt="logo indikey"   />
-                        <img src={figma} alt="logo indikey"   />
-                        <img src={github} alt="logo indikey"   />     
+                        <img src={tiktok} alt="logo indikey"  className="logoTopo" />
+                        <img src={instagram} alt="logo indikey"  className="logoTopo" />
+                        <img src={figma} alt="logo indikey"  className="logoTopo" />
+                        <img src={github} alt="logo indikey"  className="logoTopo" />     
                     </div>                   
                     <div className="formaPagamento">
                         <h6>Forma de pagamento</h6>
                         <div className="iconesPagamento">
-                            <img src={masterCard} alt="logo indikey"   />
-                            <img src={Visa} alt="logo indikey"   />
-                            <img src={PayPal} alt="logo indikey"   />
-                            <img src={Pix} alt="logo indikey"   />
-                            <img src={Elo} alt="logo indikey"   />
+                            <img src={masterCard} alt="logo indikey"  className="logoTopo" />
+                            <img src={Visa} alt="logo indikey"  className="logoTopo" />
+                            <img src={PayPal} alt="logo indikey"  className="logoTopo" />
+                            <img src={Pix} alt="logo indikey"  className="logoTopo" />
+                            <img src={Elo} alt="logo indikey"  className="logoTopo" />
                         </div>
                     </div>
                 </div>

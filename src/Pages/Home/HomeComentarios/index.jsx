@@ -1,7 +1,7 @@
 import './styles.css';
 import SetaEsquerda from '../../../assets/img/arrowleft.svg'
 import SetaDireita from '../../../assets/img/arrowright.svg'
-import Comentario from '../../../assets/img/comentario.svg'
+import comentario1 from '../../../assets/img/comentario1.svg'
 
 function Comentarios() {
     return (
@@ -12,13 +12,13 @@ function Comentarios() {
             </div>
             <div className='slides'>
                 <div className='box'>
-                    <img src={Comentario} alt=" foto de perfil" />
+                    <img src={comentario1} alt=" foto de perfil" />
                 </div>
                 <div className='box'>
-                    <img src={Comentario} alt=" foto de perfil" />
+                    <img src={comentario1} alt=" foto de perfil" />
                 </div>
                 <div className='box'>
-                    <img src={Comentario} alt=" foto de perfil" />
+                    <img src={comentario1} alt=" foto de perfil" />
                 </div>
             </div>
         </article>

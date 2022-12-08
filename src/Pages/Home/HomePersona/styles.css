@@ -107,3 +107,47 @@
     margin: 10px;
     width: 35px;
 }
+.imageHomeTopoDireitaMobile{
+    display: none;
+}
+
+@media ( max-width: 480px){
+    .HomeTopo{
+        max-width: 100vw;
+        display: flex;
+        flex-direction: column;
+        margin-top: 8vh;
+    }
+    #containerHomeTopo{
+        width: 90vw;
+        margin: auto;
+    }
+    .txtHomeTopo{
+        width: 100%;
+    }
+    .imageHomeTopoDireitaMobile{
+        display: block;
+        width: 43vw;
+        margin: auto;
+        margin-bottom: 5vh;
+    }
+    .imageHomeTopoDireitaMobile img{
+        width: 100%;
+    }
+
+    .conteudoHomeSobre{
+        margin-top: 15vh;
+        width: 100vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .tamanhoMocaCHS, .esquerdaCHS, .imageHomeTopoDireita{
+        display: none;
+    }
+    .container_CHS{
+        width: 96vw;
+        margin: auto;
+        margin-bottom: 5vh;
+    }
+}

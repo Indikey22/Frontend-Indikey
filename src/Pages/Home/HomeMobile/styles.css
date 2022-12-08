@@ -10,7 +10,7 @@
     width: 630px;
     height: auto;
 }
-.texto{
+.textoMobile{
     width: 40%;
     height: 300px;
     display: flex;
@@ -18,11 +18,11 @@
     align-items: center;
     gap: 20px;
 }
-.texto h1{
+.textoMobile h1{
     font-size: 50px;
     text-align: center;
 }
-.texto h5{
+.textoMobile h5{
     font-size: 20px;
     font-weight: 400;
     text-align: center;
@@ -57,28 +57,6 @@
     border: 1px solid #0077E4;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .azul {
     color: #0077E4;
 }
@@ -98,4 +76,38 @@
     justify-content: space-between;
     margin-top: 75px;
     margin-right: 105px;
+}
+
+
+@media (max-width: 480px){
+    .mobile{
+        max-width: 480px;
+        height: auto;
+        flex-direction: column;
+    }
+    .app{
+        width: 95vw;
+        margin: auto;
+        height: 65vh;
+    }
+    .app img{
+        width: 100%;
+        height: 100%;
+    }
+    .textoMobile{
+        width: 90vw;
+        margin: 0 auto;
+        height: fit-content;
+        margin-top: -10vh;
+    }
+    .textoMobile h1{
+        font-size: 35px;
+    }
+    .textoMobile h5{
+        margin: 3vh auto;
+    }
+    .download{
+        width: 80vw;
+        margin: 0 auto;
+    }
 }

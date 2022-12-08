@@ -187,13 +187,13 @@
 @media (max-width: 480px) {
 
 
-  .logoTopo {
+  .MenuTopoComercio .logoTopo {
     width: 15vw;
     height: 20vh;
     margin-left: 2vw;
   }
 
-  .BotoesTopo {
+  .MenuTopoComercio .BotoesTopo {
     width: fit-content;
     display: flex;
     justify-content: flex-end;
@@ -201,18 +201,18 @@
     margin: auto;
   }
 
-  .btnCadastrarTopo {
+  .MenuTopoComercio .btnCadastrarTopo {
     margin: 1vh 0;
   }
 
-  #containerTopo {
+  .MenuTopoComercio #containerTopo {
     height: auto;
     display: flex;
     justify-content: flex-end;
     border-radius: 5%;
   }
 
-  #basic-nav-dropdown,
+  .MenuTopoComercio #basic-nav-dropdown,
   .text-body,
   .sobreNos {
     width: auto;
@@ -223,28 +223,29 @@
     flex-direction: column;
   }
 
-  #basic-navbar-nav {
+  .MenuTopoComercio #basic-navbar-nav {
     width: 5vw;
     text-align: center;
     justify-content: flex-end;
   }
 
-  #listaTopo {
+  .MenuTopoComercio #listaTopo {
     /* background-color: green; */
     width: fit-content;
     margin: auto;
   }
 
-  .btnCadastrarTopo {
+  .MenuTopoComercio .btnCadastrarTopo {
     text-decoration: none;
     font-size: 20px;
     font-family: Arial;
     width: 120px;
     height: 43px;
     border-width: 0px;
-    color: #fff;
+    color: #0077e4;
     border-radius: 6px;
-    background: #0077e4;
+    background-color: #fff;
+    border: #F5C100;
   }
 
   .MenuTopoComercio .btnCadastrarTopo:hover {
@@ -287,7 +288,7 @@
       margin-left: 2vw;
     }
 
-    .BotoesTopo {
+    .MenuTopoComercio .BotoesTopo {
       width: fit-content;
       display: flex;
       justify-content: flex-end;
@@ -306,7 +307,7 @@
       border-radius: 5%;
     }
 
-    #basic-nav-dropdown,
+    .MenuTopoComercio #basic-nav-dropdown,
     .text-body,
     .sobreNos {
       width: auto;
@@ -317,7 +318,7 @@
       flex-direction: column;
     }
 
-    #basic-navbar-nav {
+    .MenuTopoComercio #basic-navbar-nav {
       width: 5vw;
       text-align: center;
       justify-content: flex-end;

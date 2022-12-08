@@ -1,4 +1,4 @@
-import './styles.css';
+ import './styles.css';
 import LogoMissao from '../../../assets/img/logoMissao.svg'
 import LogoVisao from '../../../assets/img/logoVisao.svg'
 import LogoValores from '../../../assets/img/logoValores.svg'

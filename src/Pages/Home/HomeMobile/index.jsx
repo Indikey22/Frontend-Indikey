@@ -9,7 +9,7 @@ function Mobile() {
             <div className="app">
                 <img src={Celular} alt="app mobile" />
             </div>
-            <div className="texto">
+            <div className="textoMobile">
                 <h1><span className='azul'>Faça</span> o <span className='amarelo'>dowload</span> do nosso <span className='azul'>aplicativo</span></h1>
                 <h5>O indikey também é mobile. Faça o download agora, e agarre as oportunidades</h5>
                 <div className='download'>

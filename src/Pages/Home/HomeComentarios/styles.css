@@ -21,10 +21,24 @@
     display: flex;
     align-items: center;
 }
-.box img{
+.slides .box img{
     width: 490px;
     height: 319px;
 }
-button{
+.botoesSlide button{
     background-color: transparent;
+}
+
+@media (max-width: 480px){
+    .comentarios{
+        max-width: 480px;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        margin-top: 10vh;
+    }
+    .botoesSlide{
+        width: 100%;
+        height: 25vh;
+    }
 }

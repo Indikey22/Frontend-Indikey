@@ -185,7 +185,7 @@
     /* padding-right: 4vw; */
   }
 
-  .btnCadastrarTopo {
+  .MenuTopo .btnCadastrarTopo {
     text-decoration: none;
     font-size:20px;
     font-family:Arial;
@@ -198,14 +198,16 @@
     border-bottom: solid 1px #F5C100;
 
   }
-  
-  .btnCadastrarTopo:hover {
+  .MenuTopo .BotoesTopo{
+    margin: auto;
+  }
+  .MenuTopo .btnCadastrarTopo:hover {
     transition: all 1s;
   }
            
   
   
-.btnLoginTopo {
+  .MenuTopo .btnLoginTopo {
     text-decoration: none;
     font-size:20px;
     font-family:Arial;
@@ -218,7 +220,7 @@
     border-bottom: solid 1px #0077e4;
   }
   
-  .btnLoginTopo:hover {
+  .MenuTopo .btnLoginTopo:hover {
     transition: all 1s;
     /* background: #0077e4;
     color:rgb(255, 255, 255);

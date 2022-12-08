@@ -147,3 +147,43 @@ footer .logoTopo{
 }
 
 
+@media (max-width: 480px){
+    footer{
+        max-width: 480px;
+    }
+    #footer-top{
+        width: 100%;
+        padding-top: 2vh;
+    }
+    #div-esquerda-rodape{
+        width: 60%;
+    }
+    #div-esquerda-rodape img{
+        width:  15vw;
+        height: 15vh;
+    }
+    #footer-bottom{
+        width: 100%;
+        height: auto;
+    }
+    .divisoes{
+        width: 32vw;
+        margin-left: 3vw;
+    }
+    .divisoes h6{
+        font-size: 20px;
+    }
+    .divisoes ul li{
+        font-size: 14px;
+    }
+    #sociais img{
+        width: 6vw;
+    }
+    .iconesPagamento{
+        width: 33vw;
+        height: auto;
+    }
+    #sociais .iconesPagamento img{
+        width: 8vw;
+    }
+}
