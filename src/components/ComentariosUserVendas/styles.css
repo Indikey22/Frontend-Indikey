@@ -1,0 +1,31 @@
+.comentariosUsers{
+    width: 40vw;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 2px solid #0077E4;
+    border-radius: 10px;
+}
+
+.topoComentarios{
+    display: flex;
+    margin-left: 20px;
+    gap: 10px;
+}
+.avalia{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.perfil img{
+    width: 150px;
+}
+.perfil span{
+    font-size: 18px;
+}
+
+.descricao{
+    width: 35vw;
+    margin-left: 20px;
+}

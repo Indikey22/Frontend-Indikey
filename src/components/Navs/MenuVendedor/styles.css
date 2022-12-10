@@ -1,0 +1,63 @@
+.PerfilVendas{
+    width: 100vw;
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.perfilTopo{
+    width: 65vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.vendedor {
+    width: 220px;
+    height: 220px;
+}
+.txtVendas h1{
+    font-size: 60px;
+}
+.txtVendas h5{
+    font-size: 25px;
+}
+
+.btnContrato{
+    width: 25vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.btnContrato button{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #0077E4;
+    color: #fff;
+}
+
+.btnContrato button:hover{
+    transition: 1s all ease-in-out;
+    border: 1px solid #0077E4;
+    background-color: #0076e4a9;
+}
+
+.navegacaovendas{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navegacaovendas ul{
+    width: 70%;
+    height: 55px;
+    border: 2px solid #0077E4;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}

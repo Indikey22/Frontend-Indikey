@@ -1,0 +1,30 @@
+.conexoesVendas{
+    width: 70vw;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #0077E4;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.leftconexoes{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 30px;
+}
+
+.btn-conexoes{
+    width: 100px;
+    margin-right: 150px;
+}
+
+.btn-conexoes button{
+    width: 10em;
+    height: 3em;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #0077E4;
+}
