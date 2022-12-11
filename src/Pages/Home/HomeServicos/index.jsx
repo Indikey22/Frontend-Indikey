@@ -9,6 +9,7 @@ import IconeFerramenta from '../../../assets/img/icone-ferramenta.svg';
 function Servicos() {
     return (
         <>
+        <article id="containerLojasServicos">
             <main className='HomeLojas'>
                 <div className='CampoLojas'>
                     <h1 className='TituloLojas'>Compre <span className='Azul'>produtos</span> nas <span className='Amarelo'>melhores</span> lojas</h1>
@@ -48,9 +49,9 @@ function Servicos() {
                     <section className='Texto2'>
                         <h1 className='TituloNumero2'><span className='Azul'>+230 <img src={IconeFerramenta} alt='Icone de Ferramente' /> </span> Serviços</h1>
                         <div className='TextoServico'>
-                            <span>
+                            <p>
                                 Prestadores de serviços autônomoes também tem seu lugar no indikey, atualmente contamos com mais de 200 trabalhadores, e você pode ser o próximo
-                            </span>
+                            </p>
                         </div>
                     </section>
 
@@ -69,6 +70,7 @@ function Servicos() {
                     </section>
                 </div>
             </main>
+        </article>
         </>
     );
 }

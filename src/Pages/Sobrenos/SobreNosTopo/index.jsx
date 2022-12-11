@@ -27,56 +27,56 @@ function SobreNosTopo(){
                         <Carousel id="carroselTopoSobre">
                             <Carousel.Item className="itemCarrosel" interval={1000}>
                                 <img
-                                className="d-block w-60"
+                                className="d-block w-30"
                                 src={slideImg1}
                                 alt="First slide"
                                 />                            
                             </Carousel.Item>
                             <Carousel.Item className="itemCarrosel" interval={1000}>
                                 <img
-                                className="d-block w-60"
+                                className="d-block w-30"
                                 src={slideImg2}
                                 alt="Second slide"
                                 />
                             </Carousel.Item>
                             <Carousel.Item className="itemCarrosel" interval={1000}>
                                 <img
-                                className="d-block w-60"
+                                className="d-block w-30"
                                 src={slideImg3}
                                 alt="Third slide"
                                 />                            
                             </Carousel.Item>
                             <Carousel.Item className="itemCarrosel" interval={1000}>
                                 <img
-                                className="d-block w-60"
+                                className="d-block w-30"
                                 src={slideImg4}
                                 alt="Third slide"
                                 />                            
                             </Carousel.Item>
                             <Carousel.Item className="itemCarrosel" interval={1000}>
                                 <img
-                                className="d-block w-60"
+                                className="d-block w-30"
                                 src={slideImg5}
                                 alt="Third slide"
                                 />                            
                             </Carousel.Item>
                             <Carousel.Item className="itemCarrosel" interval={1000}>
                                 <img
-                                className="d-block w-60"
+                                className="d-block w-30"
                                 src={slideImg6}
                                 alt="Third slide"
                                 />                            
                             </Carousel.Item>
                             <Carousel.Item className="itemCarrosel" interval={1000}>
                                 <img
-                                className="d-block w-60"
+                                className="d-block w-30"
                                 src={slideImg7}
                                 alt="Third slide"
                                 />                            
                             </Carousel.Item>
                             <Carousel.Item className="itemCarrosel" interval={1000}>
                                 <img
-                                className="d-block w-60"
+                                className="d-block w-30"
                                 src={slideImg8}
                                 alt="Third slide"
                                 />                            

@@ -3,7 +3,7 @@ import feedbackPlataforma from '../../../assets/img/plataformaSobre.svg'
 import iconeLamapada from '../../../assets/img/iconeLampada.svg'
 import interrogacao from '../../../assets/img/iconeDuvida.svg'
 import separacaoMeio from '../../../assets/img/separacaoSobre.svg'
-import pessoasSobreTopo from '../../../assets/img/pessoasSobreTopo.svg'
+import pessoasSobreTopo from '../../../assets/img/pessoasSobre.png'
 
 
 function SobreNosMeio(){
@@ -35,7 +35,7 @@ function SobreNosMeio(){
         </article>
 
         {/*  */}
-              <article id="PqIndikey">
+            <article id="PqIndikey">
                 <h4 className="tituloPq">Por que foi criado?</h4>
                 <div id="conteudoPqIndikey">
 
@@ -43,13 +43,13 @@ function SobreNosMeio(){
                         <div id="tituloEsquerda"><h3>Venha <span className="indiAzul">fazer</span> parte dessa <span className="indiAzul">família</span></h3></div>
                         <div id="imgPlataforma"><img src={feedbackPlataforma} alt="" /></div>          
                         <article id="informacoesDireitaBaixo">
-                            <button>Siaba Mais</button>   
+                            {/* <button>Siaba Mais</button>    */}
                             <p><span className="EmpresasEProdutos"><span className="indiAzul">+</span> 5120</span> Empresas</p> 
                             <p><span className="EmpresasEProdutos"><span className="indiAzul">+</span> 230</span> Produtos</p> 
                         </article>
                     </section>
 
-                    <div><img src={separacaoMeio} alt="linha separa conteudo" /> </div>
+                    <div id="imgSeparacaoPq"><img src={separacaoMeio} alt="linha separa conteudo" /> </div>
                     <section id="PqIndiDireita">
                         <div className="motivoPqDireita">
                             <div><img src={iconeLamapada} alt="" /></div> 

@@ -51,3 +51,36 @@
     justify-content: space-evenly;
     /* background-color: black; */
 }
+
+@media (max-width: 480px) {
+    
+    .redes-sociais{
+        width: 100vw;
+        /* background-color: beige; */
+        height: 170vh;
+        flex-direction: column;
+        
+    }
+    .img-redes-sociais{
+        display: none;
+    }
+    
+    .redes-sociais-links{
+        width: 96vw;
+        margin: auto;
+    }
+    .redes-sociais-links h1{
+        text-align: center;
+    }
+    .redes-sociais-bank{
+        flex-direction: column;
+        height: auto;
+        margin: 0 auto;
+    }
+    .redes-sociais-bank a{
+        margin: auto;
+        margin-top: 5vh;
+    
+    }
+
+}

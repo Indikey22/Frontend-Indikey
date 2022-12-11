@@ -191,5 +191,78 @@
     height: 100%;
 }
 @media (max-width: 480px){
-    
+
+    #containerLojasServicos{
+        height: max-content;
+        position: relative;
+        margin-bottom: 15vh;
+    }
+    .HomeLojas{
+        max-width: 480px;
+        height: auto;
+    }
+    .ConteudoLojas, .ConteudoServicos{
+        flex-direction: column;
+        max-width: 480px;
+    }
+
+    .Slide{
+        width: 90vw;
+    }
+    .Slides{
+        width: 98vw;
+        margin: 10vh auto;
+    }
+
+    .ConteudoLojas{
+        width: 100vw;
+        height:  auto;
+    }
+    .TituloLojas{
+        width: 98vw;
+        margin:  auto;
+    }
+    .TextoLoja{
+        width: 94vw;      
+        margin: 16vh auto ;  
+    }
+    .CampoLojas{
+        width: 98vw;
+    }
+    .Texto{
+        width: 98vw;
+        margin: auto;
+        height: 270px;
+    }
+    .TituloNumero{        
+        background-color: transparent;
+        width: 98vw;
+        margin: 6vh auto;
+    }
+
+
+
+    .TituloServicos{
+        width: 98vw;
+        margin: 5vh auto;
+    }
+    .ConteudoServicos{
+        width: 100vw;
+        height:  auto;
+    }
+    .Texto2{
+        background-color: transparent;
+        width: 98vw;
+    }
+    .TituloNumero2{
+        position: relative;
+        width: 94vw;
+        height: auto;
+        font-size: 50px;
+    }
+    .TextoServico{
+        width: 94vw;
+        margin-top: 18vh;
+
+    }
 }
