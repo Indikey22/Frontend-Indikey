@@ -53,6 +53,7 @@
 }
 
 .navegacaovendas ul{
+    position: relative;
     width: 70%;
     height: 55px;
     border: 2px solid #0077E4;

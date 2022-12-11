@@ -1,32 +1,38 @@
-.produtosservicosvendas{
-    width: 25vw;
-    height: 55vh;
+.cardprodvendas{
+    width: auto;
+    height: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
-    background-color: red;
 }
 
-.produtoimage{
-    width:15vw;
-    height:25vh;
-    margin: auto;
-    background: #1E1F25;
-    border-radius: 5px;
+.imageprodserv{
+    width: 265px;
+    height: 215px;
+    background-color: #1E1F25;
+    border-radius: 8px;
+    margin-bottom: 10px ;
 }
 
-.txtprodutoservicosvendas{
-    text-align: center;
-    background-color: aqua;
+.txtprodserv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px ;
 }
 
-.btnprodutoservicosvendas{
+/* .btnprodserv button{
     width: 100%;
-    background-color: aqua;
-}
+    height: 100%;
+    background-color: #0077E4;
+    color: #fff;
+    border-radius: 5px;
+} */
 
-.btnprodutoservicosvendas button{
-    width: 20em;
-    height: 1em;
+.btnprodserv button{
+    width: 200px;
+    height: 40px;
+    background-color: #0077E4;
+    color: #fff;
+    border-radius:5px;
 }

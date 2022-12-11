@@ -1,6 +1,9 @@
 import './styles.css';
 import { Link } from 'react-router-dom';
 import Foto from '../../../assets/img/perfilvendedor.svg';
+import Overal from '../../../assets/img/overal.svg';
+import Conexoes from '../../../assets/img/conexoes.svg';
+import Produtos from '../../../assets/img/produtos.svg';
 
 function MenuVendedor() {
     return (
@@ -19,9 +22,10 @@ function MenuVendedor() {
             </main>
             <nav className="navegacaovendas">
                 <ul>
-                    <Link to='/VendedorAvaliacoes'><li>Avaliações</li></Link>
-                    <Link to='/VendedorIndicacoes'><li>Indicações</li></Link>
-                    <Link to='/VendedorProdutos'><li>Produtos</li></Link>
+                    <Link to='/VendedorAvaliacoes'><img src={Overal} alt="icone de avaliações" /><span className='sessaoVendedor'>Avaliações</span></Link>
+                    <Link to='/VendedorIndicacoes'><img src={Conexoes} alt="icone de indicações" /><span className='sessaoVendedor'>Indicações</span></Link>
+                    <Link to='/VendedorProdutos'><img src={Produtos} alt="icone de produtos" /><span className='sessaoVendedor'>Produtos</span></Link>
+                    <span className='underline'></span>
                 </ul>
             </nav>
         </>
