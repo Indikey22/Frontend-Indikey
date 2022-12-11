@@ -9,38 +9,32 @@ import Vestidos from "../../../../../assets/img/vestidos.svg";
 function VendasCatalogo() {
     return (
         <>
-            <aside className="gridProdutos">
+            <aside className="gridProdutosVendas">
                 <div className="txtgridProdutos">
                     <div className='underline'></div>
                     <h3>Catálogo</h3>
                 </div>
-                <div className="cardsgridProdutos">
-                    <Link to='/CatalogoGrid'>
-                        <div className="card">
-                            <img src={Flores} alt="" />
-                        </div>
-                    </Link>
-                    <Link to='/CatalogoGrid'>
-                        <div className="cardProdutos">
-                            <img src={Fotografos} alt="" />
-                        </div>
-                    </Link>
-                    <Link to='/CatalogoGrid'>
-                        <div className="cardProdutos">
-                            <img src={Decoracoes} alt="" />
-                        </div>
-                    </Link>
-                    <Link to='/CatalogoGrid'>
-                        <div className="cardProdutos">
-                            <img src={Bebidas} alt="" />
-                        </div>
-                    </Link>
-                </div>
-                    <Link to='/CatalogoGrid'>
-                        <div className="cardeProdutos">
+                <div className="gridProdutos">
+                    <div className="cardsProdutos">
+                        <Link to="/CatalogoGrid">
+                            <img src={Flores} alt="" className='imageProduto'/>
+                        </Link>
+                        <Link to="/CatalogoGrid">
+                            <img src={Fotografos} alt="" className='imageProduto'/>
+                        </Link>
+                        <Link to="/CatalogoGrid">
+                            <img src={Decoracoes} alt="" className='imageProduto'/>
+                        </Link>
+                        <Link to="/CatalogoGrid">
+                            <img src={Bebidas} alt="" className='imageProduto'/>
+                        </Link>
+                    </div>
+                    <div id="cardProdutos">
+                        <Link to="/CatalogoGrid">
                             <img src={Vestidos} alt="" />
-                        </div>
-                    </Link>
+                        </Link>
+                    </div>
+                </div>
             </aside>
         </>
     );

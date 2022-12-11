@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import Header from '../../../../../components/Headers/HeaderEcommerce/index';
 import Carousel from 'react-bootstrap/Carousel';
 import Catalogo from '../../VendasCatalogo/CatalogoHome/index';
-import Carrinho from '../../VendasCarrinho/index';
 import Footer from '../../../../../components/Footer/index';
 import Confeiteira from '../../../../../assets/img/slideconfeiteira.svg';
 
@@ -13,7 +12,7 @@ function VendasTopo() {
          <Header />
             <div id="conteudoSobreTopo">
                 <section id="sobreTopoDireita">
-                    <h1>Contrate uma confeiteira</h1>
+                    <h1>Contrate o profissonal perfeito para você</h1>
                     <p>Aqui você tem os melhores prestadores de serviço com a melhor qualidade.</p>
                 </section>
                 <article className="CarroselSobreTopo">
@@ -61,7 +60,6 @@ function VendasTopo() {
                 </article>
             </div>
             <Catalogo />
-            <Carrinho />
             <Footer />
         </>
     );
