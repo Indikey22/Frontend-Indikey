@@ -30,3 +30,9 @@
 .pesquisar-input::placeholder{
     color: #fff;
 }
+@media(max-width: 480px){
+    .prestadores{
+        width: 90vw;
+        margin: auto;
+    }
+}
