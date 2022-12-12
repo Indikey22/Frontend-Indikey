@@ -113,3 +113,52 @@
 .BtnAnterior :hover{
     background-color: #0084ff;
 }
+
+@media (max-width: 480px){
+    .containerCadastroEnderecoEmpresa{
+        width: 480px;
+        height: 100vh;
+        background-image: url(../../../../assets/img/fundoCadastroAndroid.svg);
+        background-repeat: repeat;
+        background-size:100% ;
+        background-position: 0.1vh 4vw;
+    }
+    .containerCadastroEnderecoEmpresa{
+        width: 90vw;
+        margin: auto;
+    }
+    .conteudoCadastroEnderecoEmpresa{
+        width: 90vw;
+        height: auto;
+    }
+    #formularioCadastroEnderecoEmpresa{
+        width: 70vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #formularioCadastroEnderecoEmpresa input{
+        width: 70vw;
+        margin: auto;
+    }
+    #formularioCadastroEnderecoEmpresa p{
+        width: fit-content;
+        max-width: max-content;
+    }
+    .conteudoCadastroEnderecoEmpresa .botoes, .conteudoCadastroEnderecoEmpresa .botoesCadastro{
+        width: 70vw;
+    }
+    .conteudoCadastroEnderecoEmpresa .BtnAnterior, .conteudoCadastroEnderecoEmpresa .BtnProximo{
+        width: 30vw;
+    }
+    #cidade{
+        width: 70vw;
+    }
+    #formularioCadastroEnderecoEmpresa #cidadeInput{
+        width: 40vw;
+    }
+    #formularioCadastroEnderecoEmpresa #generoListaUF{
+        width: 20vw;
+    }
+}

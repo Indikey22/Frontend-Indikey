@@ -115,3 +115,51 @@
 .BtnAnterior :hover{
     background-color: #0084ff;
 }
+@media (max-width: 480px){
+    .containerCadastroEnderecoCliente{
+        width: 480px;
+        height: 100vh;
+        background-image: url(../../../../assets/img/fundoCadastroAndroid.svg);
+        background-repeat: repeat;
+        background-size:100% ;
+        background-position: 0.1vh 4vw;
+    }
+    .containerCadastroEnderecoCliente{
+        width: 90vw;
+        margin: auto;
+    }
+    .conteudoCadastroEnderecoCliente{
+        width: 90vw;
+        height: auto;
+    }
+    #formularioCadastroEnderecoCliente{
+        width: 70vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #formularioCadastroEnderecoCliente input{
+        width: 70vw;
+        margin: auto;
+    }
+    #formularioCadastroEnderecoCliente p{
+        width: fit-content;
+        max-width: max-content;
+    }
+    .conteudoCadastroEnderecoCliente .botoes, .conteudoCadastroEnderecoCliente .botoesCadastro{
+        width: 70vw;
+    }
+    .conteudoCadastroEnderecoCliente .BtnAnterior, .conteudoCadastroEnderecoCliente .BtnProximo{
+        width: 30vw;
+    }
+    #cidade{
+        width: 70vw;
+    }
+    #formularioCadastroEnderecoCliente #cidadeInput{
+        width: 40vw;
+    }
+    #formularioCadastroEnderecoCliente #generoListaUF{
+        width: 20vw;
+    }
+}

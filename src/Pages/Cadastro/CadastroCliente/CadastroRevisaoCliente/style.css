@@ -76,15 +76,11 @@
     margin-bottom: 1.5vh;
 }
 
-
-
 .botoes{
     width: 24vw;
     display: flex;
     margin-top: 2vh;
 }
-
-
 
 
 /*  */
@@ -109,5 +105,34 @@
 }
 .BtnProximo :hover{
     background-color: #d5a700;
+}
+
+@media (max-width: 480px){
+    .RevisaoCadastroCliente{
+        width: 480px;
+            height: 100vh;
+            background-image: url(../../../../assets/img/fundoCadastroAndroid.svg);
+            background-repeat: repeat;
+            background-size:100% ;
+            background-position: 0.1vh 4vw;
+    }
+    .conteudoCadastroRevisao{
+        width: 90vw;
+        height: auto;
+    }
+    .conteudoCadastroRevisao .revisaoTopo{
+        width: 100%;
+    
+    }
+    .conteudoCadastroRevisao #formularioRevisao{
+        /* font-size: 16px; */
+        width: 90vw;
+    }
+    #formularioRevisao .informacoesUsuario, #formularioRevisao .tituloInformacoes{
+        font-size: 16px;
+    }
+    #formularioRevisao .botoes, #formularioRevisao .botoesCadastro, #formularioRevisao .BtnProximo{
+        width: 30vw;
+    }
 }
 

@@ -136,3 +136,36 @@ a{
     border-bottom: #fff 1px solid;
     
 }
+
+@media (max-width: 480px){
+    .containerCadastro{
+        width: 480px;
+        height: auto;
+        background-image: url(../../../assets/img/fundoCadastroAndroid.svg);
+        background-repeat: repeat;
+        background-size:100% ;
+        background-position: 0.1vh 4vw;
+        /* overflow: hidden; */
+    }
+    .tituloCadastro{
+        margin-bottom: 3vh;
+    }
+    .meioCadastro{
+        flex-direction: column;
+        height: auto;
+        /* overflow: hidden; */
+        /* margin-right: -16vw; */
+    }
+    .cardAmareloDireita, .cardAmareloEsquerda, .cardAzul{
+        width: 80vw;
+        max-width: 80vw;
+        margin-bottom: 8vh;
+        margin-top: 3vh;
+    }
+    .cardTexto{
+        width: 77vw;
+    }
+    .cardAmareloDireita .cardTexto .linkCliente, .cardAmareloEsquerda .linkCliente{
+        width: 27vw;
+    }
+}

@@ -88,10 +88,12 @@
         width: 100%;
         display: flex;
         flex-direction: column;
-        margin: 23vh auto;
+        margin: 5vh auto;
+        height: auto;
     }
     .containerNP .caixasMVV{
         width: 80%;
+        height: auto;
     }
     .containerLogos{
         display: none;

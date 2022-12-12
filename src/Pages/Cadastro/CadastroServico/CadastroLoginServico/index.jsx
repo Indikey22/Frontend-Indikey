@@ -12,14 +12,14 @@ function LoginCadastroServicos() {
                     <img src={logo} alt="logo indikey" className="logoTopo" />
                 </Fade>
             </Link>
-                <article className="conteudoCadastroLogin">
+                <article className="conteudoCadastroLoginServicos">
                     <h1>Crie Seu Login</h1>
-                    <form action="" id="formularioLogin">
+                    <form action="" id="formularioLoginServicos">
                         <p>Email</p>
                         <input type="email" />
                         <p>Senha</p>
                         <input type="password" />
-                        <p>Confirmar senha</p>
+                        <p id="confirmarSenha">Confirmar senha</p>
                         <input type="password" />
                     </form>
                     <div className="termos">

@@ -19,7 +19,7 @@ function LoginCadastro() {
                     <input type="email" required="required"/>
                     <p>Senha</p>
                     <input type="password" required="required"/>
-                    <p>Confirmar senha</p>
+                    <p id="confirmarSenha">Confirmar senha</p>
                     <input type="password" required="required"/>
                 </form>
                 <div className="termos">

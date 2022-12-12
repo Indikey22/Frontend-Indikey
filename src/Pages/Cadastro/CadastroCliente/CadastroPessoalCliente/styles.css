@@ -61,7 +61,7 @@
     border: 1px solid #0077e4;
     border-radius: 7px;
 }
-.botoes{
+.conteudoCadastroPessoalCliente .botoes{
     width: 25vw;
     display: flex;
     margin-top: 2vh;
@@ -69,14 +69,14 @@
 
 /*  */
 
-.botoesCadastro{
+.conteudoCadastroPessoalCliente .botoesCadastro{
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
 
-.BtnProximo {
+.conteudoCadastroPessoalCliente .BtnProximo {
     width: 9vw;
     height: 6vh;
     color: #fff;
@@ -87,12 +87,12 @@
     align-items: center;
     justify-content: center;
 }
-.BtnProximo :hover{
+.conteudoCadastroPessoalCliente .BtnProximo :hover{
     background-color: #d5a700;
 }
 
 
-.BtnAnterior {
+.conteudoCadastroPessoalCliente .BtnAnterior {
     width: 9vw;
     height: 6vh;
     color: #fff;
@@ -103,6 +103,46 @@
     align-items: center;
     justify-content: center;
 }
-.BtnAnterior :hover{
+.conteudoCadastroPessoalCliente .BtnAnterior :hover{
     background-color: #0084ff;
+}
+
+@media (max-width: 480px){
+    .containerCadastroPessoalCliente{
+        width: 480px;
+        height: 100vh;
+        background-image: url(../../../../assets/img/fundoCadastroAndroid.svg);
+        background-repeat: repeat;
+        background-size:100% ;
+        background-position: 0.1vh 4vw;
+    }
+    .containerCadastroPessoalCliente{
+        width: 90vw;
+        margin: auto;
+    }
+    .conteudoCadastroPessoalCliente{
+        width: 90vw;
+        height: auto;
+    }
+    #formularioCadastroPessoalCliente{
+        width: 70vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #formularioCadastroPessoalCliente input{
+        width: 70vw;
+        margin: auto;
+    }
+    #formularioCadastroPessoalCliente p{
+        width: fit-content;
+        max-width: max-content;
+    }
+    .conteudoCadastroPessoalCliente .botoes, .conteudoCadastroPessoalCliente .botoesCadastro{
+        width: 70vw;
+    }
+    .conteudoCadastroPessoalCliente .BtnAnterior, .conteudoCadastroPessoalCliente .BtnProximo{
+        width: 30vw;
+    }
 }

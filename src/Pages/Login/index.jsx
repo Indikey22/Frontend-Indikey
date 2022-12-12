@@ -26,7 +26,7 @@ function Login() {
                     <p>Ao clicar você aceita os termos de serviço e a política de privacidade do Indikey.</p>
                 </div>
                 <section className="botoes">
-                    <div className="botoesCadastro">
+                    <div className="botoesLogin">
                         <div className="BtnProximo">Proximo</div>
                     </div>
                 </section>

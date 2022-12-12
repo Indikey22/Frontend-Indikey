@@ -35,27 +35,7 @@
 }
 
 /*Conteiner Slide */
-.Slide{
-    width: 100vh; 
-    height: 50vh; 
-    background-color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-.Slides{
-    width: 80vh; 
-    height: 40vh; 
-    background-color: #fff; 
-    border-radius: 5vh; 
-    border: #FFC800 2px solid;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-.InfoSlides i{
-    color: #FFC800;
-}
+
 .ImageSlides{
     width: 35vh; 
     height: 35vh;
@@ -68,7 +48,8 @@
     position: absolute;
 }
 .ImageSlides img{
-    width: 100%; height: 100%;
+    width: 100%; 
+    height: 100%;
 }
     /*Conteiner Texto*/
 .Texto{
@@ -79,7 +60,8 @@
     display: flex;
     flex-direction: column;
 }
-.TituloNumero{width: 30vh; 
+.TituloNumero{
+    width: 30vh; 
     font-weight: 600; 
     font-size: 42px; 
     margin-left: 45vh; 
@@ -160,7 +142,7 @@
 }
 /*Conteiner Slide*/
 .Slide{
-    width: 100vh; 
+    width: 30vw; 
     height: 50vh; 
     background-color:#fff;
     display: flex;
@@ -168,7 +150,7 @@
     justify-content: space-around;
 }
 .Slides{
-    width: 80vh; 
+    width: 30vw; 
     height: 40vh; 
     background-color: #fff; 
     border-radius: 5vh; 
@@ -177,12 +159,17 @@
     align-items: center;
     justify-content: space-around;
 }
-    
+.Slides h4{
+    width: fit-content;
+}
+.InfoSlides{
+    width: 100%;
+}
 .InfoSlides i{
     color: #FFC800;
 }
 .ImageSlides{
-    width: 35vh; 
+    width: 35vw; 
     height: 35vh;
     border-radius: 5vh;
 }
@@ -205,15 +192,31 @@
         flex-direction: column;
         max-width: 480px;
     }
-
-    .Slide{
+     .Slide{
         width: 90vw;
     }
     .Slides{
-        width: 98vw;
-        margin: 10vh auto;
+        width: 90vw;
+        margin: 4vh auto;  
+        height: fit-content;
     }
+    .InfoSlides{
+        width: 55vw;
+        justify-content: space-around;
+        padding: 0 1.5vw;     
 
+    }
+    .ImageSlides{
+        display: flex;
+        align-items: center;
+    }
+    .Slides img{
+        height: auto;
+        width: 35vw;
+    }
+    #fotografoSlide{
+        display: none;
+    }
     .ConteudoLojas{
         width: 100vw;
         height:  auto;
@@ -241,7 +244,9 @@
     }
 
 
-
+    .HomeServico{
+        height: 45vh;
+    }
     .TituloServicos{
         width: 98vw;
         margin: 5vh auto;
