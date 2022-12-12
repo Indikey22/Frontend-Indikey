@@ -10,12 +10,12 @@ function VendasTopo() {
     return (
         <>
          <Header />
-            <div id="conteudoSobreTopo">
-                <section id="sobreTopoDireita">
+            <div id="conteudoSobreTopo" className='vendasHome'>
+                <section id="sobreTopoDireita" className="TopoVendas">
                     <h1>Contrate o profissonal perfeito para você</h1>
                     <p>Aqui você tem os melhores prestadores de serviço com a melhor qualidade.</p>
                 </section>
-                <article className="CarroselSobreTopo">
+                <article className="CarroselSobreTopo" id="carroselVendas">
                     <div id="SliderTopo">
                         <Link to='/Freelancer'>
                             <Carousel id="carroselTopoSobre">

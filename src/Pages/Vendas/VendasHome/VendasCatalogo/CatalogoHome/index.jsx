@@ -26,7 +26,7 @@ function VendasCatalogo() {
                             <img src={Decoracoes} alt="" className='imageProduto'/>
                         </Link>
                         <Link to="/CatalogoGrid">
-                            <img src={Bebidas} alt="" className='imageProduto'/>
+                            <img src={Bebidas} alt="" className='imageProduto' id="bebida"/>
                         </Link>
                     </div>
                     <div id="cardProdutos">
