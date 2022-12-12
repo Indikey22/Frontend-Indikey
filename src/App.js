@@ -32,16 +32,16 @@ import CadastroLoginServico from './Pages/Cadastro/CadastroServico/CadastroLogin
 import CadastroPessoalServico from './Pages/Cadastro/CadastroServico/CadastroPessoalServico/index';
 import CadastroEnderecoServico from './Pages/Cadastro/CadastroServico/CadastroEnderecoServico/index';
 import CadastroRevisaoServico from './Pages/Cadastro/CadastroServico/CadastroRevisaoServico/index';
-import Dashboard from './Pages/RedeSocial/Dashboard/index';
-import Tarefas from './Pages/RedeSocial/Tarefas/index';
-import Indikey from './Pages/RedeSocial/Indikey/index';
-import SuporteVendedor from './Pages/RedeSocial/Suporte/index';
-import InfoPessoalAutonomo from './Pages/RedeSocial/Config/ConfigAutonomo/InfoPessoalAutonomo/index';
-import ContratosAutonomo from './Pages/RedeSocial/Config/ConfigAutonomo/ContratosAutonomo/index';
-import SegurancaAutonomo from './Pages/RedeSocial/Config/ConfigAutonomo/SegurancaAutonomo/index';
-import InfoPessoalEmpresa from './Pages/RedeSocial/Config/ConfigEmpresa/InfoPessoalEmpresa/index';
-import ProdutosEmpresa from './Pages/RedeSocial/Config/ConfigEmpresa/ProdutosEmpresa/index';
-import SegurancaEmpresa from './Pages/RedeSocial/Config/ConfigEmpresa/SegurancaEmpresa/index';
+import Dashboard from './Pages/AreaCorporativa/Dashboard/index';
+import Tarefas from './Pages/AreaCorporativa/Tarefas/index';
+import Indikey from './Pages/AreaCorporativa/Indikey/index';
+import SuporteVendedor from './Pages/AreaCorporativa/Suporte/index';
+import InfoPessoalAutonomo from './Pages/AreaCorporativa/Config/ConfigAutonomo/InfoPessoalAutonomo/index';
+import ContratosAutonomo from './Pages/AreaCorporativa/Config/ConfigAutonomo/ContratosAutonomo/index';
+import SegurancaAutonomo from './Pages/AreaCorporativa/Config/ConfigAutonomo/SegurancaAutonomo/index';
+import InfoPessoalEmpresa from './Pages/AreaCorporativa/Config/ConfigEmpresa/InfoPessoalEmpresa/index';
+import ProdutosEmpresa from './Pages/AreaCorporativa/Config/ConfigEmpresa/ProdutosEmpresa/index';
+import SegurancaEmpresa from './Pages/AreaCorporativa/Config/ConfigEmpresa/SegurancaEmpresa/index';
 
 function App() {
   return (

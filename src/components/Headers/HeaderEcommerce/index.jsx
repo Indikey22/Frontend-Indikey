@@ -7,7 +7,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import React from 'react';
 import FotodePerfil from '../../../assets/img/perfilusuario.svg';
 
@@ -26,15 +25,12 @@ function HeaderEcommerce(){
             <Navbar.Collapse className="listaTopo" id="basic-navbar-nav">
               <Nav id="listaTopo" className="me-auto">
                 <Nav.Link className="text-body" href="/">Home</Nav.Link>
-                <NavDropdown className="sobreNos" title="Serviços" id="basic-nav-dropdown">
-                  <NavDropdown.Item className="text-body" href="/Sobrenos">Frelancers</NavDropdown.Item>
-                    <NavDropdown.Item className="text-body" href="#action/3.2">Catalogo</NavDropdown.Item>
-                  </NavDropdown>
-                <Nav.Link className="text-body" href="/Ecommerce">Carrinho 3D</Nav.Link>
+                <Nav.Link className="text-body" href="/">Frelancers</Nav.Link>
+                <Nav.Link className="text-body" href="/Ecommerce">Catalogo</Nav.Link>
               </Nav>
               <div className="BotoesTopo">
                <Link to='/modal' ><img src={Carrinho} alt="carrinho" /></Link>
-               <Link to='/ClienteInfoPessoal' ><img src={FotodePerfil} alt="Foto de Perfil do Usuário" /></Link>
+               <Link to='/InfoPessoalAutonomo' ><img src={FotodePerfil} alt="Foto de Perfil do Usuário" /></Link>
               </div>
             </Navbar.Collapse>
           </Container>
