@@ -1,9 +1,15 @@
 import './styles.css';
 import Check from '../../../assets/img/check.svg';
 import { Link } from 'react-router-dom';
+import Aos from 'aos';
+import "aos/dist/aos.css"
+import React, { useEffect } from 'react';
 
 
 function Planos(){
+    useEffect(() =>{
+        Aos.init({duration: 1500});
+     }, []);
     return(
         <>
         <main className='HomeAssinatura'>
@@ -12,7 +18,7 @@ function Planos(){
                 <span>Planos que se adequam a sua necessidade são a chave para o sucesso</span>
             </div>
 
-            <div className='CampoPlanos'>
+            <div data-aos="fade-right" className='CampoPlanos'>
                 <div className='PlanoAssinatura'>
                     <h3 className='TipoAssinatura'>Gratuito</h3>
                     <span>Tudo o que você precisa para começar o seu negócio</span>

@@ -4,9 +4,15 @@ import Fotografo from '../../../assets/img/fotografo.png';
 import Estrelas from '../../../assets/img/estrelas.svg';
 import IconeNegocio from '../../../assets/img/icone-negocio.svg';
 import IconeFerramenta from '../../../assets/img/icone-ferramenta.svg';
+import Aos from 'aos';
+import "aos/dist/aos.css"
+import React, { useEffect } from 'react';
 
 
 function Servicos() {
+    useEffect(() =>{
+        Aos.init({duration: 1500});
+     }, []);
     return (
         <>
         <article id="containerLojasServicos">
@@ -16,7 +22,7 @@ function Servicos() {
                 </div>
                 <div className='ConteudoLojas'>
                     <section className='Slide'>
-                        <div className='Slides'>
+                        <div data-aos="fade-right" className='Slides'>
                             <div className='InfoSlides'>
                             <h3 className='Floricultura'>Floricultura</h3>
                                 <img src={Estrelas} alt='Estrelas' />
@@ -28,7 +34,7 @@ function Servicos() {
                         </div>
                     </section>
 
-                    <section className='Texto'>
+                    <section data-aos="fade-left" className='Texto'>
                         <h1 className='TituloNumero'><span className='Azul'>+5120 <img src={IconeNegocio} alt='Icone de Negocio' /> </span> Empresas</h1>
                         <div className='TextoLoja'>
                             <span>
@@ -45,7 +51,7 @@ function Servicos() {
                 </div>
 
                 <div className='ConteudoServicos'>
-                    <section className='Texto2'>
+                    <section data-aos="fade-right" className='Texto2'>
                         <h1 className='TituloNumero2'><span className='Azul'>+230 <img src={IconeFerramenta} alt='Icone de Ferramente' /> </span> Serviços</h1>
                         <div className='TextoServico'>
                             <p>
@@ -55,7 +61,7 @@ function Servicos() {
                     </section>
 
                     <section className='Slide' id='fotografoSlide'>
-                        <div className='Slides'>
+                        <div data-aos="fade-left" className='Slides'>
                             <div className='InfoSlides'>
                                 <h3 className='Fotografo'>Serviços</h3>
                                 <img src={Estrelas} alt='Estrelas' />

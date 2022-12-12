@@ -10,10 +10,15 @@ import Fade from 'react-reveal/Fade';
 import Comentarios from '../HomeComentarios/index';
 import Header from '../../../components/Headers/HeaderHome/index';
 import Footer from '../../../components/Footer/index';
+import Aos from 'aos';
+import "aos/dist/aos.css"
+import React, { useEffect } from 'react';
 
 function Persona() {
 
-
+     useEffect(() =>{
+        Aos.init({duration: 1500});
+     }, []);
     
     return (
         <>
@@ -38,19 +43,21 @@ function Persona() {
                     </div>
                 </div>
                 <div className='imageHomeTopoDireita'>
+                    <Fade right>
                     <img src={imagemdir} alt='Modelo' />
+                    </Fade>
                 </div>
 
             </main>
             <section className="conteudoHomeSobre">
                 <div className="esquerdaCHS">
-                    <img src={Moca} alt="" className="tamanhoMocaCHS" />
+                    <img src={Moca} alt="" data-aos="fade-right" className="tamanhoMocaCHS" />
                 </div>
                 <div className="container_CHS">
                     <div className="conteudo_containerCHS">
-                        <h2 className="h2_CHS">Indikey</h2>
-                        <h3 className="h3_CHS">Como nascemos</h3>
-                        <p className="p_CHS">O indikey nasceu da ideia de ajudar os trabalhadores
+                        <h2 data-aos="fade-left" className="h2_CHS">Indikey</h2>
+                        <h3 data-aos="fade-left" className="h3_CHS">Como nascemos</h3>
+                        <p data-aos="fade-left" className="p_CHS">O indikey nasceu da ideia de ajudar os trabalhadores
                             locais a divulgarem e terem mais demanda de seus serviços, nós do VisibiliKey
                             priorizamos três tópicos bastante importantes para eliminar esse problema, sendo: a Visibilidade, Impulsionamento e a Conexão.
                         </p>
