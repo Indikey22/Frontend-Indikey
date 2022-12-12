@@ -11,6 +11,11 @@ import PayPal from '../../assets/img/PayPal.svg'
 import Pix from '../../assets/img/Pix.svg'
 import Elo from '../../assets/img/Elo.svg'
 
+const openInNewTab = url => {
+    window.open(url, '_blank', 'noopener,noreferrer');
+  };
+
+
 function Footer() {
     return (
         <footer>
@@ -51,19 +56,19 @@ function Footer() {
                     <div>
                         <h6>Redes Sociais</h6>
                         <div id="icons">
-                        <img src={tiktok} alt="logo indikey"   />
-                        <img src={instagram} alt="logo indikey"   />
-                        <img src={figma} alt="logo indikey"   />
-                        <img src={github} alt="logo indikey"   />     
+                        <img  src={tiktok} alt="logo tiktok"   />
+                        <img onClick={() => openInNewTab('https://www.instagram.com/indikeybr/e')} src={instagram} alt="logo instagram"   />
+                        <img onClick={() => openInNewTab('https://www.figma.com/file/163srQnrd9g3h3FUyQs2do/Indikey?node-id=0%3A1&t=XKwRLBvjEmJ3TVLF-1')} src={figma} alt="logo figma"   />
+                        <img onClick={() => openInNewTab('https://github.com/Indikey22/Frontend-Indikey')} src={github} alt="logo github"   />     
                     </div>                   
                     <div className="formaPagamento">
                         <h6>Forma de pagamento</h6>
                         <div className="iconesPagamento">
-                            <img src={masterCard} alt="logo indikey"   />
-                            <img src={Visa} alt="logo indikey"   />
-                            <img src={PayPal} alt="logo indikey"   />
-                            <img src={Pix} alt="logo indikey"   />
-                            <img src={Elo} alt="logo indikey"   />
+                            <img src={masterCard} alt="logo master card"   />
+                            <img src={Visa} alt="logo visa"   />
+                            <img src={PayPal} alt="logo PayPal"   />
+                            <img src={Pix} alt="logo Pix"   />
+                            <img src={Elo} alt="logo Elo"   />
                         </div>
                     </div>
                 </div>

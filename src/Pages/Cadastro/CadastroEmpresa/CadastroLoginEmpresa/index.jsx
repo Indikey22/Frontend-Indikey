@@ -19,7 +19,7 @@ function LoginCadastroEmrpesa() {
                         <input type="email" />
                         <p>Senha</p>
                         <input type="password" />
-                        <p>Confirmar senha</p>
+                        <p id="confirmarSenha">Confirmar senha</p>
                         <input type="password" />
                     </form>
                     <div className="termos">

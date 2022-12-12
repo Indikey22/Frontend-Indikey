@@ -107,6 +107,7 @@ footer .logoTopo{
 #icons {
     width: 50%;
     display: flex;
+    cursor: pointer;
 }
 #icons img{
     width: 2vw;

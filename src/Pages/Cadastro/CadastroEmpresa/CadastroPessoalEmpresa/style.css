@@ -124,3 +124,44 @@
 .BtnAnterior :hover{
     background-color: #0084ff;
 }
+
+
+@media (max-width: 480px){
+    .containerCadastroPessoalEmpresa{
+        width: 480px;
+        height: 100vh;
+        background-image: url(../../../../assets/img/fundoCadastroAndroid.svg);
+        background-repeat: repeat;
+        background-size:100% ;
+        background-position: 0.1vh 4vw;
+    }
+    .containerCadastroPessoalEmpresa{
+        width: 90vw;
+        margin: auto;
+    }
+    .conteudoCadastroPessoalEmpresa{
+        width: 90vw;
+        height: auto;
+    }
+    #formularioCadastroPessoalEmpresa{
+        width: 70vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #formularioCadastroPessoalEmpresa input{
+        width: 70vw;
+        margin: auto;
+    }
+    #formularioCadastroPessoalEmpresa p{
+        width: fit-content;
+        max-width: max-content;
+    }
+    .conteudoCadastroPessoalEmpresa .botoes, .conteudoCadastroPessoalEmpresa .botoesCadastro{
+        width: 70vw;
+    }
+    .conteudoCadastroPessoalEmpresa .BtnAnterior, .conteudoCadastroPessoalEmpresa .BtnProximo{
+        width: 30vw;
+    }
+}

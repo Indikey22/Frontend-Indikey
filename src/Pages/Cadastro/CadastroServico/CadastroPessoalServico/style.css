@@ -6,10 +6,6 @@
     background-size: cover;
     /* padding: 0; */
 }
-.formCadastro{
-    width: auto;
-    height: 85vh;
-}
 
 .logoTopo{
     width: 10vw;
@@ -125,4 +121,44 @@
 }
 .BtnAnterior :hover{
     background-color: #0084ff;
+}
+
+@media (max-width: 480px){
+    .containerCadastroPessoalServico{
+        width: 480px;
+        height: 100vh;
+        background-image: url(../../../../assets/img/fundoCadastroAndroid.svg);
+        background-repeat: repeat;
+        background-size:100% ;
+        background-position: 0.1vh 4vw;
+    }
+    .containerCadastroPessoalServico{
+        width: 90vw;
+        margin: auto;
+    }
+    .conteudoCadastroPessoalServico{
+        width: 90vw;
+        height: auto;
+    }
+    #formularioCadastroPessoalServico{
+        width: 70vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #formularioCadastroPessoalServico input{
+        width: 70vw;
+        margin: auto;
+    }
+    #formularioCadastroPessoalServico p{
+        width: fit-content;
+        max-width: max-content;
+    }
+    .conteudoCadastroPessoalServico .botoes, .conteudoCadastroPessoalServico .botoesCadastro{
+        width: 70vw;
+    }
+    .conteudoCadastroPessoalServico .BtnAnterior, .conteudoCadastroPessoalServico .BtnProximo{
+        width: 30vw;
+    }
 }

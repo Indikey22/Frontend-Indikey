@@ -2,3 +2,18 @@
     width: 100vw;
     height: 100vh;
 }
+
+@media (max-width: 480px){
+    #carroselVendas{
+        /* background-color: bisque; */
+        margin-top: 4vh;
+        display: flex;
+        align-items: initial;
+        height: fit-content;
+    }
+    .vendasHome{
+        margin-top: 3vh;
+        /* background-color: aqua; */
+    }
+    
+}

@@ -60,11 +60,24 @@
         flex-direction: column;
         margin-top: 7vh;
     }
+    #conteudoSobreTopo h1{
+        /* width: 20vw; */
+    }
+    .CarroselSobreTopo{
+        margin-top: 4vh;
+        display: flex;
+        align-items: initial;
+        height: 90vh;
+        max-height: 40vh;
+    }
     .itemCarrosel{
         width: 90vw;
     }
     .itemCarrosel img{
         width: 100%;
+    }
+    #SliderTopo{
+        height: 100%;
     }
     #sobreTopoDireita{
         width: 90vw;

@@ -24,7 +24,7 @@ function Servicos() {
                                 <h4>Maria Flores</h4>
                             </div>
                             <div className='ImageSlides'>
-                            <img src = {Floricultora} alt = "Floricultora" />
+                                <img src = {Floricultora} alt = "Floricultora" />
                             </div>
                         </div>
                     </section>
@@ -55,7 +55,7 @@ function Servicos() {
                         </div>
                     </section>
 
-                    <section className='Slide'>
+                    <section className='Slide' id='fotografoSlide'>
                         <div className='Slides'>
                             <div className='InfoSlides'>
                                 <h3 className='Fotografo'>Serviços</h3>

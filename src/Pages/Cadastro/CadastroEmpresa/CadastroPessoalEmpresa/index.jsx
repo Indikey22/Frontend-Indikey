@@ -25,10 +25,6 @@ function CadastroPessoalEmpresa() {
                         <p>Categoria</p>
                         <input type="text" />
                     </form>
-                    <div className="termos">
-                        <input type="checkbox" />
-                        <p>Ao clicar você aceita os termos de serviço e a política de privacidade do Indikey.</p>
-                    </div>
                     <section className="botoes">
                         <div className="botoesCadastro">
                             <Link to='/CadastroLoginEmpresa'><div className="BtnAnterior">Voltar</div></Link>
