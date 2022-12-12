@@ -1,10 +1,10 @@
 import './styles.css';
-import MenuRedeSocial from '../../../components/Navs/MenuRedeSocial/index';
+import MenuCorporativo from '../../../components/Navs/MenuCorporativo/MenuCorporativoAutonomos/index';
 
 function Suporte(){
     return(
         <>
-        <MenuRedeSocial />
+        <MenuCorporativo />
         suporte
         </>
     );

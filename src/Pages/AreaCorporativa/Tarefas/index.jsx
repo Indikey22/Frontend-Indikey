@@ -1,10 +1,10 @@
 import './styles.css';
-import MenuRedeSocial from '../../../components/Navs/MenuRedeSocial/index';
+import MenuCorporativo from '../../../components/Navs/MenuCorporativo/MenuCorporativoAutonomos/index';
 
 function Tarefas(){
     return(
         <>
-        <MenuRedeSocial />
+        <MenuCorporativo />
         tarefas
         </>
     );

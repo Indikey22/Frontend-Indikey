@@ -1,12 +1,13 @@
 import './styles.css';
-import MenuRedeSocial from '../../../components/Navs/MenuRedeSocial/index';
+import MenuCorporativo from '../../../components/Navs/MenuCorporativo/MenuCorporativoAutonomos/index';
 
 function Dashboard(){
     return(
-        <>
-        <MenuRedeSocial />
-        não sei como vocês vão dividir o codigo aqui dentro mas a pagina que vai conter o dashboard só precisa da importação do menu rede social
-        </>
+        <div className='layoutAutonomos'>
+        <MenuCorporativo />
+        <div className="Dashboard">
+        </div>
+        </div>
     );
 }
 

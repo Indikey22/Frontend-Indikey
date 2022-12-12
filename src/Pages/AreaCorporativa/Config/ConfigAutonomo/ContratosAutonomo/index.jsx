@@ -1,11 +1,11 @@
 import './styles.css';
 import ConfigNavAutonomo from '../../../../../components/Navs/MenuConfigRedeSocial/ConfigNavAutonomo';
-import MenuRedeSocial from '../../../../../components/Navs/MenuRedeSocial/index'
+import MenuCorporativo from '../../../../../components/Navs/MenuCorporativo/MenuCorporativoAutonomos/index';
 
 function ContratosAutonomo(){
     return(
         <div className='layoutAutonomos'>
-        <MenuRedeSocial />
+        <MenuCorporativo />
         <div className="contratosAutonomo">
         <ConfigNavAutonomo />
         </div>
