@@ -70,7 +70,7 @@ function RevisaoCadastroCliente() {
                             <p>Telefone</p>
                             <p>55 (11)99999-9999</p>
                         </div>
-                        <div className="BtnProximo">Finalizar</div>
+                        <Link to='/ClienteInfoPessoal'><div className="BtnProximo">Finalizar</div></Link>
                     </div>
                 </section>
             </article>             

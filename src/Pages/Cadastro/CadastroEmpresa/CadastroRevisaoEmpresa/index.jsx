@@ -73,7 +73,7 @@ function CadastroRevisaoEmpresa() {
                         </div>
                         <section className="botoes">
                             <div className="botoesCadastro"></div>
-                            <div className="BtnProximo">Finalizar</div>                            
+                            <Link to='/InfoPessoalEmpresa'><div className="BtnProximo">Finalizar</div></Link>                       
                         </section>                    
                     </div>
                 </section>
