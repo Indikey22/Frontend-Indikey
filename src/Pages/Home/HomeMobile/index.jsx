@@ -13,9 +13,9 @@ function Mobile() {
     return (
         <aside className='mobile'>
             <div className="app">
-                <img data-aos="fade-right" src={Celular} alt="app mobile" />
+                <img data-aos="fade-right" data-aos-delay="300" src={Celular} alt="app mobile" />
             </div>
-            <div data-aos="fade-left" className="textoMobile">
+            <div data-aos="fade-left"  className="textoMobile">
                 <h1><span className='azul'>Faça</span> o <span className='amarelo'>dowload</span> do nosso <span className='azul'>aplicativo</span></h1>
                 <h5>O indikey também é mobile. Faça o download agora, e agarre as oportunidades</h5>
                 <div className='download'>

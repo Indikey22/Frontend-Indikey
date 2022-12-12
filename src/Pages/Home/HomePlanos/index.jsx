@@ -18,7 +18,7 @@ function Planos(){
                 <span>Planos que se adequam a sua necessidade são a chave para o sucesso</span>
             </div>
 
-            <div data-aos="fade-right" className='CampoPlanos'>
+            <div data-aos="fade-right" data-aos-delay="300" className='CampoPlanos'>
                 <div className='PlanoAssinatura'>
                     <h3 className='TipoAssinatura'>Gratuito</h3>
                     <span>Tudo o que você precisa para começar o seu negócio</span>
