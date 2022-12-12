@@ -20,8 +20,7 @@ function Servicos() {
                             <div className='InfoSlides'>
                             <h3 className='Floricultura'>Floricultura</h3>
                                 <img src={Estrelas} alt='Estrelas' />
-                                <br /><br />
-                                <h4>Maria Flores</h4>
+                                <h4 className='NomeServico'>Maria Flores</h4>
                             </div>
                             <div className='ImageSlides'>
                                 <img src = {Floricultora} alt = "Floricultora" />
@@ -60,8 +59,7 @@ function Servicos() {
                             <div className='InfoSlides'>
                                 <h3 className='Fotografo'>Serviços</h3>
                                 <img src={Estrelas} alt='Estrelas' />
-                                <br /> <br />
-                                <h4>Fotógrafo</h4>
+                                <h4 className='NomeServico'>Fotógrafo</h4>
                             </div>
                             <div className='ImageSlides'>
                             <img src = {Fotografo} alt = "Fotografo" />

@@ -1,271 +1,308 @@
 /*Titulo */
-.HomeLojas{
-    width: 100%; 
-    height: 90vh; 
+.HomeLojas {
+    width: 100%;
+    height: 90vh;
     background-color: #fff;
     margin-top: 12vh;
 }
 
-.CampoLojas{
+.CampoLojas {
     width: 100%;
-    align-items: center; 
-    display: flex; 
+    align-items: center;
+    display: flex;
     text-align: center;
     justify-content: center;
 }
 
-.TituloLojas{
-    width: 80vh; font-weight: 600;
+.TituloLojas {
+    width: 80vh;
+    font-weight: 600;
 }
-.Azul{
+
+.Azul {
     color: #0077E4;
 }
-.Amarelo{
+
+.Amarelo {
     color: #FFC800;
 }
 
 /*Conteiner do Conteudo*/
-.ConteudoLojas{
-    width: 100%; 
-    height: 60vh; 
-    background-color: #fff; 
-    display: flex; 
+.ConteudoLojas {
+    width: 100%;
+    height: 60vh;
+    background-color: #fff;
+    display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
 /*Conteiner Slide */
 
-.ImageSlides{
-    width: 35vh; 
+.ImageSlides {
+    width: 35vh;
     height: 35vh;
     border-radius: 5vh;
 }
-.Vendedora{
-    width: 35vh; 
-    height: 35vh; 
-    background-color: violet; 
+
+.InfoSlides {
+    margin-left: 3vh;
+    width: 40vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+}
+
+.NomeServico {
+    margin-left: 2vh;
+}
+
+.Vendedora {
+    width: 35vh;
+    height: 35vh;
+    background-color: violet;
     position: absolute;
 }
-.ImageSlides img{
-    width: 100%; 
+
+.ImageSlides img {
+    width: 100%;
     height: 100%;
 }
-    /*Conteiner Texto*/
-.Texto{
-    width: 100vh; 
-    height: 50vh; 
+
+/*Conteiner Texto*/
+.Texto {
+    width: 100vh;
+    height: 50vh;
     background-color: #fff;
     align-items: center;
     display: flex;
     flex-direction: column;
 }
-.TituloNumero{
-    width: 30vh; 
-    font-weight: 600; 
-    font-size: 42px; 
-    margin-left: 45vh; 
-    margin-top: 14vh;}
 
-.TituloNumero i{
-    background-color: #0077E4; 
-    color: #fff; 
-    padding: 1vh; 
-    font-size: 25px; 
-    border-radius: 10vh;
+.TituloNumero {
+    width: 30vh;
+    font-weight: 600;
+    font-size: 42px;
+    margin-left: 45vh;
+    margin-top: 14vh;
 }
 
-.TextoLoja{
-    width: 80vh; 
-    margin-left: 15vh; 
-    margin-top: 30vh; 
+.TextoLoja {
+    width: 80vh;
+    margin-left: 15vh;
+    margin-top: 30vh;
     font-size: 22px;
     position: absolute;
 }
 
-    /*----------------------------------*/
+/*----------------------------------*/
 
-.HomeServico{
+.HomeServico {
     width: 100%;
     height: 80vh;
     background-color: #fff;
 }
-    
-.CampoServicos{
+
+.CampoServicos {
     width: 100%;
-    align-items: center; 
-    display: flex; 
+    align-items: center;
+    display: flex;
     text-align: center;
     justify-content: center;
-}    
-.TituloServicos{
-    width: 100%; 
+}
+
+.TituloServicos {
+    width: 100%;
     font-weight: 600;
-}    
-    /*Conteiner do Conteudo*/
-.ConteudoServicos{
-    width: 100%; 
-    height: 60vh; 
-    background-color: #fff; 
-    display: flex; 
+}
+
+/*Conteiner do Conteudo*/
+.ConteudoServicos {
+    width: 100%;
+    height: 60vh;
+    background-color: #fff;
+    display: flex;
     align-items: center;
     justify-content: space-around;
-}        
-         /*Conteiner Texto*/
-.Texto2{
-    width: 100vh; 
-    height: 50vh; 
-    background-color:#fff;
+}
+
+/*Conteiner Texto*/
+.Texto2 {
+    width: 100vh;
+    height: 50vh;
+    background-color: #fff;
     align-items: center;
     display: flex;
     flex-direction: column;
-} 
-.TituloNumero2{
-    width: 70vh; 
-    font-weight: 600; 
-    font-size: 60px; 
+}
+
+.TituloNumero2 {
+    width: 70vh;
+    font-weight: 600;
+    font-size: 60px;
     margin-top: 5vh;
 }
-.TituloNumero2 i{
-    background-color: #0077E4; 
-    color: #fff; 
-    padding: 1vh; 
-    font-size: 25px; 
+
+.TituloNumero2 i {
+    background-color: #0077E4;
+    color: #fff;
+    padding: 1vh;
+    font-size: 25px;
     border-radius: 10vh;
 }
-.TextoServico{
-    width: 80vh; 
-    margin-left: 0vh; 
-    margin-top: 30vh; 
+
+.TextoServico {
+    width: 80vh;
+    margin-left: 0vh;
+    margin-top: 30vh;
     font-size: 22px;
     position: absolute;
 }
+
 /*Conteiner Slide*/
-.Slide{
-    width: 30vw; 
-    height: 50vh; 
-    background-color:#fff;
+.Slide {
+    width: 30vw;
+    height: 50vh;
+    background-color: #fff;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-.Slides{
-    width: 30vw; 
-    height: 40vh; 
-    background-color: #fff; 
-    border-radius: 5vh; 
+
+.Slides {
+    width: 35vw;
+    height: 40vh;
+    background-color: #fff;
+    border-radius: 5vh;
     border: #FFC800 2px solid;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-.Slides h4{
+
+.Slides h4 {
     width: fit-content;
 }
-.InfoSlides{
-    width: 100%;
-}
-.InfoSlides i{
-    color: #FFC800;
-}
-.ImageSlides{
-    width: 35vw; 
+
+.ImageSlides {
+    width: 35vw;
     height: 35vh;
     border-radius: 5vh;
 }
-.ImageSlides img{
-    width: 100%; 
+
+.ImageSlides img {
+    width: 100%;
     height: 100%;
 }
-@media (max-width: 480px){
 
-    #containerLojasServicos{
+@media (max-width: 480px) {
+
+    #containerLojasServicos {
         height: max-content;
         position: relative;
         margin-bottom: 15vh;
     }
-    .HomeLojas{
+
+    .HomeLojas {
         max-width: 480px;
         height: auto;
     }
-    .ConteudoLojas, .ConteudoServicos{
+
+    .ConteudoLojas,
+    .ConteudoServicos {
         flex-direction: column;
         max-width: 480px;
     }
-     .Slide{
+
+    .Slide {
         width: 90vw;
     }
-    .Slides{
+
+    .Slides {
         width: 90vw;
-        margin: 4vh auto;  
+        margin: 4vh auto;
         height: fit-content;
     }
-    .InfoSlides{
+
+    .InfoSlides {
         width: 55vw;
         justify-content: space-around;
-        padding: 0 1.5vw;     
-
+        padding: 0 1.5vw;
     }
-    .ImageSlides{
+
+    .ImageSlides {
         display: flex;
         align-items: center;
     }
-    .Slides img{
+
+    .Slides img {
         height: auto;
         width: 35vw;
     }
-    #fotografoSlide{
+
+    #fotografoSlide {
         display: none;
     }
-    .ConteudoLojas{
+
+    .ConteudoLojas {
         width: 100vw;
-        height:  auto;
+        height: auto;
     }
-    .TituloLojas{
+
+    .TituloLojas {
         width: 98vw;
-        margin:  auto;
+        margin: auto;
     }
-    .TextoLoja{
-        width: 94vw;      
-        margin: 16vh auto ;  
+
+    .TextoLoja {
+        width: 94vw;
+        margin: 16vh auto;
     }
-    .CampoLojas{
+
+    .CampoLojas {
         width: 98vw;
     }
-    .Texto{
+
+    .Texto {
         width: 98vw;
         margin: auto;
         height: 270px;
     }
-    .TituloNumero{        
+
+    .TituloNumero {
         background-color: transparent;
         width: 98vw;
         margin: 6vh auto;
     }
 
 
-    .HomeServico{
+    .HomeServico {
         height: 45vh;
     }
-    .TituloServicos{
+
+    .TituloServicos {
         width: 98vw;
         margin: 5vh auto;
     }
-    .ConteudoServicos{
+
+    .ConteudoServicos {
         width: 100vw;
-        height:  auto;
+        height: auto;
     }
-    .Texto2{
+
+    .Texto2 {
         background-color: transparent;
         width: 98vw;
     }
-    .TituloNumero2{
+
+    .TituloNumero2 {
         position: relative;
         width: 94vw;
         height: auto;
         font-size: 50px;
     }
-    .TextoServico{
+
+    .TextoServico {
         width: 94vw;
         margin-top: 18vh;
 

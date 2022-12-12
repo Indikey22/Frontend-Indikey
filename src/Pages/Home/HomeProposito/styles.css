@@ -65,6 +65,8 @@
     margin-bottom: 400px;
 } 
 .h4CNP{
+    margin-left: 0;
+    width: auto;
     font-weight: 600;
     font-size: 30px;
     color: #0077E4;

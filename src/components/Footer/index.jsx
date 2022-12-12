@@ -1,5 +1,5 @@
 import './styles.css';
-import logo from '../../assets/img/logo.svg'
+import logo from '../../assets/img/logope.svg'
 import iconeLinguagem from '../../assets/img/iconeLinguas.svg'
 import tiktok from '../../assets/img/tiktok.svg'
 import instagram from '../../assets/img/instagram.svg'

@@ -2,6 +2,8 @@ import './styles.css';
 import SetaEsquerda from '../../../assets/img/arrowleft.svg'
 import SetaDireita from '../../../assets/img/arrowright.svg'
 import comentario1 from '../../../assets/img/comentario1.svg'
+import comentario2 from '../../../assets/img/comentario2.svg'
+
 
 function Comentarios() {
     return (
@@ -15,7 +17,7 @@ function Comentarios() {
                     <img src={comentario1} alt=" foto de perfil" />
                 </div>
                 <div className='box'>
-                    <img src={comentario1} alt=" foto de perfil" />
+                    <img src={comentario2} alt=" foto de perfil" />
                 </div>
                 <div className='box'>
                     <img src={comentario1} alt=" foto de perfil" />
