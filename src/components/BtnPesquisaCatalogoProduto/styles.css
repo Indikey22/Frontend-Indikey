@@ -1,0 +1,28 @@
+.BtnPesquisa-TituloCatalogoProduto{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+.pesquisarCatalogoProduto{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+    border-radius: 15px;
+    background-color: #FFD024;
+}
+.pesquisarCatalogoProduto img{
+    padding-left: 10px;
+    cursor: pointer;
+}
+.pesquisarCatalogoProduto-input{
+    width: 40vw;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+}
+.pesquisarCatalogoProduto-input::placeholder{
+    color: #fff;
+}
