@@ -9,7 +9,9 @@ function VendedorProdutos() {
             <HeaderEcommerce />
             <MenuVendedor />
             <h4>Conheça outros produtos do Antonio</h4>
-            <div className="conexoesVendasUser">
+            <div className="produtosServicosVendas">
+                <ProdutosServicosVendas />
+                <ProdutosServicosVendas />
                 <ProdutosServicosVendas />
             </div>
         </>

@@ -3,16 +3,16 @@ import { Link } from 'react-router-dom';
 
 function ProdutosServicosVendas() {
     return (
-            <main className="produtosservicosvendas">
-                <div className="produtoimage">
+            <main className="cardprodvendas">
+                <div className="imageprodserv">
                     <img src="" alt="" />
                 </div>
-                <div className="txtprodutoservicosvendas">
+                <div className="txtprodserv">
                     <h5>Produto 01</h5>
                     <h5>300,00</h5>
                 </div>
-                <div className="btnprodutoservicosvendas">
-                    <Link to='/'><button>Adicionar ao carrinho</button></Link>
+                <div className="btnprodserv">
+                    <button>Adicionar ao carrinho</button>
                 </div>
             </main>
     );

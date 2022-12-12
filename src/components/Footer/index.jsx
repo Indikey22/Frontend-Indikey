@@ -40,7 +40,7 @@ function Footer() {
                     <h6>Navegue</h6>
                     <ul id="Navegue">
                         <li>Home</li>
-                        <li>Sobre</li>
+                        <li>Sobre nós</li>
                         <li>Termos de uso</li>
                         <li>Política de privacidade</li>                        
                     </ul>

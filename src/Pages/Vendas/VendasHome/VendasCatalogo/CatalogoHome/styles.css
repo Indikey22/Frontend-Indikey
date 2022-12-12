@@ -1,0 +1,60 @@
+.gridProdutosVendas{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    margin: 200px 0px 350px 0px;
+}
+
+.txtgridProdutos{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.txtgridProdutos .underline{
+    width: 130px;
+    height: 25px;
+    background-color: #FFC800;
+    border-radius: 25px;
+}
+
+.txtgridProdutos h3{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.gridProdutos{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cardsProdutos{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+ .imageProduto{
+    width: 350px;
+    height: 350px;
+}
+
+#cardProdutos{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+#cardProdutos img{
+    width: 100%;
+    height: 100%;
+}

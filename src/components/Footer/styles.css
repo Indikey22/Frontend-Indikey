@@ -5,10 +5,7 @@ footer {
     height: auto;
     background-color: #000;
     padding: 1vw 3.3vw;
-
 }
-
-
 #footer-top {
     width: 100%;
     display: flex;
@@ -113,7 +110,7 @@ footer .logoTopo{
     cursor: pointer;
 }
 #icons img{
-    width: 3vw;
+    width: 2vw;
     height: auto;
     margin: 0 0.5vw;
     margin-top: 10px;
@@ -138,7 +135,7 @@ footer .logoTopo{
 .iconesPagamento img{
     width: 3.5vw;
     height: fit-content;
-    margin-right: 0.6vw;
+    margin-right: 0.8vw;
 }
 
 .txt-politica{
