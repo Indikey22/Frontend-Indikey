@@ -27,7 +27,7 @@ function Login() {
                 </div>
                 <section className="botoes">
                     <div className="botoesLogin">
-                        <div className="BtnProximo">Proximo</div>
+                        <Link to='/Ecommerce'><div className="BtnProximo">Proximo</div></Link>
                     </div>
                 </section>
             </article>

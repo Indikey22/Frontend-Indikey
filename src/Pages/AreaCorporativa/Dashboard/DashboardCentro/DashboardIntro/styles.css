@@ -1,0 +1,41 @@
+.introducaoDashboard{
+    width: 55vw;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    gap: 150px;
+    align-items: center;
+    background-color: red;
+}
+
+.txtDashboard h1{
+    font-size: 55px;
+    font-weight: 300;
+}
+.txtAzul{
+    color: #0077E4;
+}
+
+.pesquisarDash{
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+    border-radius: 15px;
+    background-color: #FFD024;
+}
+.pesquisarDash img{
+    padding-left: 10px;
+    cursor: pointer;
+}
+.pesquisar-input{
+    width: 40vw;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+}
+.pesquisar-input::placeholder{
+    color: #fff;
+}

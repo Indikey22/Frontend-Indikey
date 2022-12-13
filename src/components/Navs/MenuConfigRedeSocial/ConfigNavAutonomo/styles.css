@@ -25,8 +25,19 @@
 }
 
 .navConfigAutonomo{
-    width: 90%;
-    margin: auto;
-    border: 2px solid;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navConfigAutonomo ul{
+    width: 70%;
+    height: 55px;
+    border: 2px solid #0077E4;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
 }
 

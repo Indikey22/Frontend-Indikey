@@ -1,0 +1,7 @@
+.dashboardlayout{
+    width: 100vw;
+    height: 100vh;
+    background: red;
+    display: flex;
+    flex-wrap: wrap;
+}

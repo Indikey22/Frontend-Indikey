@@ -1,0 +1,9 @@
+.introdireitaDash{
+    width: 30vw;
+    height: 15vh;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    align-items: center;
+    background-color: rebeccapurple;
+}

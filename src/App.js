@@ -32,7 +32,7 @@ import CadastroLoginServico from './Pages/Cadastro/CadastroServico/CadastroLogin
 import CadastroPessoalServico from './Pages/Cadastro/CadastroServico/CadastroPessoalServico/index';
 import CadastroEnderecoServico from './Pages/Cadastro/CadastroServico/CadastroEnderecoServico/index';
 import CadastroRevisaoServico from './Pages/Cadastro/CadastroServico/CadastroRevisaoServico/index';
-import Dashboard from './Pages/AreaCorporativa/Dashboard/index';
+import Dashboard from './Pages/AreaCorporativa/Dashboard/DashboardHome/index';
 import Tarefas from './Pages/AreaCorporativa/Tarefas/index';
 import Indikey from './Pages/AreaCorporativa/Indikey/index';
 import SuporteVendedor from './Pages/AreaCorporativa/Suporte/index';

@@ -24,15 +24,6 @@ function Autonomos(){
             <Freelas />
             <Freelas />
             <Freelas />
-            <Freelas />
-            <Freelas />
-            <Freelas />
-            <Freelas />
-            <Freelas />
-            <Freelas />
-            <Freelas />
-            <Freelas />
-            <Freelas />
         </div>
     )
 }
