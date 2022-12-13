@@ -1,0 +1,83 @@
+#ImportContainer{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15vh;    
+    background-image: url(../../../assets/img/fundoImport.png);
+    background-repeat: no-repeat;
+    background-size: 100vh;
+    background-position: right;
+    justify-content: center;
+
+}
+.LogoImport img{
+    width: 80%;
+}
+#ImportContainer h1{
+    text-align: center;
+    color: #6F00FF;
+    font-size: 50px;
+    font-weight: bold;
+}
+#ImportContainer h3{
+    text-align: center;
+}
+#ImportConteudo{
+    height: 50vh;
+    display: flex;
+    width: 90vw;
+    margin: auto;
+    align-items: center;
+    /* background-color: aqua; */
+    justify-content: space-between;
+}
+
+#ImportDireita{
+    width: 35vw;
+}
+#ImportDireita p{
+    text-align: left;
+    font-size: 23px;
+}
+
+
+@media (max-width: 480px){
+    #ImportContainer{
+        max-width: 480px;
+        overflow: hidden;
+        height: auto;
+        background-size: 75vh;
+    }
+    
+    #ImportConteudo{
+        flex-direction: column;
+        height: auto;
+    }
+    .LogoImport{
+        width: fit-content;
+        margin: auto;
+        margin-top: 3vh;
+        display: flex;
+        justify-content: center;
+    }
+    .LogoImport img{
+        width: 80%;
+        margin: auto;
+        margin-top: 4vh;
+    }
+    #ImportDireita{
+        width: 90vw;
+        margin: 10vh auto 5vh auto;
+    }
+    #tituloImport{
+        margin: 0;
+    }
+    #ImportDireita p{
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 25px;
+        margin-top: -5vh;
+    }
+}

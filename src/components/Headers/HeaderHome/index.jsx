@@ -5,7 +5,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 
@@ -23,11 +22,8 @@ function Header() {
             <Navbar.Toggle id="mobile-menu" aria-controls="basic-navbar-nav" />
             <Navbar.Collapse className="listaTopo" id="basic-navbar-nav">
               <Nav id="listaTopo" className="me-auto">
-                <Nav.Link className="text-body" href="/ComoFunciona">Como Funciona</Nav.Link>
-                <NavDropdown className="sobreNos" title="Sobre Nós" id="basic-nav-dropdown">
-                  <NavDropdown.Item className="text-body" href="/Sobrenos">Time</NavDropdown.Item>
-                  <NavDropdown.Item className="text-body" href="#action/3.2">indicações</NavDropdown.Item>
-                </NavDropdown>
+                <Nav.Link className="text-body" href="/COmoFunciona">indicações</Nav.Link>
+                <Nav.Link className="sobreNos" title="Sobre Nós"  href="/SobreNos">Sobre Nós</Nav.Link>
                 <Nav.Link className="text-body" href="/Ecommerce">E-Comerce</Nav.Link>
               </Nav>
               <div className="BotoesTopo">

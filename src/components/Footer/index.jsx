@@ -10,6 +10,8 @@ import Visa from '../../assets/img/Visa.svg'
 import PayPal from '../../assets/img/PayPal.svg'
 import Pix from '../../assets/img/Pix.svg'
 import Elo from '../../assets/img/Elo.svg'
+import { Link } from 'react-router-dom';
+
 
 const openInNewTab = url => {
     window.open(url, '_blank', 'noopener,noreferrer');
@@ -21,7 +23,7 @@ function Footer() {
         <footer>
             <div id="footer-top">
                 <div id="div-esquerda-rodape">
-                    <img src={logo} alt="logo indikey"  className="logoTopo" />
+                <Link to='/' ><img src={logo} alt="logo indikey"  className="logoTopo" /></Link>
                     <p>&copy;2022 Indikey. Todos direitos reservados.</p>
                 </div>
                 <div id="div-direita-rodape">

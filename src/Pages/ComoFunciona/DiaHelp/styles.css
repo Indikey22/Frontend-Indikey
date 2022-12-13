@@ -1,0 +1,74 @@
+#DiaHelpContainer{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15vh;    
+    margin-bottom: 10vh;    
+    background-image: url(../../../assets/img/fundoDiaHelp.png);
+    background-repeat: no-repeat;
+    background-size: 100vh;
+    justify-content: center;
+
+}
+#DiaHelpContainer h1{
+    text-align: center;
+    color: #258788;
+    font-size: 50px;
+    font-weight: bold;
+}
+#DiaHelpContainer h3{
+    text-align: center;
+}
+#DiaHelpConteudo{
+    height: 50vh;
+    display: flex;
+    width: 90vw;
+    margin: auto;
+    align-items: center;
+    /* background-color: aqua; */
+    justify-content: space-between;
+}
+
+#DiaHelpDireita{
+    width: 35vw;
+}
+#DiaHelpDireita p{
+    text-align: end;
+    font-size: 23px;
+}
+
+@media (max-width: 480px){
+    #DiaHelpContainer{
+        max-width: 480px;
+        overflow: hidden;
+        height: auto;
+        background-size: 75vh;
+    }
+    
+    #DiaHelpConteudo{
+        flex-direction: column;
+        height: auto;
+    }
+    .LogoDiaHelp {
+        width: fit-content;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .LogoDiaHelp img{
+        width: 65%;
+        margin: auto;
+        margin-top: 4vh;
+    }
+    #DiaHelpDireita{
+        width: 90vw;
+        margin: 10vh auto 5vh auto;
+    }
+    #DiaHelpDireita p{
+        text-align: center;
+        width: 90%;
+        margin: auto;
+        font-size: 25px;
+    }
+}
