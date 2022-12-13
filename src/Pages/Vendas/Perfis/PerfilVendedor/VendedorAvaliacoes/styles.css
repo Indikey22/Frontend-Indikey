@@ -1,21 +1,88 @@
-.vendedoravaliacoes{
-    width: 75vw;   
+.VendedorAvaliacao {
+    width: 100vw;
+    height: auto;
     display: flex;
-    justify-content: space-evenly;
-    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
 }
 
-.userscomentarios{
-    width: auto;
+.CampoAvaliacao {
+    width: 100vw;
     height: auto;
     display: flex;
     flex-direction: column;
-    gap: 50px;
     justify-content: space-around;
     align-items: center;
 }
 
-.overral{
-    width: auto;
-    height: 100vh;
+.ComentarioAvaliacao {
+    margin-bottom: 5vh;
+    width: 110vh;
+    height: 38vh;
+    padding: 3vh;
+    border-radius: 2vh;
+    border: #0077E4 solid 0.4vh;
 }
+
+.IconUser {
+    width: 15vh;
+    height: 15vh;
+}
+
+.PerfilUser {
+    display: flex;
+    flex-direction: row;
+}
+
+.AvaliacaoUser {
+    margin-left: 3vh;
+}
+
+
+/*Div Direita*/
+
+.DadosAvaliacao {
+    margin-right: 10vh;
+    border: #0077E4 solid 0.4vh;
+    border-radius: 2vh;
+    width: 70vh;
+    height: 95vh;
+    padding: 5vh;
+    text-align: left;
+}
+
+.DadosAvaliacao img {
+    width: 22vh;
+    height: 7vh;
+}
+
+.InfoAvaliacao {
+    display: flex;
+    width: 28vh;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.Avaliacao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+}
+
+.Avaliacao img {
+    width: 37vh;
+}
+
+.InformacoesLoja {
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    font-size: 3vh;
+}
+
+.TitAvaliacaoD{margin-left: 10vh;}

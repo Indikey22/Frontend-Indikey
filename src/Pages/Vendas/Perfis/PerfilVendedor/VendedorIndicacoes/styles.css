@@ -1,12 +1,67 @@
-h4{
+.titInd{
+    margin-right: 40vh;
     width: 65vw;
-    text-align: center;
-    margin: 35px 0px;
+    text-align: left;
 }
-.conexoesVendasUser{
-    width: 100vw;
-    height: 100vh;
+
+.VendedorIndicacoes {
+    text-align: left;
+    margin-top: 8vh;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
     display: flex;
+    align-items: center;
+    justify-content: space-around;
     flex-direction: column;
-    justify-content: space-evenly;
+}
+
+.TituloIndicacoes {
+    width: 100%;
+    text-align: center;
+    margin-top: 3vh;
+}
+
+.IndicacoesAntonio {
+    background-color: #fff;
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.CampoIndicacao {
+    width: 90%;
+    height: 20vh;
+    background-color: #fff;
+    border-radius: 3vh;
+    border: #0077E4 0.4vh solid;
+    margin-bottom: 3vh;
+}
+
+.DadosIndicacao {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 3vh;
+    margin-top: 1vh;
+}
+
+.InfoIndicacao {
+    width: 45vh;
+}
+
+.InfoIndicacao h4{margin-left: 2vh;}
+.InfoIndicacao h5{margin-left: 4vh;}
+
+.BotaoSaiba{
+    width: 25vh;
+    height: 7vh;
+    margin-left: 50vh;
+    margin-top: 2vh;
+    background-color: #0077E4;
+    color: #fff;
+    border-radius: 2vh;
 }

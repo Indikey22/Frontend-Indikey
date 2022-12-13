@@ -1,0 +1,28 @@
+<svg width="1440" height="1024" viewBox="0 0 1440 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2641_711)">
+<rect width="1440" height="1024" fill="white"/>
+<g clip-path="url(#clip1_2641_711)">
+<circle cx="1486" cy="730" r="346" stroke="#FFD024" stroke-opacity="0.63" stroke-width="2"/>
+<circle cx="1486" cy="730" r="263" stroke="#0077E4" stroke-width="2"/>
+<circle cx="1486" cy="730" r="181.5" stroke="#FFC800"/>
+<circle cx="1485.5" cy="730.5" r="117" stroke="#0077E4"/>
+</g>
+<g clip-path="url(#clip2_2641_711)">
+<circle cx="-50" cy="548" r="346" transform="rotate(-180 -50 548)" stroke="#FFD024" stroke-opacity="0.63" stroke-width="2"/>
+<circle cx="-50" cy="548" r="263" transform="rotate(-180 -50 548)" stroke="#0077E4" stroke-width="2"/>
+<circle cx="-50" cy="548" r="181.5" transform="rotate(-180 -50 548)" stroke="#FFC800"/>
+<circle cx="-49.5" cy="547.5" r="117" transform="rotate(-180 -49.5 547.5)" stroke="#0077E4"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_2641_711">
+<rect width="1440" height="1024" fill="white"/>
+</clipPath>
+<clipPath id="clip1_2641_711">
+<rect width="297" height="694" fill="white" transform="translate(1139 383)"/>
+</clipPath>
+<clipPath id="clip2_2641_711">
+<rect width="297" height="694" fill="white" transform="translate(297 895) rotate(-180)"/>
+</clipPath>
+</defs>
+</svg>

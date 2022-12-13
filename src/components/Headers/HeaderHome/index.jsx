@@ -22,9 +22,9 @@ function Header() {
             <Navbar.Toggle id="mobile-menu" aria-controls="basic-navbar-nav" />
             <Navbar.Collapse className="listaTopo" id="basic-navbar-nav">
               <Nav id="listaTopo" className="me-auto">
-                <Nav.Link className="text-body" href="/COmoFunciona">indicações</Nav.Link>
+                <Nav.Link className="text-body" href="/COmoFunciona">Indicações</Nav.Link>
                 <Nav.Link className="sobreNos" title="Sobre Nós"  href="/SobreNos">Sobre Nós</Nav.Link>
-                <Nav.Link className="text-body" href="/Ecommerce">E-Comerce</Nav.Link>
+                <Nav.Link className="text-body" href="/VendedorAvaliacoes">E-Commerce</Nav.Link>
               </Nav>
               <div className="BotoesTopo">
                <Link to='/Cadastro' ><button className="btnCadastrarTopo" id='cadastroHome' href="/Cadastro">Cadastrar</button></Link>
