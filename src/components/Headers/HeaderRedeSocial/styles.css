@@ -1,0 +1,84 @@
+#ConteudoHeaderRedeSocial{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F5F6F7;
+    margin: auto;
+}
+
+/*-------------- Conteiners ------------------ */
+
+.ConteinerLogo-BtnPesquisa{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.ConteinerIconesCentroHeaderRedeSocial{
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFD024;
+    align-items: center;
+    justify-items: center;
+}
+.ConteinerPerfil-Notificacao{
+
+}/* --------------------------------------------------- */
+
+
+/* Botão de pesquisa */
+
+.BtnPesquisaHeaderRedeSocial{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+    border-radius: 15px;
+    background-color: #FFD024;
+}
+.BtnPesquisaHeaderRedeSocial img{
+    padding-left: 10px;
+    cursor: pointer;
+}
+.BtnPesquisaeHeaderRedeSocial-input{
+    width: 40vw;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+}
+.BtnPesquisaeHeaderRedeSocial-input::placeholder{
+    color: #fff;
+}/* ------------------------------------------------------------- */
+
+/* Ajuste em tamanhos de icones  */
+
+.TamanhoLogoHeaderRedeSocial{
+    width: 52px;
+    height: 84px;
+}
+
+.TamanhoIconesHeaderRedeSocial{
+    width: 39px;
+    height: 43px;
+}
+.TamanhoFotoPerfil{
+    width: 80px;
+    height: 80px;
+}/* -------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
