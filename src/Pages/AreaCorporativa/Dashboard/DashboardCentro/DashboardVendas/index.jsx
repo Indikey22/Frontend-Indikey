@@ -1,9 +1,10 @@
 import './styles.css';
+import graficoVendas from "../../../../../assets/img/graficoVendas.png"
 
 function DashboardVendas(){
     return(
         <div className="dashboardVendas">
-            DashboardVendas
+            <img src={graficoVendas} alt="" />
         </div>
     );
 }

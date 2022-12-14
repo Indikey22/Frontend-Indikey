@@ -1,5 +1,32 @@
 .dashboardFim{
     width: 55vw;
-    height: 25vh;
-    background-color: aqua;
+    height: 40vh;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Produtividade{
+    width: 20vw;
+    height: 35vh;
+    justify-content: center;
+}
+
+.Produtividade img{
+    height: 100%;
+}
+
+.topProdutos{
+    width: 20vw;
+    height: 35vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.topProdutos img{
+    height: 100%;
 }

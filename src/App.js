@@ -1,3 +1,5 @@
+import 'devextreme/dist/css/dx.common.css';
+import 'devextreme/dist/css/dx.light.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from '../src/Pages/Home/HomePersona/index';
 import Sobrenos from './Pages/Sobrenos/SobreNosTopo';
@@ -42,6 +44,8 @@ import SegurancaAutonomo from './Pages/AreaCorporativa/Config/ConfigAutonomo/Seg
 import InfoPessoalEmpresa from './Pages/AreaCorporativa/Config/ConfigEmpresa/InfoPessoalEmpresa/index';
 import ProdutosEmpresa from './Pages/AreaCorporativa/Config/ConfigEmpresa/ProdutosEmpresa/index';
 import SegurancaEmpresa from './Pages/AreaCorporativa/Config/ConfigEmpresa/SegurancaEmpresa/index';
+
+
 
 function App() {
   return (

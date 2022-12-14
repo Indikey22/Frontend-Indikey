@@ -1,5 +1,11 @@
 .dashboardVendas {
     width: 55vw;
-    height: 30vh;
-    background-color: rgb(195, 255, 0);
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(195, 255, 0); */
+}
+
+.dashboardVendas img{
+    height: 100%;
 }
