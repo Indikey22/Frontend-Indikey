@@ -11,7 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50vw;
+    width: 30vw;
     background: url(../../../assets/img/comentarios.svg);
     background-size: cover;
 }

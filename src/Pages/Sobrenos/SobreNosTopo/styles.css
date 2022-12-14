@@ -60,9 +60,9 @@
         flex-direction: column;
         margin-top: 7vh;
     }
-    #conteudoSobreTopo h1{
-        /* width: 20vw; */
-    }
+    /* #conteudoSobreTopo h1{
+        width: 20vw;
+    } */
     .CarroselSobreTopo{
         margin-top: 4vh;
         display: flex;

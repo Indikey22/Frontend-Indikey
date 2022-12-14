@@ -1,11 +1,15 @@
 import './styles.css';
-import Floricultora from '../../../assets/img/floricultura.svg';
-import Fotografo from '../../../assets/img/fotografo.png';
-import Estrelas from '../../../assets/img/estrelas.svg';
 import IconeNegocio from '../../../assets/img/icone-negocio.svg';
 import IconeFerramenta from '../../../assets/img/icone-ferramenta.svg';
 import Aos from 'aos';
 import "aos/dist/aos.css"
+import Fotografo from '../../../assets/img/fotografo.svg'
+import Garcom from '../../../assets/img/garçom.svg'
+import Confeiteira from '../../../assets/img/confeiteira.svg'
+import Carousel from 'react-bootstrap/Carousel';
+import Floricultura from '../../../assets/img/floricultura.svg'
+import Feira from '../../../assets/img/feirinha.svg'
+import Construcao from '../../../assets/img/construcao.svg'
 import React, { useEffect } from 'react';
 
 
@@ -22,16 +26,29 @@ function Servicos() {
                 </div>
                 <div className='ConteudoLojas'>
                     <section className='Slide'>
-                        <div data-aos="fade-right" data-aos-delay="300" className='Slides'>
-                            <div className='InfoSlides'>
-                            <h3 className='Floricultura'>Floricultura</h3>
-                                <img src={Estrelas} alt='Estrelas' />
-                                <h4 className='NomeServico'>Maria Flores</h4>
-                            </div>
-                            <div className='ImageSlides'>
-                                <img src = {Floricultora} alt = "Floricultora" />
-                            </div>
-                        </div>
+                    <Carousel id="carroselTopoSobre">
+                            <Carousel.Item className="itemCarrosel" interval={2000}>
+                                <img
+                                className="d-block w-30"
+                                src={Floricultura}
+                                alt="First slide"
+                                />                            
+                            </Carousel.Item>
+                            <Carousel.Item className="itemCarrosel" interval={2000}>
+                                <img
+                                className="d-block w-30"
+                                src={Feira}
+                                alt="Second slide"
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item className="itemCarrosel" interval={2000}>
+                                <img
+                                className="d-block w-30"
+                                src={Construcao}
+                                alt="Third slide"
+                                />                            
+                            </Carousel.Item>
+                        </Carousel>
                     </section>
 
                     <section data-aos="fade-left" data-aos-delay="300" className='Texto'>
@@ -45,6 +62,7 @@ function Servicos() {
                     </section>
                 </div>
             </main>
+
             <main className='HomeServico'>
                 <div className='CampoServicos'>
                     <h1 className='TituloServicos'><span className='Azul'>Contrate</span> os <span className='Amarelo'>melhores</span> serviços</h1>
@@ -62,14 +80,29 @@ function Servicos() {
 
                     <section className='Slide' id='fotografoSlide'>
                         <div data-aos="fade-left" data-aos-delay="300" className='Slides'>
-                            <div className='InfoSlides'>
-                                <h3 className='Fotografo'>Serviços</h3>
-                                <img src={Estrelas} alt='Estrelas' />
-                                <h4 className='NomeServico'>Fotógrafo</h4>
-                            </div>
-                            <div className='ImageSlides'>
-                            <img src = {Fotografo} alt = "Fotografo" />
-                            </div>
+                        <Carousel id="carroselTopoSobre">
+                            <Carousel.Item className="itemCarrosel" interval={2000}>
+                                <img
+                                className="d-block w-30"
+                                src={Fotografo}
+                                alt="First slide"
+                                />                            
+                            </Carousel.Item>
+                            <Carousel.Item className="itemCarrosel" interval={2000}>
+                                <img
+                                className="d-block w-30"
+                                src={Confeiteira}
+                                alt="Second slide"
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item className="itemCarrosel" interval={2000}>
+                                <img
+                                className="d-block w-30"
+                                src={Garcom}
+                                alt="Third slide"
+                                />                            
+                            </Carousel.Item>
+                        </Carousel>
                         </div>
                     </section>
                 </div>
