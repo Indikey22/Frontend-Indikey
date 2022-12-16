@@ -1,6 +1,6 @@
 import './styles.css'
 import Logo from '../../../assets/img/logo.svg'
-import Lupa from '../../../assets/img/lupa.svg'
+// import Lupa from '../../../assets/img/lupa.svg'
 import IconeHome from '../../../assets/img/icone_home.svg'
 import IconeMensagens from '../../../assets/img/icone_mensagen.svg'
 import IconeAmigos from '../../../assets/img/icone_amigos.svg'

@@ -1,3 +1,8 @@
-.layoutAutonomos{
+.layoutAutonomos {
     display: flex;
+    flex-direction: row;
 }
+
+.contratosAutonomos{display: flex; flex-direction: column;}
+
+.ProdutosAut{background-color: yellowgreen;}

@@ -37,7 +37,7 @@ function VendedorIndicacoes() {
                     <div className='DadosIndicacao'>
                         <img src={Ind2} alt='Icon do Usúario' className='IconUser' />
                         <div className='InfoIndicacao'>
-                            <h4>Jrge Ferreira</h4>
+                            <h4>Jorge Ferreira</h4>
                             <h5>Decoração</h5>
                         </div>
                         <button className='BotaoSaiba'>Saiba Mais</button>

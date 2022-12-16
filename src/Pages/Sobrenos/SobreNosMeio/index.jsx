@@ -37,6 +37,7 @@ function SobreNosMeio(){
         {/*  */}
             <article id="PqIndikey">
                 <h4 className="tituloPq">Por que foi criado?</h4>
+                <br /> <br />
                 <div id="conteudoPqIndikey">
 
                     <section id="PqIndiEsquerda">   

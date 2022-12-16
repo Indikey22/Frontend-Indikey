@@ -44,7 +44,7 @@ import SegurancaAutonomo from './Pages/AreaCorporativa/Config/ConfigAutonomo/Seg
 import InfoPessoalEmpresa from './Pages/AreaCorporativa/Config/ConfigEmpresa/InfoPessoalEmpresa/index';
 import ProdutosEmpresa from './Pages/AreaCorporativa/Config/ConfigEmpresa/ProdutosEmpresa/index';
 import SegurancaEmpresa from './Pages/AreaCorporativa/Config/ConfigEmpresa/SegurancaEmpresa/index';
-
+import SuporteRede from './Pages/AreaCorporativa/Suporte'
 
 
 function App() {
@@ -95,6 +95,7 @@ function App() {
           <Route path='/InfoPessoalEmpresa' element={<InfoPessoalEmpresa />}/>
           <Route path='/ProdutosEmpresa' element={<ProdutosEmpresa />}/>
           <Route path='/SegurancaEmpresa' element={<SegurancaEmpresa />}/>
+          <Route path='/SuporteRede' element={<SuporteRede />}/>
         </Routes>
       </Router>
     </>

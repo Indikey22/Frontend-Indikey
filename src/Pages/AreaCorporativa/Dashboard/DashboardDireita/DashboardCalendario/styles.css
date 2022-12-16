@@ -8,7 +8,6 @@
 
 .wrapper{
     width: 100%;
-    background: #fff;
 }
 
 .wrapper header{
@@ -31,9 +30,7 @@ header .icons-calendar span{
     line-height: 38px;
 }
 
-.header .icons-calendar span:hover{
-    background-color: #f2f2f2;
-}
+
 header .icons-calendar:last-child{
     margin-right: -10px;
 }

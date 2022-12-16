@@ -1,37 +1,51 @@
-.ConfigNavAutonomo{
+.ConfigNavAutonomo {
+    margin-top: 3vh;
     width: 100vw;
-    height: 25vh;
-    background-color: red;
+    height: 35vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
 }
-.introConfigAutonomo{
+
+.IconRedC {
+    width: 40vh;
+    height: 40vh;
+}
+
+.introConfigAutonomo {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.txtConfigAutonomo{
+
+.txtConfigAutonomo {
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
-.txtConfigAutonomo img{
+.navConfigAutonomo img{width: 5vh; height: 5vh;}
+.navConfigAutonomo:hover{font-weight: 500;}
+
+.txtConfigAutonomo img {
     width: 150px;
     height: 150px;
 }
 
-.navConfigAutonomo{
-    width: 100%;
+.navConfigAutonomo {
+    border: #0077E4 solid 0.4vh;
+    border-radius: 2vh;
+    width: 75vw;
+    height: 20vh;
+    margin-right: 45vh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 
-.navConfigAutonomo ul{
+.navConfigAutonomo ul {
     width: 70%;
     height: 55px;
     border: 2px solid #0077E4;
@@ -40,4 +54,3 @@
     justify-content: space-evenly;
     border-radius: 10px;
 }
-

@@ -1,0 +1,25 @@
+.layoutAutonomos {
+    display: flex;
+    flex-direction: row;
+}
+
+.segurancaAutonomo {
+    display: flex;
+    flex-direction: column;
+}
+
+.AutSeguranca {
+    display: flex;
+    flex-direction: column;
+    background-color: violet;
+    width: 100vw;
+    height: 80vh;
+}
+
+.InfoProd {
+    width: 80vw;
+    height: 15vh;
+    background-color: 0077E4;
+    color: #fff;
+    border-radius: 2vh;
+}

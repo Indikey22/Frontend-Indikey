@@ -1,12 +1,14 @@
 .LateralAutonomos {
-    width: 18vw;
+    width: 20vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-right: 2px solid #0077E4;
+    /* border-right: 2px solid #0077E4; */
 }
+
+.logoimage{width: 20vh; height: 20vh; margin-bottom: 5vh;}
 
 .MenuAutonomos{
     width: 100%;
@@ -33,12 +35,13 @@
     color: #000;
 }
 .iconesNav:hover{
-    width: 220px;
+    font-weight: 500;
+    /* width: 220px;
     height: 55px;
     transition: all .3s ease-in-out;
     background-color: #0077E4;
     border-radius: 15px;
-    color: #fff;
+    color: #fff; */
 }
 
 .iconesNav img{

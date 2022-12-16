@@ -13,9 +13,12 @@
     align-items: center;
     gap: 20px;
 }
+
+.sessaoVendedor:hover{font-weight: 500;}
+
 .vendedor {
-    width: 220px;
-    height: 220px;
+    width: 180px;
+    height: 180px;
 }
 .txtVendas h1{
     font-size: 60px;
@@ -46,6 +49,7 @@
 }
 
 .navegacaovendas{
+    margin-left: 3vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -54,7 +58,7 @@
 
 .navegacaovendas ul{
     position: relative;
-    width: 70%;
+    width: 90%;
     height: 55px;
     border: 2px solid #0077E4;
     display: flex;

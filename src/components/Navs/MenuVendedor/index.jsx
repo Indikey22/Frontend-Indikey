@@ -12,7 +12,7 @@ function MenuVendedor() {
                 <div className="perfilTopo">
                         <img src={Foto} alt="" className='vendedor' />
                     <div className="txtVendas">
-                        <h1>Antonio Superbi</h1>
+                        <h1>Antônio Superbi</h1>
                         <h5>Organizador de Eventos</h5>
                     </div>
                 </div>
@@ -22,9 +22,9 @@ function MenuVendedor() {
             </main>
             <nav className="navegacaovendas">
                 <ul>
-                    <Link to='/VendedorAvaliacoes'><img src={Overal} alt="icone de avaliações" /><span className='sessaoVendedor'>Avaliações</span></Link>
-                    <Link to='/VendedorIndicacoes'><img src={Conexoes} alt="icone de indicações" /><span className='sessaoVendedor'>Indicações</span></Link>
-                    <Link to='/VendedorProdutos'><img src={Produtos} alt="icone de produtos" /><span className='sessaoVendedor'>Produtos</span></Link>
+                    <Link to='/VendedorAvaliacoes'><img src={Overal} alt="icone de avaliações" /><span className='sessaoVendedor'>ﾠAvaliações</span></Link>
+                    <Link to='/VendedorIndicacoes'><img src={Conexoes} alt="icone de indicações" /><span className='sessaoVendedor'>ﾠIndicações</span></Link>
+                    <Link to='/VendedorProdutos'><img src={Produtos} alt="icone de produtos" /><span className='sessaoVendedor'>ﾠProdutos</span></Link>
                     <span className='underline'></span>
                 </ul>
             </nav>

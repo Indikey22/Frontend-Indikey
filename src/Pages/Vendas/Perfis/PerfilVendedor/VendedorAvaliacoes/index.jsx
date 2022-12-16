@@ -47,21 +47,6 @@ function VendedorAvaliacoes() {
                     </span>
                 </div>
 
-                <div className='ComentarioAvaliacao'>
-                    <div className='PerfilUser'>
-                        <img src={Perfil4} alt='Foto de perfil' className='IconUser' />
-
-                        <div className='AvaliacaoUser'>
-                            <h3>Rogério Santos</h3>
-                            <img src={Estrelas} alt='Estrelas' className='EstrelasAvaliacao' /> <span>4,9</span>
-                        </div>
-                    </div>
-                    <br />
-                    <span>
-                        Um rapaz dedicado que está sempre disposto a fazer tudo o que for possivel para atender o seu pedido, admiro o trabalho dele e indico para todos que conheço.
-                    </span>
-                </div>
-
             </section>
 
             <section className='DadosAvaliacao'>

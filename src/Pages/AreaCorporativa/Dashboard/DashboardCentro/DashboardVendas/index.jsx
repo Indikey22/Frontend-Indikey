@@ -1,10 +1,10 @@
 import './styles.css';
-import graficoVendas from "../../../../../assets/img/graficoVendas.png"
+import graficoVendas from "../../../../../assets/img/graficoVendas.svg"
 
 function DashboardVendas(){
     return(
-        <div className="dashboardVendas">
-            <img src={graficoVendas} alt="" />
+        <div>
+            <img src={graficoVendas} alt="" className="dashboardVendas" />
         </div>
     );
 }

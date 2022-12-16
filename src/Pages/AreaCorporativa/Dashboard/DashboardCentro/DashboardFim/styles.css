@@ -1,7 +1,6 @@
 .dashboardFim{
-    width: 55vw;
+    width: 57vw;
     height: 40vh;
-    /* background-color: aqua; */
     display: flex;
     flex-direction: row;
     align-items: center;

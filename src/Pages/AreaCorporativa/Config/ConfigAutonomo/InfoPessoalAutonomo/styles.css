@@ -1,1 +1,36 @@
+.layoutAutonomos {
+    display: flex;
+    flex-direction: row;
+}
 
+.infoPessoalAutonomo {
+    display: flex;
+    flex-direction: column;
+}
+
+.InfAutonomo {
+    background-image: url(../../../../../assets/img/bginfaut.svg);
+    width: 100vw;
+    height: 80vh;
+    flex-direction: row;
+    display: flex;
+}
+
+.InfAutonomo input {
+    width: 52vh;
+    height: 7vh;
+    border: #0077E4 solid 0.4vh;
+    border-radius: 1.5vh;
+}
+
+.UFPessoal {
+    width: 8vh !important;
+    margin-left: 2vh;
+}
+
+.OpcaoCat {
+    width: 52vh;
+    height: 7vh;
+    border: #0077E4 solid 0.4vh;
+    border-radius: 1.5vh;
+}

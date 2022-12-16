@@ -24,7 +24,7 @@ function Header() {
               <Nav id="listaTopo" className="me-auto">
                 <Nav.Link className="text-body" href="/COmoFunciona">Indicações</Nav.Link>
                 <Nav.Link className="sobreNos" title="Sobre Nós"  href="/SobreNos">Sobre Nós</Nav.Link>
-                <Nav.Link className="text-body" href="/VendedorAvaliacoes">E-Commerce</Nav.Link>
+                <Nav.Link className="text-body" href="/Ecommerce">E-Commerce</Nav.Link>
               </Nav>
               <div className="BotoesTopo">
                <Link to='/Cadastro' ><button className="btnCadastrarTopo" id='cadastroHome' href="/Cadastro">Cadastrar</button></Link>
