@@ -1,11 +1,12 @@
 .gridProdutosVendas{
-    width: 100vw;
-    height: 100vh;
+    width: 90vw;
+    max-width: 100vw;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap:20px;
-    margin: 200px 0px 350px 0px;
+    margin: 20vh auto 18vh auto;
 }
 
 .txtgridProdutos{
@@ -36,7 +37,7 @@
 }
 
 .cardsProdutos{
-    width: 50%;
+    width: 80%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -44,15 +45,17 @@
     justify-content: space-evenly;
 }
  .imageProduto{
-    width: 350px;
-    height: 350px;
+    width: 25vw;
+    /* height: 25vw; */
+    margin-top: 3vh;
 }
 
 #cardProdutos{
-    width: 30%;
-    height: 100%;
+    width: 30vw;
+    height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    margin: 0;
 }
 #cardProdutos img{
     width: 100%;
