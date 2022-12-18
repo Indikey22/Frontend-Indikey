@@ -1,0 +1,83 @@
+.contratos{
+    width: 100vw;
+    height: auto;
+    background-image: url(../../../assets/img/fundoContratos.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 1vh;
+}
+#autonomoTopo{
+    width: 80vw;
+    margin: auto;
+    height: 10vh;
+}
+.infoPerfil{
+    display: flex;
+    width: 35vw;
+    /* margin: auto; */
+    align-items: center;
+    justify-content: space-evenly;
+}
+.infoPerfil h2{
+    margin-bottom: 3vh;
+}
+#imgPerfil{
+    width: 18vh;
+    height: 18vh;
+}
+
+.informativo{
+    width: 40vw;
+    height: auto;    
+    display: flex;
+    margin-top: 5vh;
+    flex-direction: column;
+}
+.informativo h2{
+    width: 100vw;
+    text-align: center;
+    margin-top: 5vh;
+}
+#informacoesAutonomo{
+    display: flex;
+    width: 66vw;
+    margin: auto;
+    justify-content: space-around;
+    margin-top: 4vh;
+}
+#informacoesAutonomo form{
+    display: flex;
+    flex-direction: column;
+}
+#dadosAutonomo{
+    border: solid 1px #0077E4;
+    border-radius: 10px;
+}
+#formAutonomo input{
+    border: solid 1px #0077E4;
+    border-radius: 10px;
+    width: 22vw;
+    height: 7vh;
+    margin-bottom: 2vh;
+}
+#formAutonomo #msgAutonomo{
+    border: solid 1px #0077E4;
+    border-radius: 10px;
+    width: 22vw;
+    height: 20vh;
+}
+
+#btnEnviarAutonomo {
+    width: 9vw;
+    height: 6vh;
+    color: #fff;
+    background-color: #0077e4;
+    border: 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#btnEnviarAutonomo :hover{
+    background-color: #0084ff;
+}
