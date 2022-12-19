@@ -1,0 +1,62 @@
+#identificacaoCompra{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+}
+#containerIdentificacao{
+    width: 70vw;
+    margin: auto;
+    border: 1px solid #0077E4;
+    border-radius: 15px;
+}
+.idTopo{
+    margin-top: 3vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.idTopo h4{
+    font-weight: 350;
+}
+.weigthMaior{
+    font-size: 19x;
+    font-weight: 450;
+}
+#idMeioCima{
+    margin: auto;
+    margin-top: 2.5vh;
+    width: 80%;    
+    display: flex;
+    justify-content: space-between;
+}
+#nomeCompleto{
+    width: 50%;
+}
+#EmailId{
+    width: 35%;
+}
+#idCidade{
+    display: flex;
+    width: 45%;
+    justify-content: flex-start;
+}
+#idCidade div{
+    margin: auto 3vw;
+}
+#idMeio{
+    margin: auto;
+    margin-top: 2.5vh;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+#idBaixoCompra{
+    margin: auto;
+    margin-top: 2.5vh;
+    width: 80%;
+}
+#identificacaoCompra #continuarPedido .BtnProximoPedidos{
+    height: 6vh;
+}

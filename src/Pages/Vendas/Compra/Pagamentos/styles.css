@@ -1,0 +1,69 @@
+#containerPagamento{
+    width: 70vw;
+    margin: auto;
+}
+#metodoPagamento{
+    width: 80%;
+    padding: 5px 1vw;
+    margin: auto;
+    border: #0077e4 1px solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+#btnCartao{
+    width: 19vw;
+    height: 7vh;
+    color: #fff;
+    background-color: #0077e4;
+    border: 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#btnBoleto{
+    width: 19vw;
+    height: 7vh;
+    color: #FFC800;
+    background-color: #fff;
+    border: 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start ;
+    border: #FFC800 1px solid;
+}
+#btnBoleto img{
+    margin-right: 5vw;
+}
+
+#dadosCartao{
+    width: 75%;
+    margin: auto;
+    margin-top: 5vh;
+    /* display: flex; */
+    height: auto;
+}
+#dadosCartao input, #dadosCartao select{
+    /* width: 13vw; */
+    height: 7vh;
+    border: 1px solid #0077e4;
+    border-radius: 7px;
+    margin-bottom: 2vh;
+    padding-left: 8px;
+}
+#dadosCartao input:focus{
+    border: 1px solid #FFC800;
+    outline-offset: 0px;
+    outline: none;
+}
+#dadosCartao section{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+.esquerdaCartao input, .esquerdaCartao select{
+    width: 27vw;
+}

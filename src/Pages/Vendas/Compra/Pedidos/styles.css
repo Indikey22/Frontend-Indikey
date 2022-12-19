@@ -1,0 +1,159 @@
+
+#containerPedido{
+    width: 100vw;
+    height: 97vh;
+    margin-top: 2vh;
+}
+#infoPedido{
+    width: 90vw;
+    margin: auto;
+}
+.timeLineCompra{
+    width: 90vw;
+    margin: auto;
+    height: 17vh;
+}
+.timeLineCompra img{
+    height: 80%;
+    width: 100%;
+}
+#InfoProdutos, .InfoProdutosDireita{
+    display: flex;
+    flex-direction: row;
+}
+#infoProdutos{
+    width: 90vw;
+}
+#InfoProdutos p{
+    font-size: 17px;
+}
+.InfoProdutosEsquerda{
+    width: 45%;
+}
+.InfoProdutosDireita{
+    width: 54%;
+    padding-right: 1%;
+    justify-content: space-between;
+}
+#produtoValores{
+    margin-top: 1.5vh;
+    width: 89vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.castelo{
+    display: flex;
+    width: 30%;
+    align-items: center;
+}
+.castelo img{
+    height: 15vh;
+}
+.castelo p{
+    margin-left: 3vw;
+    font-size: 16px;
+}
+#qntdProduto{
+    display: flex;
+    width: 8vw;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#produtoValores .amarelo{
+    border: 1px #FFC800 solid;
+    border-radius: 600%;
+    display: flex;
+    justify-content: center;
+    width: 25px;
+}
+#produtoValores .azul{
+    border: 1px #0077E4 solid;
+    border-radius: 600%;
+    display: flex;
+    width: 25px;
+    justify-content: center;
+}
+#totalProduto{
+    display: flex;
+}
+#totalProduto img{
+    width: fit-content;
+    height: fit-content;
+}
+#subTotal{
+    margin-top: 2vh;
+    width: 90vw;
+    padding-right: 1.7vw;
+    background-color: #f1f1f1;
+    height: 8vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 15px;
+}
+#subTotal div{
+    margin-top: 2vh;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+#subTotal div p{
+    font-size: 20px;
+}
+#entregaEcupom{
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4vh;
+}
+#entrega{
+    width: 22vw;
+    display: flex;
+    flex-direction: column;
+}
+.botoesEntrega{
+    display: flex;
+    justify-content: space-between;
+}
+.botoesEntrega input{
+    width: 13vw;
+    height: 7vh;
+    border: 1px solid #0077e4;
+    border-radius: 7px;
+    margin-bottom: 2vh;
+    padding-left: 8px;
+}
+.botoesEntrega input:focus{
+    border: 1px solid #FFC800;
+    outline-offset: 0px;
+    outline: none;
+}
+.botoesEntrega div{
+    width: 7vw;
+    height: 7vh;
+    color: #fff;
+    background-color: #0077e4;
+    border: 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#continuarPedido{
+    width: 87vw;
+    margin-top: 4vh;
+    display: flex;
+    justify-content: flex-end;
+}
+.BtnProximoPedidos{
+    width: 15vw;
+    height: 8vh;
+    color: #fff;
+    background-color: #ffc800;
+    border: 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

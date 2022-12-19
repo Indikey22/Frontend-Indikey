@@ -29,7 +29,7 @@ function HeaderEcommerce(){
                 <Nav.Link className="text-body" href="/Dashboard">Dashboard</Nav.Link>
               </Nav>
               <div className="BotoesTopo">
-               <Link to='/modal' ><img src={Carrinho} alt="carrinho" /></Link>
+               <Link to='/Pedidos' ><img src={Carrinho} alt="carrinho" /></Link>
                <Link to='/VendedorAvaliacoes' ><img src={FotodePerfil} alt="Foto de Perfil do Usuário" /></Link>
               </div>
             </Navbar.Collapse>
